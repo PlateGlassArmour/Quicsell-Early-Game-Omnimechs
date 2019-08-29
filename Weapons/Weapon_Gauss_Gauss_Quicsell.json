@@ -1,0 +1,92 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/a/g/gaussrifle"
+      }
+    ],
+    "ComponentExplosion": {
+      "ExplosionDamage": 75,
+      "HeatDamage": 30,
+      "StabilityDamage": 27
+    },
+    "BonusDescriptions": {
+      "Bonuses": [
+        "IsGauss",
+		"DmgFallOff: 36",
+        "DakkaBoom: 75"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "01415"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Gauss",
+  "WeaponSubType": "Gauss",
+  "MinRange": 120,
+  "MaxRange": 780,
+  "RangeSplit": [
+    240,
+    480,
+    720
+  ],
+  "AmmoCategory": "AC2",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 6,
+  "Damage": 70,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 0.75,
+  "APMaxArmorThickness": 100,
+  "APCriticalChanceMultiplier": 0.2,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 17.5,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC10",
+  "Description": {
+    "Cost": 165000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Hypervelocity Cannon",
+    "UIName": "'Gauss' Rifle QS",
+    "Id": "Weapon_Gauss_Gauss_Quicsell",
+    "Name": "'Gauss' Rifle QS",
+    "Details": "A 'Gauss' Rifle for those who can't get their hands on enough of the ever hard to find Gauss ammo, our version completely sidesteps the problem by using an AC2 round! And wait, there's more! Our special construction techniques mean that the gun doesn't require any power from your reactor at all! <b><color=#099ff2>VOLATILE!</color></b> \n\n <b><color=#ffcc00>Uses AC2 Ammo.</color></b>",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Gauss",
+  "BattleValue": 0,
+  "InventorySize": 6,
+  "Tonnage": 15,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "ImprovedBallistic": true,
+  "CriticalComponent": false,
+  "DistantVariance": 0.36,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "OmniRestriction.{location}",
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

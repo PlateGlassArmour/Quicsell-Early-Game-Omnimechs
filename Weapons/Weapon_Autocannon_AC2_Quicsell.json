@@ -1,0 +1,110 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/a/a/ac"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "WpnRecoil: 1",
+        "IsAC",
+		"WpnRecoil: 1",
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "01001"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC2",
+  "MinRange": 120,
+  "MaxRange": 780,
+  "RangeSplit": [
+    240,
+    480,
+    720
+  ],
+  "AmmoCategory": "AC2",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 3,
+  "Damage": 8,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+  "APCriticalChanceMultiplier": 0.04167,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 1,
+  "ShotsWhenFired": 3,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 2,
+  "FireTerrainChance": 0.02,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC2",
+  "Description": {
+    "Cost": 50000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Autocannon 2",
+    "UIName": "AC/2 QS",
+    "Id": "Weapon_Autocannon_AC2_Quicsell",
+    "Name": "AC/2 QS",
+    "Details": "Want to try sniping mechs from almost a kilometer away, but not very good at aiming? Want to feel like you have a mini RAC every time you shoot? Try the Quicsell specially modified AC/2. It fires three rounds instead of one, so you've got triple the chance of hitting your mark! We recommend using only with genuine Quicsell ammunition, available at your local supplier.",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC2",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 6,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "ImprovedBallistic": true,
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ColorsTable" : [
+    {
+      "C":"#DC143C",
+      "I":5
+    },
+	{
+      "C":"#0000CD",
+      "I":5
+    },
+	{
+      "C":"#EE82EE",
+      "I":5
+    },
+	{
+      "C":"#EE82EE",
+      "I":5
+    },
+	{
+      "C":"#F3F34A",
+      "I":5
+    }
+  ],
+  "ColorSpeedChange": 5,
+  "ComponentTags": {
+    "items": [
+      "OmniRestriction.{location}",
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

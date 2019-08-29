@@ -1,0 +1,95 @@
+{
+    "Custom": {
+        "Category": [
+		{
+            "CategoryID": "CockpitFCS"
+        },
+		{
+                "CategoryID": "C3Slave"
+		}
+		],
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "[[Chassis.Tonnage]] / 10",
+                "CBillCost": "[[Chassis.Tonnage]] * 1.15"
+            }
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "FCS",
+                "C3",
+				"Sharer"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00201"
+        }
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 250000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "C3 FCS",
+        "UIName": "FCS C3 QS",
+        "Id": "Gear_FCS_C3_Quicsell",
+        "Name": "Integrated C3 FCS",
+        "Details": "Need targeting data, but don't have the space or money for a full C3 unit? Try Quicsell's integrated C3 FCS slave unit today. It doesn't have some of the fancy features of those other models, but it gets the job done right, 80% of the time.",
+        "Icon": "uixSvgIcon_equipment_Comms"
+    },
+    "BonusValueA": "C3 Slave",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+		{
+            "durationData" : {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0.0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : true,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" :
+            {
+                "Id" : "LV_Shares_Vision",
+                "Name" : "Vision Sharing",
+                "Details" : "Shows their vision when lancemattes move",
+                "Icon" : "uixSvgIcon_status_ECM-ghost"
+            },
+            "statisticData" : 
+            {
+                "statName" : "LV_SHARES_VISION",
+                "operation" : "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature" : "Buff"
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "lv-shares-sensors"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

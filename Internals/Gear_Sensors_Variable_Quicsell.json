@@ -1,0 +1,307 @@
+{
+    "Custom": {
+        "Category": [{
+            "CategoryID": "CockpitSensors"
+        }],
+		"BonusDescriptions": {
+			"Bonuses": [
+				"Sensors: +10%",
+                "Sight: +10%",
+				"CockpitSensors: 5"				
+			]
+		},
+        "InventorySorter": {
+            "SortKey": "00203"
+        },		
+	"ActivatableComponent": {
+      "ButtonName": "Sensor Switch",
+      "CanNotBeActivatedManualy": false,
+      "NoUniqueCheck": true,
+	  "ActiveByDefault": false,
+	  "ActivationMessage": "Detail Mode",
+	  "DeactivationMessage": "Range Mode",
+	  "Linkage":{
+        "OnActivate":{  
+          "Activate":[],
+          "Deactivate":[]
+        },
+        "OnDeactivate":{
+          "Activate":[],
+          "Deactivate":[]
+        }
+      },
+      "statusEffects": [	
+		   {
+            "durationData" : {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0.0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : true,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" :
+            {
+                "Id" : "LV_Advanced_Sensors",
+                "Name" : "Advanced Sensors",
+                "Details" : "Provides detailed information on enemy units",
+                "Icon" : "uixSvgIcon_status_ECM-ghost"
+            },
+            "statisticData" : 
+            {
+                "statName" : "LV_ADVANCED_SENSORS",
+                "operation": "Int_Add",
+                "modValue": "6",
+                "modType": "System.Int32"
+            },
+            "nature" : "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "BAProbe",
+                "Name": "HP-CockpitSensors-Sensor",
+                "Details": "Increased Sight/Sensors",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "SensorDistanceAbsolute",
+                "operation": "Float_Multiply",
+                "modValue": "0.5",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": true,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HP-CockpitSensors-Spot",
+                "Name": "SPOTTING DISTANCE INCREASED",
+                "Details": "Increases spotting distance by 50m.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "SpotterDistanceAbsolute",
+                "operation": "Float_Multiply",
+                "modValue": "0.5",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }		
+      ],
+	  "offlineStatusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "BAProbe",
+                "Name": "HP-CockpitSensors-Sensor",
+                "Details": "Increased Sight/Sensors",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "SensorDistanceAbsolute",
+                "operation": "Float_Multiply",
+                "modValue": "1.10",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": true,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HP-CockpitSensors-Spot",
+                "Name": "SPOTTING DISTANCE INCREASED",
+                "Details": "Increases spotting distance by 50m.",
+                "Icon": "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "SpotterDistanceAbsolute",
+                "operation": "Float_Multiply",
+                "modValue": "1.10",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+	  ]
+    }
+    },
+    "Description": {
+        "Cost": 200000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "Variable Sensors",
+        "UIName": "Variable Sensors QS",
+        "Id": "Gear_Sensors_Variable_Quicsell",
+        "Name": "Variable Sensors",
+        "Details": "Ever needed just a <i>little bit</i> more information about a certain enemy? Quicsell makes just the sensor system for you. Switch our powerful sensors over to detail mode and scan your enemies with just that extra edge of accuracy, or leave them in range mode to spot them in the first place.",
+        "Icon": "uixSvgIcon_equipment_Cockpit"
+    },
+    "BonusValueA": "+10% Sight/Sensors",
+    "BonusValueB": "or +6 Sensor Detail",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "Head",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+	],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

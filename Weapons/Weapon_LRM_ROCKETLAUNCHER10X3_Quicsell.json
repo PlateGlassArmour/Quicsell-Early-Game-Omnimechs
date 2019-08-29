@@ -1,0 +1,106 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/m/s/rl"
+      }
+    ],
+    "ComponentExplosion": {
+      "ExplosionDamagePerAmmo": 4,
+      "StabilityDamagePerAmmo": 1
+    },
+    "BonusDescriptions": {
+      "Bonuses": [
+        "InternalAmmoShots: 3",
+        "AMSChance: -30%",
+        "IsRocket: 10",
+        "InternalAmmo: 4"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "03002"
+    },
+	"Flags": {
+      "flags": [
+        "not_broken",
+		"not_destroyed"
+      ]
+    }
+  },
+  "Category": "Missile",
+  "Type": "LRM",
+  "WeaponSubType": "LRM10",
+  "MinRange": 0,
+  "MaxRange": 460,
+  "RangeSplit": [
+    100,
+    200,
+    400
+  ],
+  "AmmoCategory": "Rocket",
+  "StartingAmmoCapacity": 30,
+  "HeatGenerated": 6,
+  "Damage": 6,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 0.5,
+  "APArmorShardsMod": 0.3,
+  "APMaxArmorThickness": 42,
+  "APCriticalChanceMultiplier": 0.018,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 3,
+  "ShotsWhenFired": 10,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 1,
+  "AMSHitChance": -0.3,
+  "Unguided": true,
+  "FireTerrainChance": 0.0075,
+  "ImprovedBallistic": true,
+  "ColorsTable": [
+    {
+      "C": "#B27D37",
+      "I": 5
+    }
+  ],
+  "ColorChangeRule": "t0",
+  "WeaponEffectID": "WeaponEffect-Weapon_LRM10",
+  "Description": {
+    "Cost": 60000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Rocket Launcher",
+    "UIName": "Rocket 10X3 QS",
+    "Id": "Weapon_LRM_ROCKETLAUNCHER10X3_Quicsell",
+    "Name": "RL10X3 QS",
+    "Details": "The Quicsell line of multi-fire missile packs brings a unique blend of flexibility and firepower to the table. The accusations that we took three of the competitors products and bolted them together are uncalled for and totally without merit. <b><color=#F79232>3 SALVOS</color> </b> <b><color=#099ff2>VOLATILE!</color></b>",
+    "Icon": "uixSvgIcon_weapon_Missile"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "lrm10",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 2,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_standard"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

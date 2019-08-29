@@ -1,0 +1,144 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/e/l/binary"
+      }
+    ],
+	"ComponentExplosion": {
+      "ExplosionDamage": 25,
+	  "HeatDamage": 50,
+      "StabilityDamage": 25
+    },
+    "BonusDescriptions": {
+      "Bonuses": [
+	    "HeatPerTurn: 15",
+        "WpnCrits: 50%",
+		"CPBoom: 50",
+        "VariableDmg: 15",
+        "IsLaser"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "02008"
+    }
+  },
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "LargeLaser",
+  "MinRange": 0,
+  "MaxRange": 600,
+  "RangeSplit": [
+    150,
+    300,
+    450
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 15,
+  "Damage": 60,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 15,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1.5,
+  "APArmorShardsMod": 0.1,
+  "APMaxArmorThickness": 72.0,
+  "APCriticalChanceMultiplier": 0.12,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "DisableClustering": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 10,
+  "FireTerrainChance": 0.1525,
+  "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+  "Description": {
+    "Cost": 200000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Binary Laser Cannon +",
+    "UIName": "Binary Laser QS",
+    "Id": "Weapon_BinaryLaserCannon_Quicsell",
+    "Name": "B Laser QS",
+    "Details": "Considered a dead end technology? We here at quicksell think differently. Our re-engineered Binary Laser makes use of our proprietary Active Heat Managent to do the same damage for a quarter the heat*! Deals like that, can't be beat! \n\n <size=80%> *Continuous heat output of the active cooling jacket not inculded in calculations.<size=100%>",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "+ 10% Crit.",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 4,
+  "Tonnage": 9,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+  		{
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Active_Cooling_Jacket",
+                "Name": "Active Cooling Jacket",
+                "Details": "Binary Laser's cooling jacket produces 15 heat per turn",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "15",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_long"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

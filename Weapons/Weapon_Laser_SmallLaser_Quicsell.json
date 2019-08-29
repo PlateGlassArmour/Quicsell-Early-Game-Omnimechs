@@ -1,0 +1,85 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/e/l/laser"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "IsLaser",
+		"Range: -50%",
+		"TEHeatgen: -2"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "02002"
+    }
+  },
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "SmallLaser",
+  "MinRange": 0,
+  "MaxRange": 120,
+  "RangeSplit": [
+    30,
+    60,
+    90
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 6,
+  "Damage": 15,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 0.1,
+  "APMaxArmorThickness": 18.0,
+  "APCriticalChanceMultiplier": 0.03,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 0,
+  "Instability": 2.5,
+  "FireTerrainChance": 0.0375,
+  "WeaponEffectID": "WeaponEffect-Weapon_Laser_Small",
+  "Description": {
+    "Cost": 13500,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Small Laser",
+    "UIName": "Small Laser QS",
+    "Id": "Weapon_Laser_SmallLaser_Quicsell",
+    "Name": "S Laser QS",
+    "Details": "Just like all Quicsell lasers, our small laser produces just as much damage for less heat! Don't look elsewhere!",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_close"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

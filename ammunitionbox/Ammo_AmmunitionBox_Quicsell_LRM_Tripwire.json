@@ -1,0 +1,64 @@
+{
+    "Custom": {
+		"Category" : [
+			{ "CategoryID" : "a/m/l/lrm" }
+		],
+        "Flags": {
+            "flags": [
+                "not_broken"
+            ]
+        },
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 1,
+            "StabilityDamagePerAmmo": 0
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"LRMDamage: 0",
+				"LRMAccuracy: -10",
+				"MortarFlareSensor: +0.6",
+				"ThunderMines: 15",
+				"ThunderRadius: 5",
+				"ThunderChance: 10%",
+				"ThunderDamage: 0",
+				"NoAA",
+				"LRMAmmo: 60"
+            ]
+        },		
+        "InventorySorter": {
+            "SortKey": "00040"
+        }
+    },
+    "AmmoID": "Ammunition_LRM_Tripwire_Quicsell",
+    "Capacity": 60,
+    "Description": {
+        "Cost": 14000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "Siesmic Tripwire",
+        "UIName": "LRM Tripwire Ammo [half]",
+        "Id": "Ammo_AmmunitionBox_Quicsell_LRM_Tripwire",
+        "Name": "LRM Tripwire",
+        "Details": "The all new Quicsell Tripwire LRM's are packed with tiny disposable seismic tripwires that send out a powerful signal any time something heavy moves too close to one. Useful for scouting far off enemies. Allegations that our <i>sophisticated</i> sensors are powered by springs and an old lightbulb are completely baseless. \n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
+        "Icon": "uixSvgIcon_ammoBox_Missile"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "AmmunitionBox",
+    "ComponentSubType": "Ammunition",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0.5,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

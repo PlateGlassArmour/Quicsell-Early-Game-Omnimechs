@@ -1,0 +1,87 @@
+{
+    "Custom": {
+        "Category": [
+			{ "CategoryID": "w/a/o/mg" }
+		],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 5,
+            "StabilityDamagePerAmmo": 0.75
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "InternalAmmoShots: 8",
+				"WpnCrits: 50%",
+                "IsMG"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "01503"
+        }
+    },
+    "Category": "Ballistic",
+    "Type": "MachineGun",
+    "WeaponSubType": "MachineGun",
+    "MinRange": 0,
+    "MaxRange": 200,
+    "RangeSplit": [
+        80,
+        110,
+        140
+    ],
+    "AmmoCategory": "HMG",
+    "StartingAmmoCapacity": 48,
+    "HeatGenerated": 18,
+    "Damage": 3,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1.5,
+	"APArmorShardsMod": 0,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.5,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 4,
+    "ShotsWhenFired": 6,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0.3,
+    "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
+    "Description": {
+        "Cost": 40000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "Heavy Machine Gun QS",
+        "UIName": "MG Heavy QS",
+        "Id": "Weapon_MachineGun_HEAVY_Quicsell",
+        "Name": "HMG QS",
+        "Details": "The Quicsell line of machine guns all come with an integrated ammo supply for no extra weight! How did we do this you ask? By stipping out all those fancy firing controls that allow for variable rates of fire. Everyone knows that if you're getting a machine gun, it's because you need FULL AUTO. \n\n <b><color=#F79232>8 Salvos</color> </b> \n\n <b><color=#099ff2>VOLATILE!</color></b>",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "MachineGun",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+	"ImprovedBallistic": true,
+    "CriticalComponent": false,
+    "FlatJammingChance": 0.2,
+	"DamageOnJamming": true,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

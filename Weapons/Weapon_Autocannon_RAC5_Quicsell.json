@@ -1,0 +1,91 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/a/a/rac"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "WpnRecoil: 6",
+        "WeaponJAM: 5"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "01202"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC5",
+  "MinRange": 0,
+  "MaxRange": 480,
+  "RangeSplit": [
+    60,
+    240,
+    420
+  ],
+  "AmmoCategory": "AC5",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 20,
+  "Damage": 35,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 1,
+  "APMaxArmorThickness": 70,
+  "APCriticalChanceMultiplier": 0.175,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 6,
+  "ShotsWhenFired": 5,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 8.75,
+  "FireTerrainChance": 0.0375,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC5",
+  "Description": {
+    "Cost": 700000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "GM",
+    "Model": "RAC5",
+    "UIName": "Rotary AC/5 QS",
+    "Id": "Weapon_Autocannon_RAC5_Quicsell",
+    "Name": "RAC5 QS",
+    "Details": "We are proud to present the brand new Quicsell Rotary Autocannon! It may be slightly heavier than the competitors, but I assure you that we did extensive engineering to allow it to fire almost as fast! Why if you'll look over there, to our demonstration model, you can see it spin as it fires all five shots in rapid succession! ... B-B-B-B-BANG ... There. A perfect example of Quicsell... Shit, the rotator wasn't on, was it. I told those engineers, we need to sell this thing. It'll never move product if people figure out we just strapped five light AC's together. Alright, we'll do take... four in an hour. And make sure that rotator is working by then! -Leaked QuicSell promo video, 3057 \n\n <b><color=#ffcc00>Uses AC5 Ammo.</color></b>",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC5",
+  "BattleValue": 0,
+  "InventorySize": 8,
+  "Tonnage": 25,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "ImprovedBallistic": true,
+  "CriticalComponent": false,
+  "AIHitChanceCap": 0.3,
+  "FlatJammingChance": 0.35,
+  "GunneryJammingMult": 0.03,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "OmniRestriction.{location}",
+      "component_type_stock",
+      "range_very-long",
+      "wr-jammable_weapon",
+      "wr-jam_chance_multiplier-5"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

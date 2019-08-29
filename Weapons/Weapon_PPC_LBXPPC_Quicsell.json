@@ -1,0 +1,133 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/e/p/ppc"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "WpnRecoil: 1",
+        "PPCDEBUFF: 1"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "02015"
+    }
+  },
+  "Category": "Energy",
+  "Type": "PPC",
+  "WeaponSubType": "PPC",
+  "MinRange": 0,
+  "MaxRange": 750,
+  "RangeSplit": [
+    255,
+    510,
+    690
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 50,
+  "Damage": 12,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 1,
+  "DamageVariance": 6,
+  "DistantVariance": 0.30,
+  "DistantVarianceReversed": false,
+  "isHeatVariation": true,
+  "isStabilityVariation": true,
+  "isDamageVariation": true,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 0.2,
+  "APMaxArmorThickness": 40.0,
+  "APCriticalChanceMultiplier": 0.125,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 1,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 5,
+  "AttackRecoil": 3,
+  "Instability": 1,
+  "ImprovedBallistic": true,
+  "BallisticDamagePerPallet": true,
+  "DamageNotDivided": true,
+    "ProjectileScale": {
+    "x": 0.33,
+    "y": 0.33,
+    "z": 0.5
+  },
+  "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+  "Description": {
+    "Cost": 930000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "LBXPPC",
+    "UIName": "LBXPPC QS",
+    "Id": "Weapon_PPC_LBXPPC_Quicsell",
+    "Name": "LBXPPC",
+    "Details": "An improvement upon standard PPCs, Extended-Range PPCs greatly extend their effective range at the cost of incredible heat generation. ER PPCs also generate a mild EM field that degrades the firing capability of their target.",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "+10 Damage",
+  "BonusValueB": "Improved Ranges",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "PPC",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 7,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": 2,
+        "ticksOnActivations": true,
+        "useActivationsOfTarget": true,
+        "ticksOnEndOfRound": false,
+        "ticksOnMovements": false,
+        "stackLimit": 1,
+        "clearedWhenAttacked": false
+      },
+      "targetingData": {
+        "effectTriggerType": "OnHit",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "NotSet",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": true
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "AbilityDefPPC",
+        "Name": "SENSORS IMPAIRED",
+        "Details": "EM Interference reduces sensor efficiency.",
+        "Icon": "uixSvgIcon_status_sensorsImpaired"
+      },
+      "nature": "Debuff",
+      "statisticData": {
+        "statName": "LV_ECM_JAMMED",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "wr-clustered_shots",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,156 @@
+{
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "MissileLaunchAssist"
+            }
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamage": 50
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"Activatable",
+                "ActiveMissileMinRange: -180",
+                "ActiveMissileHeat: +30%",
+                "ActiveHeatPerTurn: +10",
+                "FailChance: 10%",
+                "FailChanceTurn: 15%",
+                "FailCritSelf",
+                "WeaponBoom: 50"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "00027"
+        },
+        "ActivatableComponent": {
+            "ButtonName": "Launch Assist",
+            "FailFlatChance": 0.1,
+            "FailRoundsStart": 2,
+            "FailChancePerTurn": 0.15,
+            "SelfCrit": true,
+            "FailPilotingBase": 5,
+            "FailPilotingMult": 0.1,
+			"CanNotBeActivatedManualy": false,
+			"NoUniqueCheck": true,
+            "statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator"
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "MissileLaunchAssist_MinRange",
+						"Name": "Launch Assist",
+						"Details": "The Missile Launch Assist is decreasing missiles min range.",
+						"Icon": "uixSvgIcon_action_evasivemove"
+					},
+					"statisticData": {
+						"statName": "MinRange",
+						"operation": "Float_Add",
+						"modValue": "-180.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "Missile"
+					},
+					"nature": "Buff"
+				},
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "MissileLaunchAssist_MissileHeat",
+                        "Name": "Increased Heat",
+                        "Details": "Heat generation increased by 30%.",
+                        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+                    },
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "HeatGenerated",
+                        "operation": "Float_Multiply",
+                        "modValue": "1.3",
+                        "modType": "System.Single",
+                        "targetCollection": "Weapon",
+                        "targetWeaponCategory": "Missile"
+                    }
+                },
+                {
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator",
+                        "showInTargetPreview": false,
+                        "showInStatusPanel": false
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "MissileLaunchAssist_Heat",
+                        "Name": "Increased Heat",
+                        "Details": "Maintains a constant heat generation of 10.",
+                        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+                    },
+                    "nature": "Debuff",
+                    "statisticData": {
+                        "statName": "HeatSinkCapacity",
+                        "operation": "Int_Add",
+                        "modValue": "-10",
+                        "modType": "System.Int32"
+                    }
+                }
+            ]
+        }
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 300000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "Launch Assist",
+        "UIName": "Missile Launch Assist QS",
+        "Id": "Gear_MissileLaunchAssist_Quicsell",
+        "Name": "Launch Assist",
+        "Details": "The Quicsell Missile Launch Assist module helps provide your missiles with that little bit of extra oomph right out of the tube. At the expense of slightly more heat, you can remove that pesky minimum range. When Destroyed Explodes.",
+        "Icon": "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA": "-180 MinRange",
+    "BonusValueB": "+30% Mis. Heat",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+			"cae_ai_offence",
+			"cae_ai_explode",
+			"cae_ai_heat"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

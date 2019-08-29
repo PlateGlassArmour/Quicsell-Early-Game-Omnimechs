@@ -1,0 +1,87 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/e/l/laser"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "IsLaser",
+		"TEHeatgen: -5",
+		"WpnCooldown: 1"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "02008"
+    }
+  },
+  "Category": "Energy",
+  "Type": "Laser",
+  "WeaponSubType": "LargeLaser",
+  "MinRange": 0,
+  "MaxRange": 600,
+  "RangeSplit": [
+    150,
+    300,
+    450
+  ],
+  "AmmoCategory": "NotSet",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 19,
+  "Damage": 40,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 0.1,
+  "APMaxArmorThickness": 48.0,
+  "APCriticalChanceMultiplier": 0.08,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 0,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 1,
+  "Instability": 6.6,
+  "FireTerrainChance": 0.1125,
+  "WeaponEffectID": "WeaponEffect-Weapon_Laser_Large",
+  "Description": {
+    "Cost": 93000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Large Laser",
+    "UIName": "Large Laser QS",
+    "Id": "Weapon_Laser_LargeLaser_Quicsell",
+    "Name": "L Laser",
+    "Details": "Our most powerful laser, the Quicsell large laser makes use of our proprietary heat management systems to generate considerably less heat for just as much punch!",
+    "Icon": "uixSvgIcon_weapon_Energy"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "Laser",
+  "BattleValue": 0,
+  "InventorySize": 2,
+  "Tonnage": 5,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Cooldown": 1,
+  "DontShowNotDangerouceJammMessages": true,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "range_long"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
