@@ -27,7 +27,7 @@
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 36,
+  "HeatGenerated": 33,
   "Damage": 15,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
@@ -60,7 +60,7 @@
     "UIName": "M. Laser Array QS",
     "Id": "Weapon_Laser_MediumLaser_Array_Quicsell",
     "Name": "M Laser",
-    "Details": "Far more than ''three low quality lasers strapped together'', Quicsell's Medium Laser Array is one of the most hardpoint efficient weapons on the market. Suitable for all you medium laser needs.",
+    "Details": "Far more than 'three low quality lasers strapped together', Quicsell's Medium Laser Array is one of the most hardpoint efficient weapons on the market. Suitable for all you medium laser needs.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",
