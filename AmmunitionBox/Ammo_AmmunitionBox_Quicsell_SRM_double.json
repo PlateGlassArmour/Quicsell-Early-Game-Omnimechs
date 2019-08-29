@@ -15,7 +15,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "Doubled",
-                "SRMAmmo: 280"
+                "SRMAmmo: 280",
 				"WeaponDamage: -1",
 				"VariableDmg: 4"
             ]

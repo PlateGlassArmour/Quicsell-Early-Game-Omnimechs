@@ -14,7 +14,7 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-				"AC5Ammo: 25"
+				"AC5Ammo: 25",
 				"WeaponDamage: -4.5",
 				"VariableDmg: 18"
             ]

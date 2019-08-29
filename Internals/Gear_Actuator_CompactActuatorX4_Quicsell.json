@@ -164,7 +164,7 @@
                 "targetWeaponSubType" : "Melee"
             },
             "nature" : "Debuff"
-        },		
+        }		
 	],
     "ComponentTags": {
         "items": [

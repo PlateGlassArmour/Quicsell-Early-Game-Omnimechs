@@ -10,7 +10,7 @@
 				"IsECM: 1/2",
                 "ECMBubble: 360/60",
 				"Jammer: 1/5",
-				"JamBubble: 360/60",
+				"JamBubble: 360/60"
             ]
         },
         "InventorySorter": {
@@ -201,7 +201,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-            "ElectronicCounterMeasures",
+            "ElectronicCounterMeasures"
         ],
         "tagSetSourceFile": ""
     }
