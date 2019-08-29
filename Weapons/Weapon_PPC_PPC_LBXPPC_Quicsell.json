@@ -67,7 +67,7 @@
     "Manufacturer": "Quicsell",
     "Model": "LBXPPC",
     "UIName": "LBXPPC QS",
-    "Id": "Weapon_PPC_LBXPPC_Quicsell",
+    "Id": "Weapon_PPC_PPC_LBXPPC_Quicsell",
     "Name": "LBXPPC",
     "Details": "It's not a 'containment failure', it's a 'surprise feature'! Now you'll have a much easier time hitting moving targets with a ppc.",
     "Icon": "uixSvgIcon_weapon_Energy"
