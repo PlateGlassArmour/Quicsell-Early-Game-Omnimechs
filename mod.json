@@ -13,11 +13,11 @@
 	"Manifest": [
 		{
 			"Type": "MechDef",
-			"Path": "mech"
+			"Path": "Mech"
 		},
 		{
 			"Type": "ChassisDef",
-			"Path": "chassis"
+			"Path": "Chassis"
 		},
 		{
 			"Type": "HeatSinkDef",
@@ -33,11 +33,11 @@
 		},
 		{
 			"Type": "AmmunitionDef",
-			"Path": "ammunition"
+			"Path": "Ammunition"
 		},
 		{
 			"Type": "AmmunitionBoxDef",
-			"Path": "ammunitionbox"
+			"Path": "Ammunitionbox"
 		},
 		{
 			"Type": "JumpJetDef",
