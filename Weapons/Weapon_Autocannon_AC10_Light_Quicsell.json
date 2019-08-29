@@ -1,0 +1,94 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/a/a/lac"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "PipsIgnored: 1",
+        "WpnRecoil: 1",
+        "WeaponJAMFlat: 10%",
+        "WeaponJAM: 5",
+        "IsLightAC"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "01013"
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC10",
+  "MinRange": 0,
+  "MaxRange": 410,
+  "RangeSplit": [
+    60,
+    200,
+    380
+  ],
+  "AmmoCategory": "AC10",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 7,
+  "Damage": 45,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 1,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 0,
+  "CriticalChanceMultiplier": 1,
+  "APArmorShardsMod": 1,
+  "APMaxArmorThickness": 90,
+  "APCriticalChanceMultiplier": 0.25,
+  "AOECapable": false,
+  "IndirectFireCapable": false,
+  "RefireModifier": 1,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 2,
+  "Instability": 11.25,
+  "FlatJammingChance": 0.1,
+  "GunneryJammingMult": 0.02,
+  "GunneryJammingBase": 1,
+  "FireTerrainChance": 0.0375,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+  "Description": {
+    "Cost": 300000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Heavy Autocannon",
+    "UIName": "Light AC/10 QS",
+    "Id": "Weapon_Autocannon_AC10_0-STOCK",
+    "Name": "AC/10",
+    "Details": "A Quicsell innovation: try the Light AC/10 today, and be blown away! \n\n <b><color=#ffcc00>Uses AC10 Ammo.</color></b>",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "AC10",
+  "BattleValue": 0,
+  "InventorySize": 3,
+  "Tonnage": 8,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "ImprovedBallistic": true,
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "OmniRestriction.{location}",
+      "component_type_stock",
+      "range_long",
+      "wr-jammable_weapon",
+      "wr-jam_chance_multiplier-5"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
