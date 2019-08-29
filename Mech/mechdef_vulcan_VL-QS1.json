@@ -77,7 +77,7 @@
         "Cost": 1, 
         "Rarity": 1, 
         "Purchasable": true, 
-        "Manufacturer": null, 
+        "Manufacturer": "Quicsell", 
         "Model": null, 
         "UIName": "Vulcan VL-QS1", 
         "Id": "mechdef_vulcan_VL-QS1", 

@@ -88,7 +88,7 @@
         "Cost": 1, 
         "Rarity": 1, 
         "Purchasable": true, 
-        "Manufacturer": null, 
+        "Manufacturer": "Quicsell", 
         "Model": null, 
         "UIName": "Trebuchet TBT-QS1", 
         "Id": "mechdef_trebuchet_TBT-QS1", 
