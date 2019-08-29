@@ -37,6 +37,7 @@ Each mech type will have one variant of each roll, and one variant of each prima
 2- Brawler (high armour, short range, very survivable)  
 3- Backstabber (low to medium armour, short to medium range, highly mobile)  
 4- Support (low to medium armour, medium to long range, support weapons and equipment, generally low direct damage)
+Mech variant names will be defined by their roll. (COM-QS1 will be the sniper, COM-QS2 will be the Brawler, etc.)
 
 ### Primary Armaments are:  
 1- Ballistic  
