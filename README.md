@@ -87,4 +87,4 @@ Engine Types (with aproximate proportion of mech pool that uses said types):
 
 6- other (1/17)
 
-This mix means that there is about a 60% chance that any given mech variant chosen will have the XL vulnerability. Enough to notice the patter, but not enough to rely on.
+This mix means that there is about a 60% chance that any given mech variant chosen will have the XL vulnerability. Enough to notice the pattern, but not enough to rely on.
