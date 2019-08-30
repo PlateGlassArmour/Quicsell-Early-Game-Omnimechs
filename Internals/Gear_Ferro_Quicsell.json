@@ -48,7 +48,6 @@
             ]
         },
         "CriticalEffects": {
-            "LinkedStatisticName": "Ferro Quicsell"
         },
         "WorkOrderCosts": {
             "Install": {

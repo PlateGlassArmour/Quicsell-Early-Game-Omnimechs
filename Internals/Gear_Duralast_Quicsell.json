@@ -40,7 +40,6 @@
             ]
         },
         "CriticalEffects": {
-            "LinkedStatisticName": "Duralast Quicsell"
         },
         "WorkOrderCosts": {
             "Install": {
