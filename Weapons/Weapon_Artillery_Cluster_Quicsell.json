@@ -1,0 +1,111 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "w/a/o/artillery"
+      }
+    ],
+    "BonusDescriptions": {
+      "Bonuses": [
+        "WpnRecoil: 5",
+        "WpnAccuracy: -2",
+        "AreaOfEffect: 60",
+        "AreaOfEffectDmg: 8",
+        "NoAA",
+        "IsArtillery"
+      ]
+    },
+    "InventorySorter": {
+      "SortKey": "01303"
+    },
+	"Flags": {
+      "flags": [
+        "not_broken",
+		"not_destroyed"
+      ]
+    }
+  },
+  "Category": "Ballistic",
+  "Type": "Autocannon",
+  "WeaponSubType": "AC20",
+  "MinRange": 200,
+  "MaxRange": 1200,
+  "RangeSplit": [
+    400,
+    800,
+    1000
+  ],
+  "AmmoCategory": "RifleHeavy",
+  "StartingAmmoCapacity": 0,
+  "HeatGenerated": 10,
+  "Damage": 2,
+  "OverheatedDamageMultiplier": 0,
+  "EvasiveDamageMultiplier": 0,
+  "EvasivePipsIgnored": 0,
+  "DamageVariance": 0,
+  "HeatDamage": 0,
+  "AccuracyModifier": 2,
+  "CriticalChanceMultiplier": 0.3,
+  "APArmorShardsMod": 0.6,
+  "APMaxArmorThickness": 20.0,
+  "APCriticalChanceMultiplier": 0.1,
+  "AOECapable": true,
+  "AOERange": 60,
+  "AOEDamage": 8,
+  "AOEInstability": 1,
+  "DirectFireModifier": 1.0,
+  "AdditionalImpactVFX": "WFX_ExplosiveSmokeS",
+  "AdditionalImpactVFXScaleX": 0.3,
+  "AdditionalImpactVFXScaleY": 0.3,
+  "AdditionalImpactVFXScaleZ": 0.3,
+  "RefireModifier": 5,
+  "ShotsWhenFired": 1,
+  "ProjectilesPerShot": 10,
+  "AttackRecoil": 4,
+  "Instability": 3,
+  "FireTerrainChance": 0.05,
+  "CantHitUnaffecedByPathing": true,
+  "WeaponEffectID": "WeaponEffect-Weapon_AC2",
+  "Description": {
+    "Cost": 300000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "Cluster Artillery",
+    "UIName": "Howitzer 200X QS",
+    "Id": "Weapon_Artillery_Cluster_Quicsell",
+    "Name": "Howitzer Cluster Cannon",
+    "Details": "Artillery that's practically guaranteed to hit! Quicsell's cluster artillery launcher can cover the entire battlefield with explosions, so aiming is optional! \n\n <b><color=#ffcc00>Uses Heavy Rifle Ammo.</color></b>",
+    "Icon": "uixSvgIcon_weapon_Ballistic"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Weapon",
+  "ComponentSubType": "Weapon",
+  "PrefabIdentifier": "artillery",
+  "BattleValue": 0,
+  "InventorySize": 6,
+  "Tonnage": 10,
+  "AllowedLocations": "All",
+  "DisallowedLocations": "All",
+  "ImprovedBallistic": true,
+  "BallisticDamagePerPallet": true,
+  "DamageNotDivided": true,
+  "SpreadRange": 120,
+  "AlwaysIndirectVisuals": true,
+  "IndirectFireCapable": true,
+  "ForbiddenRange": 120,
+  "CriticalComponent": false,
+  "statusEffects": [
+
+  ],
+  "ComponentTags": {
+    "items": [
+      "OmniRestriction.{location}",
+      "HRifle.{location}",
+      "component_type_stock",
+      "range_extreme"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
