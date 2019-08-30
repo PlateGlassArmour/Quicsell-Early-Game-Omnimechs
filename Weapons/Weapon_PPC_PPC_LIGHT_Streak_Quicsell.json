@@ -12,7 +12,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "WpnRecoil: 0",
-		"Streak",
+    		"Streak",
         "WeaponBoom: 40",
         "PipsIgnored: 1",
         "PPCDEBUFF: 1"
@@ -68,7 +68,7 @@
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "1 Evasion Ignore",
-  "BonusValueB": "No Recoil",
+  "BonusValueB": "Streak",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",

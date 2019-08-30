@@ -2,87 +2,88 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "w/e/p/ppc"
+        "CategoryID": "w/e/p/hppc"
       }
     ],
+    "ComponentExplosion": {
+      "ExplosionDamage": 100,
+      "StabilityDamage": 50
+    },
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 1",
-        "PPCDEBUFF: 1"
+        "WpnRecoil: 4",
+	    	"Streak",
+        "WeaponBoom: 100",
+        "PipsIgnored: 1",
+        "PPCDEBUFF: 2"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02015"
+      "SortKey": "02014"
     }
   },
   "Category": "Energy",
   "Type": "PPC",
   "WeaponSubType": "PPC",
-  "MinRange": 0,
-  "MaxRange": 600,
+  "MinRange": 210,
+  "MaxRange": 660,
   "RangeSplit": [
-    180,
-    360,
-    540
+    240,
+    300,
+    420
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 50,
-  "Damage": 12,
+  "HeatGenerated": 100,
+  "Damage": 100,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
-  "DamageVariance": 6,
-  "DistantVariance": 0.10,
-  "DistantVarianceReversed": false,
-  "isHeatVariation": true,
-  "isStabilityVariation": true,
-  "isDamageVariation": true,
+  "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.2,
-  "APMaxArmorThickness": 40.0,
-  "APCriticalChanceMultiplier": 0.125,
+  "APMaxArmorThickness": 130.0,
+  "APCriticalChanceMultiplier": 0.3,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 4,
   "ShotsWhenFired": 1,
-  "ProjectilesPerShot": 5,
-  "AttackRecoil": 3,
-  "Instability": 2,
-  "ImprovedBallistic": true,
-  "BallisticDamagePerPallet": true,
-  "DamageNotDivided": true,
-    "ProjectileScale": {
-    "x": 0.33,
-    "y": 0.33,
-    "z": 0.5
+  "ProjectilesPerShot": 1,
+  "AttackRecoil": 4,
+  "Instability": 20,
+  "ProjectileScale": {
+    "x": 1.2,
+    "y": 1.2,
+    "z": 3
   },
+  "FireTerrainChance": 0.3,
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
-    "Cost": 600000,
-    "Rarity": 3,
+    "Cost": 1000000,
+    "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
-    "Model": "LBXPPC",
-    "UIName": "LBXPPC QS",
-    "Id": "Weapon_PPC_PPC_LBXPPC_Quicsell",
-    "Name": "LBXPPC",
-    "Details": "It's not a 'containment failure', it's a 'surprise feature'! Now you'll have a much easier time hitting moving targets with a ppc.",
+    "Model": "Heavy Streak PPC",
+    "UIName": "Hv. Streak PPC QS",
+    "Id": "Weapon_PPC_PPC_Heavy_Streak_Quicsell",
+    "Name": "Hv. Streak PPC",
+    "Details": "Quicsell state of the art Heavy Streak PPC is guaranteed to hit your target. We've developed a truly breakthrough product that you can try today for only five easy payments of 199,999 CBills",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA": "5 projectiles",
-  "BonusValueB": "4 recoil",
+  "BonusValueA": "1 Evasion Ignore",
+  "BonusValueB": "Streak",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
   "BattleValue": 0,
-  "InventorySize": 3,
-  "Tonnage": 7,
+  "InventorySize": 6,
+  "Tonnage": 12,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "Streak": true,
   "statusEffects": [
     {
       "durationData": {
@@ -91,7 +92,7 @@
         "useActivationsOfTarget": true,
         "ticksOnEndOfRound": false,
         "ticksOnMovements": false,
-        "stackLimit": 1,
+        "stackLimit": -1,
         "clearedWhenAttacked": false
       },
       "targetingData": {
@@ -117,16 +118,16 @@
       "statisticData": {
         "statName": "LV_ECM_JAMMED",
         "operation": "Int_Add",
-        "modValue": "1",
+        "modValue": "2",
         "modType": "System.Int32"
       }
     }
   ],
   "ComponentTags": {
     "items": [
+      "OmniRestriction.{location}",
       "component_type_stock",
-      "wr-clustered_shots",
-      "range_extreme"
+      "range_long"
     ],
     "tagSetSourceFile": ""
   }
