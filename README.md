@@ -76,3 +76,5 @@ CGR-QS1 (PPC sniper), CGR-QS2 (laser brawler), CGR-QS3 (ballistic backstabber), 
 BLR-QS1 (missile sniper), BLR-QS2 (PPC brawler), BLR-QS3 (laser backstabber), BLR-QS4 (ballistic support)  
 HGN-QS1 (ballistic sniper), HGN-QS2 (missile brawler), HGN-QS3 (PPC backstabber), HGN-QS4 (laser support)  
 BNC-QS1 (laser sniper), BNC-QS2 (ballistic brawler), BNC-QS3 (missile backstabber), BNC-QS4 (PPC support)   
+
+MSK-QS1 (undecided special), MSK-QS2 (undecided special), MSK-QS3 (undecided special), MSK-QS4 (undecided special)
