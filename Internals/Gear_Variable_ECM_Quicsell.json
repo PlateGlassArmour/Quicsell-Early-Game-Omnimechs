@@ -7,7 +7,7 @@
         ],
         "BonusDescriptions": {
             "Bonuses": [
-				"IsECM: 1/2",
+				"IsECM: 1/3",
                 "ECMBubble: 360/60",
 				"Jammer: 1/5",
 				"JamBubble: 360/60"
@@ -61,7 +61,7 @@
             {
 				"statName" : "LV_ECM_SHIELD",
 				"operation": "Int_Add",
-				"modValue": "2",
+				"modValue": "3",
 				"modType": "System.Int32"
             },
             "nature" : "Buff"
