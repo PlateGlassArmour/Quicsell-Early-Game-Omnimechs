@@ -1,0 +1,142 @@
+{
+    "Custom": {
+        "Category": [
+			{ "CategoryID": "w/e/p/flamer" }
+		],
+        "BonusDescriptions": {
+            "Bonuses": [
+                "OHDamage: 25%",
+                "Inferno: +7",
+				"AlwaysStartsFire",
+				"DmgFallOff: 20%",
+				"NoAA"
+            ]
+        },
+        "InventorySorter": {
+            "SortKey": "02001"
+        }
+    },
+    "Category": "Energy",
+    "Type": "Flamer",
+    "WeaponSubType": "Flamer",
+    "MinRange": 0,
+    "MaxRange": 180,
+    "RangeSplit": [
+        60,
+        90,
+        120
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 8,
+    "Damage": 6,
+    "OverheatedDamageMultiplier": 1.25,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 6,
+    "AccuracyModifier": 0,
+	"DistantVariance": 0.2,
+  "DistantVarianceReversed": false,
+  "isHeatVariation": true,
+  "isStabilityVariation": true,
+  "isDamageVariation": true,
+    "CriticalChanceMultiplier": 0.1,
+	"APArmorShardsMod": 0.1,
+	"APMaxArmorThickness": 1,
+	"APCriticalChanceMultiplier": 0.01,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0,
+	"FireOnSuccessHit" : true,
+	"FireTerrainChance": 1,
+	"CantHitUnaffecedByPathing": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_Flamer",
+    "Description": {
+        "Cost": 30000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Quicsell",
+        "Model": "Burny Flamethrower",
+        "UIName": "Burny Flamer QS",
+        "Id": "Weapon_Flamer_Burny_Quicsell",
+        "Name": "Burny Flamer QS",
+        "Details": "On first glance, the Quicsell flamer is inferior to those other models, only producing a fraction of the heat, but look again! The Quicsell Burny Flamer ingites your foes so they keep toasty long after you've quit applying the fire.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 6 Dmg(H)",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Flamer",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": 2,
+                "ticksOnActivations": true,
+                "useActivationsOfTarget": true,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "NotSet",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "Burny-Burn-Effect",
+                "Name": "Burny Flame",
+                "Details": "Heated Armor generates ongoing heat",
+                "Icon": "uixSvgIcon_shipUpgrade_power2"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "HeatSinkCapacity",
+                "operation": "Int_Add",
+                "modValue": "-6",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
