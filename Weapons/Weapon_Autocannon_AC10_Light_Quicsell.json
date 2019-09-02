@@ -15,7 +15,7 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "01013"
+      "SortKey": "01012"
     }
   },
   "Category": "Ballistic",
@@ -61,7 +61,7 @@
     "Manufacturer": "Quicsell",
     "Model": "Heavy Autocannon",
     "UIName": "Light AC/10 QS",
-    "Id": "Weapon_Autocannon_AC10_0-STOCK",
+    "Id": "Weapon_Autocannon_AC10_Light_Quicsell",
     "Name": "AC/10",
     "Details": "A Quicsell innovation: try the Light AC/10 today, and be blown away! \n\n <b><color=#ffcc00>Uses AC10 Ammo.</color></b>",
     "Icon": "uixSvgIcon_weapon_Ballistic"
