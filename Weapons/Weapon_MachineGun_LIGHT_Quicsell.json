@@ -73,8 +73,8 @@
     "DisallowedLocations": "All",
 	"ImprovedBallistic": true,
     "CriticalComponent": false,
-    "FlatJammingChance": 0.2,
-	"DamageOnJamming": true,
+    "FlatJammingChance": 0.35,
+	"DamageOnJamming": false,
     "statusEffects": [],
     "ComponentTags": {
         "items": [

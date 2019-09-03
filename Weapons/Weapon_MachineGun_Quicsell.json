@@ -72,8 +72,8 @@
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "FlatJammingChance": 0.2,
-	"DamageOnJamming": true,
+    "FlatJammingChance": 0.35,
+	"DamageOnJamming": false,
     "statusEffects": [],
     "ComponentTags": {
         "items": [
