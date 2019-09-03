@@ -6,7 +6,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "OHDamage: 25%",
-                "Inferno: +7",
+                "Inferno: +6",
 				"AlwaysStartsFire",
 				"DmgFallOff: 20%",
 				"NoAA"
