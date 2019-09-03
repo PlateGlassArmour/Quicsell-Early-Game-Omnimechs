@@ -25,12 +25,12 @@
   "Category": "Energy",
   "Type": "PPC",
   "WeaponSubType": "PPC",
-  "MinRange": 210,
-  "MaxRange": 660,
+  "MinRange": 180,
+  "MaxRange": 750,
   "RangeSplit": [
-    240,
+    210,
     300,
-    420
+    480
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
