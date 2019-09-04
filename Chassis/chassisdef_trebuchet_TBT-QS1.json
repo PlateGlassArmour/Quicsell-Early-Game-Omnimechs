@@ -5,12 +5,24 @@
             "RightLimit": "Upper"
         },
         "ChassisDefaults": [
-            {
-                "CategoryID": "Structure",
-                "DefID": "Gear_structureslots_Quicsell",
-                "Location": "CenterTorso",
-                "Type": "Upgrade"
-            }
+          {
+              "CategoryID": "Structure",
+              "DefID": "Gear_structureslots_Quicsell",
+              "Location": "CenterTorso",
+              "Type": "Upgrade"
+          },
+          {
+              "CategoryID": "EngineShield",
+              "DefID": "emod_engineslots_std_center",
+              "Location": "CenterTorso",
+              "Type": "HeatSink"
+          },
+          {
+              "CategoryID": "EngineCore",
+              "DefID": "emod_engine_250",
+              "Location": "CenterTorso",
+              "Type": "HeatSink"
+          }
         ]
     },
   "FixedEquipment": [
