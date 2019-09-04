@@ -10,6 +10,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "InternalAmmoShots: 8",
+                "WeaponJAMFlat: 35%",
 				"WpnCrits: 50%",
                 "IsMG"
             ]
