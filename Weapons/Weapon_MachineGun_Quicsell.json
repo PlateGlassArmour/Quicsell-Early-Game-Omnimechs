@@ -73,6 +73,8 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "FlatJammingChance": 0.35,
+    "GunneryJammingMult": 0.0455,
+    "GunneryJammingBase": 2,
 	"DamageOnJamming": false,
     "statusEffects": [],
     "ComponentTags": {
