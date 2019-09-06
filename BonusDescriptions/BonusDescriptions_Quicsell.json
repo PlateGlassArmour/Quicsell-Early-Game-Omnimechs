@@ -1,0 +1,34 @@
+{
+    "Settings": [
+      {
+        "Bonus": "IsULT",
+        "Short": "ULT",
+        "Long": "Universal Launch Tube",
+        "Full": "Universal Launch Tube: can launch SRM, Streak SRM, MRM, Heavy MRM, ATM, Improved ATM, LRM, and Streak LRM missiles"
+      },
+      {
+        "Bonus": "CoolingSystemQSDHS",
+        "Short": "QSDHS Kit",
+        "Long": "QS DHS Kit",
+        "Full": "Converts the 'Mech to use Quicsell Double Heat Sinks"
+      },
+      {
+        "Bonus": "ActiveMissileDamage",
+        "Short": "{0} Mis. Dmg",
+        "Long": "{0} Missile Damage",
+        "Full": "{0} increased missile damage when active"
+      },
+      {
+        "Bonus": "ActiveMissileHeat",
+        "Short": "{0} Mis. Heat",
+        "Long": "{0} Missile Heat",
+        "Full": "{0} missile heat generation when active"
+      },
+      {
+        "Bonus": "ActiveMissileMinRange",
+        "Short": "{0} Mis. MinRange",
+        "Long": "{0} Missile Min Range",
+        "Full": "{0} missile minimum range when active"
+      }
+    ]
+  }

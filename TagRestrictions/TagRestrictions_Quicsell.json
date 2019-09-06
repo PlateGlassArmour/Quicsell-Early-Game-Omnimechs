@@ -1,0 +1,10 @@
+{
+    "Settings" : [
+		{
+            "Tag" : "Gear_Actuator_Omni_Weaponmount_Quicsell",
+			"RequiredTags": [
+					"OmniMech"
+				]
+        }
+    ]
+}
