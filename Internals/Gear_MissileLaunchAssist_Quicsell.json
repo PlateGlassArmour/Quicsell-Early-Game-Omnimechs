@@ -13,7 +13,7 @@
 				"Activatable",
                 "ActiveMissileMinRange: -180",
                 "ActiveMissileHeat: +30%",
-                "ActiveMissileDamage: +1",
+                "ActiveMissileDamage: +10%",
                 "ActiveHeatPerTurn: +10",
                 "FailChance: 10%",
                 "FailChanceTurn: 15%",
@@ -53,8 +53,8 @@
 					},
 					"statisticData": {
 						"statName": "DamagePerShot",
-						"operation": "Float_Add",
-						"modValue": "1.0",
+						"operation": "Float_Multiply",
+						"modValue": "1.1",
 						"modType": "System.Single",
 						"targetCollection": "Weapon",
 						"targetWeaponCategory": "Missile"
