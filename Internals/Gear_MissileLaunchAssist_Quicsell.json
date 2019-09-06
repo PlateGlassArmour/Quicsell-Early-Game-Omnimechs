@@ -13,6 +13,7 @@
 				"Activatable",
                 "ActiveMissileMinRange: -180",
                 "ActiveMissileHeat: +30%",
+                "ActiveMissileDamage: +1",
                 "ActiveHeatPerTurn: +10",
                 "FailChance: 10%",
                 "FailChanceTurn: 15%",
@@ -45,10 +46,36 @@
 					},
 					"effectType": "StatisticEffect",
 					"Description": {
+						"Id": "MissileLaunchAssist_Damage",
+						"Name": "Launch Assist",
+						"Details": "The Missile Launch Assist is decreasing missiles min range and increasing damage.",
+						"Icon": "uixSvgIcon_weapon_Missile"
+					},
+					"statisticData": {
+						"statName": "DamagePerShot",
+						"operation": "Float_Add",
+						"modValue": "1.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "Missile"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator"
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
 						"Id": "MissileLaunchAssist_MinRange",
 						"Name": "Launch Assist",
-						"Details": "The Missile Launch Assist is decreasing missiles min range.",
-						"Icon": "uixSvgIcon_action_evasivemove"
+						"Details": "The Missile Launch Assist is decreasing missiles min range and increasing damage.",
+						"Icon": "uixSvgIcon_weapon_Missile"
 					},
 					"statisticData": {
 						"statName": "MinRange",
