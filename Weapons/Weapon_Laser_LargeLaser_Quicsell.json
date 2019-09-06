@@ -58,7 +58,7 @@
     "UIName": "Large Laser QS",
     "Id": "Weapon_Laser_LargeLaser_Quicsell",
     "Name": "L Laser",
-    "Details": "Our most powerful laser, the Quicsell large laser makes use of our proprietary heat management systems to generate considerably less heat for just as much punch!",
+    "Details": "Our most powerful regular laser, the Quicsell large laser makes use of our proprietary heat management systems to generate considerably less heat for just as much punch!",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
   "BonusValueA": "",

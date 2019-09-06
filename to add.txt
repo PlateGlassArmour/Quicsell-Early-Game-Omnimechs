@@ -1,2 +1,3 @@
 add category for launch assist
 add "Quicsell" category to ArmorRepair tags
+modify case2 bonus description
