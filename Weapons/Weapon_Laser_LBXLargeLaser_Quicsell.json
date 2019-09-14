@@ -9,6 +9,8 @@
       "Bonuses": [
         "WpnRecoil: 2",
         "MultiLaser",
+        "WpnAccuracy: +1",
+        "PipsIgnored: +1",
         "VariableDmg: 8",
         "IsLaser"
       ]
