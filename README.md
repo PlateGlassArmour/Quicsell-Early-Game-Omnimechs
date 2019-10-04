@@ -45,16 +45,13 @@ Mech variant names will be defined by their roll. (COM-QS1 will be the sniper, C
 3- PPC  
 5- Missile  
 
-### Engine Types (with aproximate proportion of mech pool that uses said types):  
-1- XL!! (8/17)  
-2- normal fusion (2/17)  
-3- ICE XL (2/17)  
-4- fuel cell (2/17)  
-5- ICE (2/17)  
-6- other (1/17)  
-This mix means that there is about a 60% chance that any given mech variant chosen will have the XL vulnerability.  
-Enough to notice the pattern, but not enough to rely on.  
-See MechVariation.XLS for more engine details as mechs get built.
+### Engine Types:  
+1- XL!!  
+2- normal fusion  
+3- ICE XL  
+4- fuel cell  
+5- ICE  
+6- other  
 
 ### Exsaustive mech list:  
 WSP-QS1 (laser sniper), WSP-QS2 (ballistic brawler), WSP-QS3 (missile backstabber), WSP-QS4 (PPC support)  
