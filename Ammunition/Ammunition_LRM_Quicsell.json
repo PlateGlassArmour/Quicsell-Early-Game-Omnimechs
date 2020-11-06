@@ -19,5 +19,6 @@
    "DamagePerShot": -0.5,
    "DamageVariance": 2.0,
    "isStabilityVariation": true,
-   "isDamageVariation": true
+   "isDamageVariation": true,
+   "MissileHealth": 2
 }

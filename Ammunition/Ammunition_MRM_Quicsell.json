@@ -16,9 +16,18 @@
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "Unguided": true,
+   "ColorsTable": [
+      {
+         "C": "#565B5B",
+         "I": 5
+      }
+   ],
+   "ColorSpeedChange": 5,
+   "ColorChangeRule": "t0",
    "CriticalDamageModifier": 1,
    "DamagePerShot": -0.5,
    "DamageVariance": 2.0,
    "isStabilityVariation": true,
-   "isDamageVariation": true
+   "isDamageVariation": true,
+   "MissileHealth": 2
 }
