@@ -7,8 +7,8 @@
             "Bonuses": [
                 "JumpCapacity: 0.7",
 				"JumpHeat: 3",
-				"MinWeightJJ: 10",
-				"MaxWeightJJ: 55",
+				"MinWeightJJ: 60",
+				"MaxWeightJJ: 85",
 				"MaxCountJJ: 1"
             ]
         },
@@ -17,17 +17,17 @@
         }
     },
     "JumpCapacity": 0.70,
-    "MinTonnage": 10,
-    "MaxTonnage": 55,
+    "MinTonnage": 60,
+    "MaxTonnage": 85,
     "Description": {
-        "Cost": 15000,
-        "Rarity": 1,
+        "Cost": 40000,
+        "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
-        "Model": "JumpJet (S) Lite",
-        "UIName": "Jump Jet (S) Lite QS",
-        "Id": "Gear_JumpJet_Lite_Quicsell",
-        "Name": "Jump Jet (S) Lite QS",
+        "Model": "JumpJet (H) Lite",
+        "UIName": "Jump Jet (H) Lite QS",
+        "Id": "Gear_JumpJet_Lite_Heavy_Quicsell",
+        "Name": "Jump Jet (H) Lite QS",
         "Details": "Jump Jet Lite! Only half the weight, and nearly the same power as a normal jumpjet. Buy a value pack today and get double discounts!",
         "Icon": "uixSvgIcon_action_jump"
     },
@@ -38,7 +38,7 @@
     "PrefabIdentifier": "JumpJet",
     "BattleValue": 0,
     "InventorySize": 1,
-    "Tonnage": 0.25,
+    "Tonnage": 0.5,
     "AllowedLocations": "Torso, Legs",
     "DisallowedLocations": "Head, Arms",
     "CriticalComponent": false,
