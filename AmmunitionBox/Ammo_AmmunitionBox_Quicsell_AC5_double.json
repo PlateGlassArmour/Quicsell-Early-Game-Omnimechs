@@ -17,9 +17,13 @@
                 "Doubled",
 				"AC5Ammo: 56",
 				"WeaponDamage: -4.5",
-				"VariableDmg: 18"
+				"VariableDmg: 18",
+                "AmmoCost: 113"
             ]
-        },		
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 113
+          },	
         "InventorySorter": {
             "SortKey": "000006"
         }
@@ -27,7 +31,7 @@
     "AmmoID": "Ammunition_AC5_Quicsell",
     "Capacity": 56,
     "Description": {
-        "Cost": 40000,
+        "Cost": 56250,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

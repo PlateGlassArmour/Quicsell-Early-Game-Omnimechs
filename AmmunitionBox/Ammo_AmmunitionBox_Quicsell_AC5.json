@@ -16,9 +16,13 @@
             "Bonuses": [
 				"AC5Ammo: 25",
 				"WeaponDamage: -4.5",
-				"VariableDmg: 18"
+				"VariableDmg: 18",
+                "AmmoCost: 113"
             ]
-        },		
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 113
+          },	
         "InventorySorter": {
             "SortKey": "000006"
         }
@@ -26,7 +30,7 @@
     "AmmoID": "Ammunition_AC5_Quicsell",
     "Capacity": 25,
     "Description": {
-        "Cost": 13000,
+        "Cost": 22500,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

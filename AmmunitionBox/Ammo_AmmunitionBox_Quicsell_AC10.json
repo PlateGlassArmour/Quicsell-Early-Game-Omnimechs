@@ -16,9 +16,13 @@
             "Bonuses": [
 				"AC10Ammo: 13",
 				"WeaponDamage: -6",
-				"VariableDmg: 24"
+				"VariableDmg: 24",
+                "AmmoCost: 150"
             ]
-        },		
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 150
+          },	
         "InventorySorter": {
             "SortKey": "000007"
         }
@@ -26,7 +30,7 @@
     "AmmoID": "Ammunition_AC10_Quicsell",
     "Capacity": 13,
     "Description": {
-        "Cost": 20000,
+        "Cost": 15000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

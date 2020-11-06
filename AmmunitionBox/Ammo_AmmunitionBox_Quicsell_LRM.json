@@ -14,11 +14,16 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
+                "MissileHP: 2",
 				"LRMAmmo: 150",
 				"WeaponDamage: -0.5",
-				"VariableDmg: 2"
+				"VariableDmg: 2",
+                "AmmoCost: 13"
             ]
-        },		
+        },
+        "AmmoCost": {
+            "PerUnitCost": 13
+        },
         "InventorySorter": {
             "SortKey": "00040"
         }
@@ -26,7 +31,7 @@
     "AmmoID": "Ammunition_LRM_Quicsell",
     "Capacity": 150,
     "Description": {
-        "Cost": 14000,
+        "Cost": 15000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

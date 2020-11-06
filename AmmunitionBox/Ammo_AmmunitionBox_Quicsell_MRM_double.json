@@ -9,14 +9,22 @@
             ]
         },
         "ComponentExplosion": {
-            "ExplosionDamagePerAmmo": 4,
+            "ExplosionDamagePerAmmo": 5,
             "StabilityDamagePerAmmo": 1
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "MRMAmmo: 560"
+                "Doubled",
+				"MissileHP: 2",
+                "MRMAmmo: 560",
+				"WeaponDamage: -0.5",
+				"VariableDmg: 2",
+                "AmmoCost: 11"
             ]
-        },
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 11
+          },
         "InventorySorter": {
             "SortKey": "000042"
         },
@@ -28,8 +36,8 @@
     "AmmoID" : "Ammunition_MRM_Quicsell",
     "Capacity" : 560,
     "Description" : {
-        "Cost" : 6600,
-        "Rarity" : 1,
+        "Cost" : 54000,
+        "Rarity" : 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
         "Model": "MRM QS",

@@ -16,9 +16,13 @@
             "Bonuses": [
 				"AC20Ammo: 6",
 				"WeaponDamage: -10",
-				"VariableDmg: 40"
+				"VariableDmg: 40",
+                "AmmoCost: 250"
             ]
-        },		
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 250
+          },	
         "InventorySorter": {
             "SortKey": "000008"
         }
@@ -26,7 +30,7 @@
     "AmmoID": "Ammunition_AC20_Quicsell",
     "Capacity": 6,
     "Description": {
-        "Cost": 27000,
+        "Cost": 12500,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

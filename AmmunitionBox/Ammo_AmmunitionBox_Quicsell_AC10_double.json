@@ -17,9 +17,13 @@
                 "Doubled",
 				"AC10Ammo: 28",
 				"WeaponDamage: -6",
-				"VariableDmg: 24"
+				"VariableDmg: 24",
+                "AmmoCost: 150"
             ]
-        },		
+          },
+          "AmmoCost" : {
+            "PerUnitCost" : 150
+          },	
         "InventorySorter": {
             "SortKey": "000007"
         }
@@ -27,7 +31,7 @@
     "AmmoID": "Ammunition_AC10_Quicsell",
     "Capacity": 28,
     "Description": {
-        "Cost": 60000,
+        "Cost": 36000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

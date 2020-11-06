@@ -17,9 +17,13 @@
                 "Doubled",
                 "AC2Ammo: 84",
 				"WeaponDamage: -2.5",
-				"VariableDmg: 10"
+				"VariableDmg: 10",
+                "AmmoCost: 63"
             ]
-        },		
+        },
+        "AmmoCost" : {
+          "PerUnitCost" : 63
+        },	
         "InventorySorter": {
             "SortKey": "000005"
         }
@@ -27,7 +31,7 @@
     "AmmoID": "Ammunition_AC2",
     "Capacity": 84,
     "Description": {
-        "Cost": 20000,
+        "Cost": 45000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

@@ -15,11 +15,16 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "Doubled",
+				"MissileHP: 3",
                 "SRMAmmo: 280",
 				"WeaponDamage: -1",
-				"VariableDmg: 4"
-            ]
-        },		
+				"VariableDmg: 4",
+                "AmmoCost: 25"
+             ]
+           },
+           "AmmoCost" : {
+             "PerUnitCost" : 25
+           },		
         "InventorySorter": {
             "SortKey": "000037"
         }
@@ -27,7 +32,7 @@
     "AmmoID": "Ammunition_SRM_Quicsell",
     "Capacity": 280,
     "Description": {
-        "Cost": 21000,
+        "Cost": 60000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
