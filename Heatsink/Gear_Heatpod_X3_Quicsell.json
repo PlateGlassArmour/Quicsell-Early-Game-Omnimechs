@@ -184,7 +184,7 @@
         "Id": "Gear_Heatpod_X3_Quicsell",
         "Name": "Heatpod X3 QS",
         "Details": "Mech too hot? Try Quicsell's patented HeatPods today! They dump molten salt on your heatsinks when you need that extra bit of edge. Now you may be asking yourself 'Won't that make the mech even hotter?'. Yes. Yes it will. But it will ALSO increase the thermal mass of your cooling system, allowing you to take the heat! <b><color=#099ff2>VOLATILE!</color></b>. Does Stack.",
-        "Icon": "uixSvgIcon_equipment_Heatsink"
+        "Icon": "CoolantPod"
     },
     "BonusValueA": "+10 Heat",
     "BonusValueB": "+25 Overheat",

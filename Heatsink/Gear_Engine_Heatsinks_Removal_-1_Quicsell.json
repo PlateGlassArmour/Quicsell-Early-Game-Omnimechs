@@ -1,22 +1,28 @@
 {
     "Custom": {
         "EngineHeatBlock": {
-            "HeatSinkCount": -2
+            "HeatSinkCount": -1
         },
+		"HeatSinkingCost" : {
+		"HeatUpkeepCost" : 1,
+        "HeatUpkeepMult" : 1.01
+    },
         "BonusDescriptions": {
             "Bonuses": [
                 "Whitespace",
-                "EngineHSAdd: -2"
+                "EngineHSAdd: -1",
+				"CoolantCost: 1",
+				"CoolantCostMulti: 1%"
             ]
         },
         "WorkOrderCosts": {
             "Default": {
-                "TechCost": "[[Chassis.Tonnage]] / 80",
-                "CBillCost": "6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+                "TechCost": "[[Chassis.Tonnage]] / 90",
+                "CBillCost": "8 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
             },
             "Install": {
-                "TechCost": "[[Chassis.Tonnage]] / 80",
-                "CBillCost": "6 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+                "TechCost": "[[Chassis.Tonnage]] / 90",
+                "CBillCost": "8 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
             }
         },
         "Category" : [
@@ -26,16 +32,16 @@
     },
     "DissipationCapacity": 0,
     "Description": {
-        "Cost": 300000,
+        "Cost": 125000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
-        "Model": "Engine Cooling",
-        "UIName": "Engine HS - 2 QS",
-        "Id": "Gear_Engine_Heatsinks_-2_Quicsell",
-        "Name": "Engine Cooling - 2 QS",
+        "Model": "Engine Heatsink Removal",
+        "UIName": "Engine HS Removal -1",
+        "Id": "Gear_Engine_Heatsinks_Removal_-1_Quicsell",
+        "Name": "Engine HS Removal -1",
         "Details": "Ever feel like engine heatsinks were a little bit <i>too</i> efficient? Well now you can do something about it, and gain some tonnage back for your mech at the same time. Try our negative engine cooling systems today!",
-        "Icon": "uixSvgIcon_equipment_Heatsink"
+        "Icon": "EngineCooling"
     },
     "BonusValueA": " ",
     "BonusValueB": " ",
@@ -44,7 +50,7 @@
     "PrefabIdentifier": "",
     "BattleValue": 0,
     "InventorySize": 1,
-    "Tonnage": -2.5,
+    "Tonnage": -1,
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,

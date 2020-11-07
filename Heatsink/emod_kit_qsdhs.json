@@ -2,16 +2,20 @@
     "Custom": {
         "BonusDescriptions": {
             "Bonuses": [
-                "CoolingSystemQSDHS"
+                "CoolingSystemQSDHS",
+				"CoolantCost: 7"
             ]
         },
+		"HeatSinkingCost" : {
+		"HeatUpkeepCost" : 7
+    },
         "Cooling": {
             "HeatSinkDefId": "Gear_HeatSink_Generic_Double_Quicsell"
         },
         "WorkOrderCosts": {
             "Default": {
                 "TechCost": "[[Chassis.Tonnage]] / 10",
-                "CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
+                "CBillCost": "[[Chassis.Tonnage]] / 5"
             },
             "Install": {
                 "TechCost": "[[Chassis.Tonnage]] / 5",
@@ -28,16 +32,16 @@
     },
     "DissipationCapacity": 0,
     "Description": {
-        "Cost": 1000000,
+        "Cost": 500000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
         "Model": "Engine Kit",
-        "UIName": "Heat Sink Kit (QS)",
+        "UIName": "Heat Sink Kit (D) QS",
         "Id": "emod_kit_qsdhs",
         "Name": "QSDHS Engine Kit",
         "Details": "Converts an SHS engine to Quicsell DHS. A Mech' <b>Cooling System</b> provides heat dissipation for components inside the mech and compatible extension points for additional heat sinks throughout the mech. It differs from the closed cooling system of the engine.",
-        "Icon": "uixSvgIcon_equipment_Heatsink"
+        "Icon": "thermometer-cold"
     },
     "BonusValueA": "",
     "BonusValueB": "",

@@ -3,10 +3,16 @@
         "EngineHeatBlock": {
             "HeatSinkCount": 2
         },
+		"HeatSinkingCost" : {
+		"HeatUpkeepCost" : 1,
+        "HeatUpkeepMult" : 1.02
+    },
         "BonusDescriptions": {
             "Bonuses": [
                 "Whitespace",
-                "EngineHSAdd: 2"
+                "EngineHSAdd: 2",
+				"CoolantCost: 1",
+				"CoolantCostMulti: 2%"
             ]
         },
         "WorkOrderCosts": {
@@ -26,16 +32,16 @@
     },
     "DissipationCapacity": 0,
     "Description": {
-        "Cost": 330000,
+        "Cost": 250000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
-        "Model": "Engine Cooling",
+        "Model": "Engine Cooling System",
         "UIName": "Engine HS + 2 QS",
         "Id": "Gear_Engine_Heatsinks_2_Quicsell",
         "Name": "Engine Cooling + 2 QS",
         "Details": "Engine HeatSinks done cheaper. If you need just a little bit more room in your Quicsell brand mech, then why not try a Quicsell brand Engine HS kit to go with it? Ask about our introductory offers at your local Quicsell distributer.",
-        "Icon": "uixSvgIcon_equipment_Heatsink"
+        "Icon": "EngineCooling"
     },
     "BonusValueA": " ",
     "BonusValueB": " ",

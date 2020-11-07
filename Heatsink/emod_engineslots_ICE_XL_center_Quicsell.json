@@ -1,8 +1,12 @@
 {
   "Custom": {
     "Weights": {
-      "EngineFactor": 1.2
+      "EngineFactor": 1.0
     },
+    "HeatSinkingCost" : {
+      "HeatUpkeepCost" : 3,
+        "HeatUpkeepMult" : 0.5
+      },
     "WorkOrderCosts": {
       "Install": {
         "TechCost": "[[Chassis.Tonnage]] / 2",
@@ -40,14 +44,15 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "EngineWeight: X1.2",
+        "EngineWeight: X1",
         "WalkSpeed: -15%",
-        "RunSpeed: -25%",
-		"Visibility: +25%",
+	    	"Visibility: +25%",
 				"Signature: +25%",
         "HeatGenerated: -40%",
         "ArmorTPCost: -15%",
-        "ArmorCBCost: -25%"
+        "ArmorCBCost: -25%",
+        "CoolantCost: 3",
+        "CoolantCostMulti: -50%"
       ]
     },
     "InventorySorter": {
@@ -57,6 +62,7 @@
       "ExplodeOnDamage": true,
       "CanNotBeActivatedManualy": true,
       "NoUniqueCheck": true,
+      "presistantVFXOutOfLOSHide": true,
       "presistantVFX": {
         "VFXPrefab": "vfxPrfPrtl_smokeStackPlume_sm_loop",
         "VFXScaleX":0.5,
@@ -81,9 +87,7 @@
         "TempDesignMaskTurnsActorStat": "EngineExplodeDesignMaskDuration",
         "TempDesignMaskCellRadiusActorStat": "EngineExplodeDesignMaskRadius"
       },
-      "statusEffects": [
-        
-      ]
+      "statusEffects": []
     }
   },
   "Description": {
@@ -94,11 +98,11 @@
     "Model": "I.C.E. XL",
     "UIName": "Engine I.C. XL QS",
     "Id": "emod_engineslots_ICE_XL_center_Quicsell",
-    "Name": "I.C. Engine",
+    "Name": "I.C. Engine XL",
     "Details": "Looking longingly at the sleek and modern fusion engines, but stuck with combustion engine budget? Try the next best thing from Quicsell today. Our XL Internal Combustion Engine is almost as light as one of those fancier engines, and it runs on petrochems!",
-    "Icon": "uixSvgIcon_equipment_Heatsink"
+    "Icon": "power-generator"
   },
-  "BonusValueA": "X1.2 Weight",
+  "BonusValueA": "X1 Weight",
   "BonusValueB": "-40% Heat",
   "ComponentType": "HeatSink",
   "ComponentSubType": "Heatsink",
@@ -144,7 +148,7 @@
             "targetingData": {
                 "effectTriggerType": "Passive",
                 "effectTargetType": "Creator",
-				"showInTargetPreview": false,
+			        	"showInTargetPreview": false,
                 "showInStatusPanel": false
             },
             "effectType": "StatisticEffect",
@@ -221,31 +225,6 @@
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
         "modValue": "0.85",
-        "modType": "System.Single"
-      },
-      "nature": "Buff"
-    },
-    {
-      "durationData": {
-        "duration": -1,
-        "stackLimit": 1
-      },
-      "targetingData": {
-        "effectTriggerType": "Passive",
-        "effectTargetType": "Creator",
-        "showInStatusPanel": false
-      },
-      "effectType": "StatisticEffect",
-      "Description": {
-        "Id": "ICERUN",
-        "Name": "ChargerSprint",
-        "Details": "MORE SPEED.",
-        "Icon": "uixSvgIcon_run_n_gun"
-      },
-      "statisticData": {
-        "statName": "RunSpeed",
-        "operation": "Float_Multiply",
-        "modValue": "0.75",
         "modType": "System.Single"
       },
       "nature": "Buff"
