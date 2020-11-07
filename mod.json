@@ -52,6 +52,16 @@
 			"Type": "MEBonusDescriptions",
 			"Path": "BonusDescriptions",
 			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Actuators",
+			"ShouldMergeJSON": false
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Cockpit",
+			"ShouldMergeJSON": false
 		}
 ]
 }
