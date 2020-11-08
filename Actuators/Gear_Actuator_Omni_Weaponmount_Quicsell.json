@@ -30,7 +30,7 @@
         "Id" : "Gear_Actuator_Omni_Weaponmount_Quicsell",
         "Name" : "Omnipod Weapon Mount QS",
         "Details" : "Our finest engineering has gone into making a unique product for Omnimechs everywhere, and they are far more than a normal weapon mount crudely welded onto a cast off omnipod, and I do not appreciate the accusations that they are!",
-        "Icon" : "uixSvgIcon_equipment_ActuatorArm"
+        "Icon" : "bracer"
     },
     "BonusValueA": "+ 2 Arm Mounted Accuracy",
     "BonusValueB": "- 4 Melee Accuracy",
