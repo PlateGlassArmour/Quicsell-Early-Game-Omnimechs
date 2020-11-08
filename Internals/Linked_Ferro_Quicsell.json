@@ -42,7 +42,7 @@
         "Id": "Linked_Ferro_Quicsell",
         "Name": "Ferro QS",
         "Details": "Try Quicsell's Ferro armor today! It's even lighter than that the ever popular Ferro-Fibrous armour and is only slightly bulkier. Reserves 12 slots.",
-        "Icon": "uixSvgIcon_quantity"
+        "Icon": "shieldcomb"
     },
     "BonusValueA": "-15% Armor Weight",
     "BonusValueB": "-5% Armor",
