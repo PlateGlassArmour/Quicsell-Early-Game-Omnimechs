@@ -52,7 +52,7 @@
                 "Id" : "LV_Advanced_Sensors",
                 "Name" : "Advanced Sensors",
                 "Details" : "Provides detailed information on enemy units",
-                "Icon" : "uixSvgIcon_status_ECM-ghost"
+                "Icon" : "uixSvgIcon_equipment_Comms"
             },
             "statisticData" : 
             {
