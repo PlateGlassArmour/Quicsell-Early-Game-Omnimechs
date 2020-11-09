@@ -2,87 +2,83 @@
   "Custom": {
     "Category": [
       {
-        "CategoryID": "w/e/p/hppc"
+        "CategoryID": "w/e/p/lppc"
       }
     ],
     "ComponentExplosion": {
-      "ExplosionDamage": 100,
-      "StabilityDamage": 50
+      "ExplosionDamage": 40,
+      "StabilityDamage": 20
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 4",
-	    	"Streak",
-        "WeaponBoom: 100",
+    		"Streak",
+        "WeaponBoom: 40",
         "PipsIgnored: 1",
-        "PPCDEBUFF: 2"
+        "WpnAccuracy: +1",
+        "PPCDEBUFF: 1"
       ]
     },
     "InventorySorter": {
-      "SortKey": "02014"
+      "SortKey": "02013"
     }
   },
   "Category": "Energy",
   "Type": "PPC",
   "WeaponSubType": "PPC",
-  "MinRange": 180,
-  "MaxRange": 750,
+  "MinRange": 0,
+  "MaxRange": 540,
   "RangeSplit": [
-    210,
-    300,
-    480
+    135,
+    270,
+    405
   ],
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
-  "HeatGenerated": 100,
-  "Damage": 100,
+  "HeatGenerated": 30,
+  "Damage": 30,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
   "HeatDamage": 0,
-  "AccuracyModifier": 0,
+  "AccuracyModifier": -1,
   "CriticalChanceMultiplier": 1,
-  "APArmorShardsMod": 0.2,
-  "APMaxArmorThickness": 130.0,
-  "APCriticalChanceMultiplier": 0.3,
+  "APArmorShardsMod": 0.25,
+  "APMaxArmorThickness": 45.0,
+  "APCriticalChanceMultiplier": 0.075,
   "AOECapable": false,
   "IndirectFireCapable": false,
-  "RefireModifier": 4,
+  "RefireModifier": 0,
   "ShotsWhenFired": 1,
   "ProjectilesPerShot": 1,
-  "AttackRecoil": 4,
-  "Instability": 20,
-  "ProjectileScale": {
-    "x": 1.2,
-    "y": 1.2,
-    "z": 3
-  },
-  "FireTerrainChance": 0.3,
+  "AttackRecoil": 3,
+  "Instability": 6,
+  "FireTerrainChance": 0.0875,
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
-    "Cost": 1000000,
-    "Rarity": 4,
+    "Cost": 500000,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
-    "Model": "Heavy Streak PPC",
-    "UIName": "Hv. Streak PPC QS",
-    "Id": "Weapon_PPC_PPC_Heavy_Streak_Quicsell",
-    "Name": "Hv. Streak PPC",
-    "Details": "Quicsell state of the art Heavy Streak PPC is guaranteed to hit your target. We've developed a truly breakthrough product that you can try today for only five easy payments of 199,999 CBills",
-    "Icon": "uixSvgIcon_weapon_Energy"
+    "Model": "Light Streak PPC",
+    "UIName": "Lt. Streak PPC QS",
+    "Id": "Weapon_PPC_LIGHT_Streak_Quicsell",
+    "Name": "Lt. Streak PPC",
+    "Details": "Quicsell state of the art Light Streak PPC is guaranteed to hit your target. We've developed a truly breakthrough product that you can try today for only five easy payments of 99,999 CBills",
+    "Icon": "PPC"
   },
   "BonusValueA": "1 Evasion Ignore",
   "BonusValueB": "Streak",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "PPC",
-  "BattleValue": 0,
-  "InventorySize": 6,
-  "Tonnage": 15,
+  "BattleValue": 90,
+  "InventorySize": 3,
+  "Tonnage": 4.5,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ClearMineFieldRadius": 8,
   "Streak": true,
   "statusEffects": [
     {
@@ -118,7 +114,7 @@
       "statisticData": {
         "statName": "LV_ECM_JAMMED",
         "operation": "Int_Add",
-        "modValue": "2",
+        "modValue": "1",
         "modType": "System.Int32"
       }
     }

@@ -18,7 +18,7 @@
   "Type": "SRM",
   "WeaponSubType": "SRM6",
   "MinRange": 0,
-  "MaxRange": 330,
+  "MaxRange": 360,
   "RangeSplit": [
     90,
     180,
@@ -59,7 +59,7 @@
     "Id": "Weapon_SRM_SRM10_Quicsell",
     "Name": "SRM10 QS",
     "Details": "Everyone knows that the more SRM's you fire at your enemy, the better, but all the other companies refuse to push the boundaries beyond the standard six missiles. Well not here at Quicsell. We've designed the first production line of SRM10 launchers for all the missiles you could ever need!* \n\n *Some conditions apply",
-    "Icon": "uixSvgIcon_weapon_Missile"
+    "Icon": "SRM"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -67,8 +67,8 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "srm6",
   "BattleValue": 0,
-  "InventorySize": 4,
-  "Tonnage": 6,
+  "InventorySize": 3,
+  "Tonnage": 4,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,

@@ -7,11 +7,13 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 2",
-        "MultiLaser",
+				"WpnCrits: +50%",
         "WpnAccuracy: +1",
         "PipsIgnored: +1",
-        "VariableDmg: 8",
+        "MultiLaser",
+				"AccuracyUnit: VTOL",
+				"AccuracyUnit2: +3",
+        "WpnRecoil: 2",
         "IsLaser"
       ]
     },
@@ -38,14 +40,17 @@
   "AmmoCategory": "NotSet",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 35,
-  "Damage": 10,
+  "Damage": 8,
   "OverheatedDamageMultiplier": 0,
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
-  "DamageVariance": 8,
+  "DamageVariance": 0,
   "HeatDamage": 0,
   "AccuracyModifier": -1,
-  "CriticalChanceMultiplier": 1,
+  "ChassisTagsAccuracyModifiers": {
+     "unit_vtol": -3
+  },
+  "CriticalChanceMultiplier": 1.5,
   "APArmorShardsMod": 0.1,
   "APMaxArmorThickness": 30.0,
   "APCriticalChanceMultiplier": 0.02,
@@ -53,12 +58,13 @@
   "IndirectFireCapable": false,
   "RefireModifier": 2,
   "ShotsWhenFired": 1,
-  "ProjectilesPerShot": 5,
+  "ProjectilesPerShot": 6,
   "AttackRecoil": 1,
   "Instability": 1,
   "FireTerrainChance": 0.03,
   "ImprovedBallistic": true,
   "BallisticDamagePerPallet": true,
+  "HitGenerator": "Cluster",
   "DamageNotDivided": true,
   "ColorsTable": [
         {
@@ -81,8 +87,8 @@
     "Details": "Quicsell's innovative LBX laser series makes it much more likely to hit a moving target. The accusations from our competitors that we are simply looking for a way to use up cracked focusing chambers from sub-par construction techniques are slander, pure and simple.",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA": "5 beams",
-  "BonusValueB": "8 Var.Dmg.",
+  "BonusValueA": "6 beams",
+  "BonusValueB": "2 Recoil",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Laser",
