@@ -1,25 +1,49 @@
 {
     "Custom": {
         "Category": [
-			{ "CategoryID": "w/a/o/artillery" }
+            {
+              "CategoryID": "HandHeldNoArmMelee"
+            },
+            {
+              "CategoryID": "HandHeld"
+            },
+            {
+              "CategoryID": "w/s/h/HandHeld"
+            },
+			{ "CategoryID": "w/a/o/artillery" },
+			{ "CategoryID": "CritsArtillery6" }
 		],
         "BonusDescriptions": {
             "Bonuses": [
                 "IsArtillery",
-				"1shot",
-				"WpnAccuracy: -1",
-                "DFAccuracy: -2",
-                "VariableDmg: 30",
+                "1shot",
+                "HandHeld: 6",
 				"NoAA",
-                "Indirect",
-				"SawedOffArtillery"
+				"Indirect",
+				"SawedOffArtillery",
+                "AmmoCost: 4340"
             ]
         },
+        "AmmoCost" : {
+          "PerUnitCost" : 4340
+        },
         "InventorySorter": {
-            "SortKey": "01332"
+            "SortKey": "01330"
+        },
+        "Flags": {
+          "flags": [
+            "not_broken",
+            "not_destroyed",
+            "ignore_damage"
+          ]
+        },
+        "MechConfiguration": {},
+        "HandHeld": {
+          "Tonnage": 6,
+          "HandsUsed": true
         }
-    },
-    "Category": "Ballistic",
+      },
+      "weaponCategoryID": "Special",
     "Type": "Autocannon",
     "WeaponSubType": "AC20",
     "MinRange": 60,
@@ -29,36 +53,31 @@
         520,
         780
     ],
-    "AmmoCategory": "MagShot",
+    "AmmoCategory": "LongTom",
     "StartingAmmoCapacity": 1,
-    "HeatGenerated": 60,
-    "Damage": 90,
+    "HeatGenerated": 0,
+    "Damage": 150,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
-    "DamageVariance": 30,
+    "DamageVariance": 0,
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
-	"APArmorShardsMod": 0,
-	"APMaxArmorThickness": 1,
-	"APCriticalChanceMultiplier": 0.1,
-    "RefireModifier": 5,
+    "APArmorShardsMod": 1,
+    "APMaxArmorThickness": 300,
+    "APCriticalChanceMultiplier": 0.5,
+    "RefireModifier": 4,
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
     "AttackRecoil": 6,
-    "Instability": 30,
+    "Instability": 35,
+    "Cooldown": 99,
     "AMSImmune": true,
     "FireTerrainChance": 0.085,
 	"CantHitUnaffecedByPathing": true,
-    "AOECapable": true,
-	"AOERange": 250,
-	"AOEDamage": 80,
-	"AdditionalImpactVFX":"WFX_BELarger",
-    "AdditionalImpactVFXScaleX": 1,
-    "AdditionalImpactVFXScaleY": 1,
-    "AdditionalImpactVFXScaleZ": 1,
-    "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+    "ImprovedBallistic": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
     "Description": {
         "Cost": 350000,
         "Rarity": 10,
@@ -69,29 +88,29 @@
         "Id": "Weapon_Artillery_LONGTOM_Oneshot_Quicsell",
         "Name": "Oneshot Long Tom Artillery QS",
         "Details": "Need to hit someone in another county, but don't want to drag around an entire artillery piece? Try the Quicsell one-shot artillery line up today. We've cut the weight down by 80% by removing unneccessary parts like the breech, so you can give your enemies a nice surprise from over the horizon. When you set it off, we guarantee that someone's day is going to be ruined. \n\n <b><color=#ffcc00>1 SHOT</color></b>",
-        "Icon": "uixSvgIcon_weapon_Ballistic"
+        "Icon": "Artillery"
     },
     "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "artillery",
-    "BattleValue": 0,
-    "InventorySize": 6,
-    "Tonnage": 6,
+    "BattleValue": 30,
+    "InventorySize": 1,
+    "Tonnage": 0,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "ImprovedBallistic": true,
     "AlwaysIndirectVisuals": true,
     "IndirectFireCapable": true,
-    "ForbiddenRange": 60,
     "statusEffects": [],
     "ComponentTags": {
         "items": [
             "OmniRestriction.{location}",
+			"TurretRestriction.{location}",
             "component_type_stock",
-            "range_extreme"
+            "range_extreme",
+            "HandHeld"
         ],
         "tagSetSourceFile": ""
     }

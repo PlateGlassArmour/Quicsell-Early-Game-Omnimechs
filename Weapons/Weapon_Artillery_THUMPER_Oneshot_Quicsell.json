@@ -1,25 +1,51 @@
 {
     "Custom": {
         "Category": [
-			{ "CategoryID": "w/a/o/artillery" }
+            {
+              "CategoryID": "HandHeldNoArmMelee"
+            },
+            {
+              "CategoryID": "HandHeld"
+            },
+            {
+              "CategoryID": "w/s/h/HandHeld"
+            },
+			{ "CategoryID": "w/a/o/artillery" },
+			{ "CategoryID": "CritsArtillery6" }
 		],
         "BonusDescriptions": {
             "Bonuses": [
                 "IsArtillery",
-				"1shot",
+                "1shot",
+                "HandHeld: 3",
+                "WpnCrits: x2",
 				"WpnAccuracy: -1",
-                "DFAccuracy: -2",
-                "VariableDmg: 10",
 				"NoAA",
 				"Indirect",
-				"SawedOffArtillery"
+				"SawedOffArtillery",
+                "AmmoCost: 1860"
             ]
         },
+        "AmmoCost" : {
+          "PerUnitCost" : 1860
+        },
         "InventorySorter": {
-            "SortKey": "01332"
+            "SortKey": "01330"
+        },
+        "Flags": {
+          "flags": [
+            "not_broken",
+            "not_destroyed",
+            "ignore_damage"
+          ]
+        },
+        "MechConfiguration": {},
+        "HandHeld": {
+          "Tonnage": 3,
+          "HandsUsed": true
         }
-    },
-    "Category": "Ballistic",
+      },
+      "weaponCategoryID": "Special",
     "Type": "Autocannon",
     "WeaponSubType": "AC20",
     "MinRange": 0,
@@ -29,37 +55,30 @@
         440,
         660
     ],
-    "AmmoCategory": "MagShot",
+    "AmmoCategory": "Thumper",
     "StartingAmmoCapacity": 1,
-    "HeatGenerated": 20,
-    "Damage": 50,
+    "HeatGenerated": 0,
+    "Damage": 75,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
-    "DamageVariance": 10,
     "HeatDamage": 0,
-    "AccuracyModifier": 0,
-    "CriticalChanceMultiplier": 1,
-	"APArmorShardsMod": 0,
-	"APMaxArmorThickness": 1,
-	"APCriticalChanceMultiplier": 0.1,
+    "AccuracyModifier": 1,
+    "CriticalChanceMultiplier": 2,
+    "APArmorShardsMod": 1,
+    "APMaxArmorThickness": 150,
+    "APCriticalChanceMultiplier": 0.5,
     "RefireModifier": 3,
     "ShotsWhenFired": 1,
     "ProjectilesPerShot": 1,
-    "AttackRecoil": 4,
-    "Instability": 21,
+    "AttackRecoil": 1,
+    "Instability": 20,
+    "Cooldown": 99,
     "AMSImmune": true,
-    "FireTerrainChance": 0.042,
-	"CantHitUnaffecedByPathing": true,
-	"AOECapable": true,
-    "AOERange": 100,
-    "AOEDamage": 40,
-    "AOEInstability": 11,
-    "AdditionalImpactVFX": "WFX_ExplosiveSmokeS",
-    "AdditionalImpactVFXScaleX": 1,
-    "AdditionalImpactVFXScaleY": 1,
-    "AdditionalImpactVFXScaleZ": 1,
-    "WeaponEffectID": "WeaponEffect-Weapon_AC5",
+    "FireTerrainChance": 0.08,
+    "CantHitUnaffecedByPathing": true,
+    "ImprovedBallistic": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
     "Description": {
         "Cost": 250000,
         "Rarity": 0,
@@ -70,28 +89,29 @@
         "Id": "Weapon_Artillery_THUMPER_Oneshot_Quicsell",
         "Name": "Oneshot Thumper Artillery QS",
         "Details": "Need to hit someone in another county, but don't want to drag around an entire artillery piece? Try the Quicsell one-shot artillery line up today. We've cut the weight down by 80% by removing unneccessary parts like the breech, so you can give your enemies a nice surprise from over the horizon. When you set it off, we guarantee that someone's day is going to be ruined. \n\n <b><color=#ffcc00>1 SHOT</color></b>",
-        "Icon": "uixSvgIcon_weapon_Ballistic"
+        "Icon": "Artillery"
     },
     "BonusValueA": "",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "artillery",
-    "BattleValue": 0,
-    "InventorySize": 4,
-    "Tonnage": 3,
+    "BattleValue": 10,
+    "InventorySize": 1,
+    "Tonnage": 0,
     "AllowedLocations": "All",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
-    "ImprovedBallistic": true,
     "AlwaysIndirectVisuals": true,
     "IndirectFireCapable": true,
     "statusEffects": [],
     "ComponentTags": {
         "items": [
             "OmniRestriction.{location}",
+			"TurretRestriction.{location}",
             "component_type_stock",
-            "range_extreme"
+            "range_extreme",
+            "HandHeld"
         ],
         "tagSetSourceFile": ""
     }

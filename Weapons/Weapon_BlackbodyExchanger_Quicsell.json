@@ -1,0 +1,179 @@
+{
+    "Custom": {
+      "Category": [
+        {
+          "CategoryID": "w/e/p/flamer"
+        },
+        {"CategoryID": "CritsHeatWeapon4"}
+      ],
+      "ComponentExplosion": {
+        "HeatDamage": 10
+      },
+      "BonusDescriptions": {
+        "Bonuses": [
+        "PipsIgnored: 3",
+        "WpnAccuracy: -2",
+        "ModesCanMisfire",
+        "DmgFallOff: 30%",
+        "MisfireChanceMode1: 33%, Danger!",
+        "AccuracyUnit: Battle Armor",
+        "AccuracyUnit2: +5",
+        "NoAA"
+        ]
+      },
+      "InventorySorter": {
+        "SortKey": "02001"
+      }
+    },
+    "Category": "Energy",
+    "Type": "Flamer",
+    "WeaponSubType": "Flamer",
+    "MinRange": 0,
+    "MaxRange": 120,
+    "RangeSplit": [
+      30,
+      60,
+      90
+    ],
+    "AmmoCategory": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 3,
+    "Damage": 5,
+    "OverheatedDamageMultiplier": 1,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 3,
+    "DamageVariance": 0,
+    "HeatDamage": 5,
+    "DistantVariance": 0.30,
+    "ChassisTagsAccuracyModifiers": {
+        "unit_powerarmor": -5
+    },
+    "DistantVarianceReversed": false,
+    "isHeatVariation": true,
+    "isStabilityVariation": true,
+    "isDamageVariation": true,
+    "AccuracyModifier": 2,
+    "CriticalChanceMultiplier": 0.1,
+    "APArmorShardsMod": 0.1,
+    "APMaxArmorThickness": 1,
+    "APCriticalChanceMultiplier": 0.01,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 0,
+    "FireTerrainChance": 0,
+    "AdditionalImpactVFX": "WFX_SPlasma",
+    "AdditionalImpactVFXScaleX": 1,
+    "AdditionalImpactVFXScaleY": 1,
+    "AdditionalImpactVFXScaleZ": 1,
+    "ImprovedBallistic": true,
+    "ColorChangeRule": "t0",
+    "ProjectileSpeedMultiplier": 0.75,
+    "ProjectileScale": {
+      "x": 1,
+      "y": 1,
+      "z": 0.7
+    },
+    "ColorsTable": [
+      {
+        "C": "#a60000",
+        "I": 1
+      },
+      {
+        "C": "#a60000",
+        "I": 3
+      },
+      {
+        "C": "#a60000",
+        "I": 5
+      }
+    ],
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+    "Description": {
+      "Cost": 30000,
+      "Rarity": 3,
+      "Purchasable": true,
+      "Manufacturer": "Quicsell",
+      "Model": "Blackbody Exchanger",
+      "UIName": "Blackbody Exchanger",
+      "Id": "Weapon_BlackbodyExchanger_Quicsell",
+      "Name": "Blackbody Exchanger",
+      "Details": "Why simply vent heat, when you can inflict it upon your enemies! If your mech is starting to glow, share the love with those close to you. <b><color=#099ff2>VOLATILE!</color></b>",
+      "Icon": "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA": "Better when hot",
+    "BonusValueB": "+10 (H) when over 30",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Flamer",
+    "BattleValue": 10,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "Modes": [
+      {
+        "Id": "Cold",
+        "UIName": "Cold",
+        "isBaseMode": true,
+        "ColorChangeRule": "t0",
+        "Lock": {
+          "HeatLevel": {
+            "Low": 0,
+            "High": 30
+          }
+        }
+      },
+      {
+        "Id": "Hot",
+        "UIName": "Active",
+        "isBaseMode": false,
+        "ColorChangeRule": "t1",
+        "DamagePerShot": 5,
+        "HeatDamagePerShot": 15,
+        "FireTerrainChance": 0.6,
+        "Lock": {
+          "HeatLevel": {
+            "Low": 30,
+            "High": 90
+          }
+        }
+      },
+      {
+        "Id": "Overheat",
+        "UIName": "Danger!",
+        "isBaseMode": false,
+        "ColorChangeRule": "t2",
+        "DamagePerShot": 10,
+        "HeatDamagePerShot": 15,
+        "AOECapable" : true,
+        "AOERange": 120,
+        "AOEDamage": 5,
+        "AOEHeatDamage": 15,
+        "FireTerrainChance": 0.9,
+        "FireTerrainCellRadius":2,
+        "Lock": {
+          "HeatLevel": {
+            "Low": 90,
+            "High": 600
+          }
+        },
+        "DamageOnJamming": true,
+        "FlatJammingChance": 0.33,
+        "GunneryJammingMult": 0.01,
+        "GunneryJammingBase": 1
+      }
+    ],
+    "statusEffects": [],
+    "ComponentTags": {
+      "items": [
+        "component_type_stock",
+        "range_close"
+      ],
+      "tagSetSourceFile": ""
+    }
+  }

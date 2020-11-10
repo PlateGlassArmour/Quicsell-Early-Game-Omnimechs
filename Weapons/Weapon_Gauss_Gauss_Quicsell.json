@@ -13,7 +13,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "IsGauss",
-		"DmgFallOff: 36",
+		    "DmgFallOff: 36",
         "DakkaBoom: 75"
       ]
     },
@@ -24,12 +24,12 @@
   "Category": "Ballistic",
   "Type": "Gauss",
   "WeaponSubType": "Gauss",
-  "MinRange": 120,
-  "MaxRange": 780,
+  "MinRange": 60,
+  "MaxRange": 900,
   "RangeSplit": [
-    240,
-    480,
-    720
+    210,
+    450,
+    660
   ],
   "AmmoCategory": "AC2",
   "StartingAmmoCapacity": 0,
@@ -42,9 +42,9 @@
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
-  "APArmorShardsMod": 0.75,
-  "APMaxArmorThickness": 100,
-  "APCriticalChanceMultiplier": 0.2,
+  "APArmorShardsMod": 0.50,
+  "APMaxArmorThickness": 210,
+  "APCriticalChanceMultiplier": 1.05,
   "AOECapable": false,
   "IndirectFireCapable": false,
   "RefireModifier": 0,
@@ -55,15 +55,15 @@
   "WeaponEffectID": "WeaponEffect-Weapon_AC10",
   "Description": {
     "Cost": 165000,
-    "Rarity": 2,
+    "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
     "Model": "Hypervelocity Cannon",
     "UIName": "'Gauss' Rifle QS",
     "Id": "Weapon_Gauss_Gauss_Quicsell",
     "Name": "'Gauss' Rifle QS",
-    "Details": "A 'Gauss' Rifle for those who can't get their hands on enough of the ever hard to find Gauss ammo, our version completely sidesteps the problem by using an AC2 round! And wait, there's more! Our special construction techniques mean that the gun doesn't require any power from your reactor at all! <b><color=#099ff2>VOLATILE!</color></b> \n\n <b><color=#ffcc00>Uses AC2 Ammo.</color></b>",
-    "Icon": "uixSvgIcon_weapon_Ballistic"
+    "Details": "A 'Gauss' Rifle for those who can't get their hands on enough of the ever hard to find Gauss ammo, our version completely sidesteps the problem by using an AC2 round! <b><color=#099ff2>VOLATILE!</color></b> \n\n <b><color=#ffcc00>Uses AC2 Ammo.</color></b>",
+    "Icon": "GAUSS"
   },
   "BonusValueA": "",
   "BonusValueB": "",
@@ -71,13 +71,16 @@
   "ComponentSubType": "Weapon",
   "PrefabIdentifier": "Gauss",
   "BattleValue": 0,
-  "InventorySize": 6,
+  "InventorySize": 4,
   "Tonnage": 15,
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "ImprovedBallistic": true,
   "CriticalComponent": false,
   "DistantVariance": 0.36,
+  "RangedDmgFalloffType": "Linear",
+  "DamageFalloffStartDistance": 60,
+  "DamageFalloffEndDistance": 900,
   "statusEffects": [
 
   ],
