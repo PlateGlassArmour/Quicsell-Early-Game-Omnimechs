@@ -11,11 +11,11 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-        "WpnRecoil: 4",
 	    	"Streak",
         "WeaponBoom: 100",
         "PipsIgnored: 1",
         "WpnAccuracy: +1",
+        "WpnRecoil: 4",
         "PPCDEBUFF: 2"
       ]
     },
@@ -68,7 +68,7 @@
     "Manufacturer": "Quicsell",
     "Model": "Heavy Streak PPC",
     "UIName": "Hv. Streak PPC QS",
-    "Id": "Weapon_PPC_Heavy_Streak_Quicsell",
+    "Id": "Weapon_PPC_HEAVY_Streak_Quicsell",
     "Name": "Hv. Streak PPC",
     "Details": "Quicsell state of the art Heavy Streak PPC is guaranteed to hit your target. We've developed a truly breakthrough product that you can try today for only five easy payments of 199,999 CBills",
     "Icon": "PPC"

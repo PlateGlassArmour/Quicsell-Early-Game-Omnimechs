@@ -42,6 +42,7 @@
   "isStabilityVariation": true,
   "isDamageVariation": true,
   "RangedDmgFalloffType": "Quadratic",
+  "DamageFalloffStartDistance": 0,
   "DamageFalloffEndDistance": 600,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.2,
