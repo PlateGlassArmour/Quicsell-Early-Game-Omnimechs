@@ -1,13 +1,21 @@
 {
-	"Custom": {
-		"Category" : [
-            {"CategoryID": "CockpitSensors"},
-			{"CategoryID": "CockpitFCS"}
-		]
-		},
+    "Custom": {
+        "Category": [
+        {
+            "CategoryID": "CockpitFCS"
+        },
+        { 
+            "CategoryID": "CockpitSensors"
+        }  
+    ],
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "[[Chassis.Tonnage]] / 12",
+                "CBillCost": "[[Chassis.Tonnage]] * 1"
+            }
+        },
 		"BonusDescriptions": {
             "Bonuses": [
-				
 				"Sensors: +20%",
 				"CockpitSensors: 1",
 				"FCS"
@@ -15,21 +23,19 @@
         },
         "InventorySorter": {
             "SortKey": "00201"
-        },
-		"Flags": {
-			"Flags": [
-				"not_broken",
-				"default"
-			]
-		},
-    "Description" : {
+        }
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
         "Cost" : 0,
         "Rarity" : 0,
         "Purchasable" : false,
         "Manufacturer" : "Quicsell",
         "Model" : "Combined Sensor System",
         "UIName" : "Sensors FCS QS",
-        "Id" : "Gear_Cockpit_SensorsFCS_Quicsell",
+        "Id" : "Gear_SensorsFCS_Quicsell",
         "Name" : "Sensors FCS QS",
         "Details" : "Sensors and FCS do basically the same thing, right? Well why not save weight for something more important, like GUNS? Quicsell now provides your one stop shopping for combined sensors and FCS need. We even managed to make the sensors stonger by combining things!",
         "Icon" : "uixSvgIcon_equipment_TTS"
