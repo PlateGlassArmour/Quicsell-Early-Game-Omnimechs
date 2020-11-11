@@ -27,7 +27,7 @@
     360,
     540
   ],
-  "AmmoCategory": "UAC10",
+  "AmmoCategory": "AC10",
   "StartingAmmoCapacity": 0,
   "HeatGenerated": 21,
   "Damage": 60,
@@ -79,6 +79,7 @@
   "GunneryJammingMult": 0.01,
   "GunneryJammingBase": 0,
   "DamageOnJamming": true,
+  "HitGenerator": "Streak",
   "statusEffects": [],
   "ComponentTags": {
     "items": [
