@@ -5,7 +5,7 @@
         }],
         "BonusDescriptions": {
             "Bonuses": [
-                "JumpCapacity: 0.7",
+                "JumpCapacity: 0.75",
 				"JumpHeat: 3",
 				"MinWeightJJ: 90",
 				"MaxWeightJJ: 100",
@@ -16,7 +16,7 @@
             "SortKey": "00028"
         }
     },
-    "JumpCapacity": 0.70,
+    "JumpCapacity": 0.75,
     "MinTonnage": 90,
     "MaxTonnage": 100,
     "Description": {
@@ -31,7 +31,7 @@
         "Details": "Jump Jet Lite! Only half the weight, and nearly the same power as a normal jumpjet. Buy a value pack today and get double discounts!",
         "Icon": "uixSvgIcon_action_jump"
     },
-    "BonusValueA": "-30% Jump",
+    "BonusValueA": "-25% Jump",
     "BonusValueB": "-50% Weight",
     "ComponentType": "JumpJet",
     "ComponentSubType": "Functionality",
