@@ -35,6 +35,12 @@
         "Short": "Double AC",
         "Long": "Double Autocannon",
         "Full": "Double Autocannons always fire two shots and hit or miss with both"
+      },
+      {
+          "Bonus": "OmniECMAura",
+          "Short": "OmniECM",
+          "Long": "OmniECM",
+          "Full": "Persistent ECM Jams Everyone within {0} Meters by {1}."
       }
     ]
   }

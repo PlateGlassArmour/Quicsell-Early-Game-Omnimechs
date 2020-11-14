@@ -8,6 +8,5 @@ super-duper-charger
 Rubberized coating
 Shiny armor
 Caltrop launcher
-REX pulse laser
-indirect only LRM's
 Arrow 3
+thermal mass bolt-on

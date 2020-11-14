@@ -10,6 +10,12 @@
 		"RogueTech Enhanced",
 		"RogueTech Enhanced Clans"
 	],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.AmmoCategoryEnumeration",
+            "path": "AmmoCategory.json"
+        }
+    ],
 	"Manifest": [
 		{
 			"Type": "MechDef",
@@ -55,13 +61,23 @@
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "Actuators",
-			"ShouldMergeJSON": false
+			"Path": "Actuators"
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "Cockpit",
-			"ShouldMergeJSON": false
+			"Path": "Cockpit"
+		},
+		{
+			"Type": "AbilityDef",
+			"Path": "Abilities"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "Widget"
+		},
+		{
+			"Type": "WeaponDef",
+			"Path": "Widget"
 		}
 ]
 }
