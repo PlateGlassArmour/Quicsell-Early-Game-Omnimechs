@@ -15,7 +15,7 @@
       ]
     },
     "InventorySorter": {
-      "SortKey": "02004"
+      "SortKey": "02310"
     }
   },
   "Category": "Energy",
@@ -47,6 +47,8 @@
   "isHeatVariation": true,
   "isStabilityVariation": true,
   "isDamageVariation": true,
+  "DamageFalloffStartDistance": 30,
+  "DamageFalloffEndDistance": 300,
   "CriticalChanceMultiplier": 1,
   "APArmorShardsMod": 0.1,
   "APMaxArmorThickness": 42.0,
