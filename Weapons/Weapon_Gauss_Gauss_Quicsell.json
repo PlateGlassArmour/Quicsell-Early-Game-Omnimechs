@@ -13,7 +13,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "IsGauss",
-		    "DmgFallOff: 36",
+		    "DmgFallOff: 36%",
         "DakkaBoom: 75"
       ]
     },
