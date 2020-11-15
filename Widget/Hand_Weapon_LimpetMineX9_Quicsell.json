@@ -108,7 +108,7 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "ImprovedBallistic": true,
-    "SpreadRange": 150,
+    "SpreadRange": 120,
     "ProjectileScale": {"x":10,"y":10,"z":10},
     "ProjectileSpeedMultiplier": 0.5,
     "FireDelayMultiplier": 50,
