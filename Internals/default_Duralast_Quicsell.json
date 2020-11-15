@@ -3,46 +3,38 @@
         "Color": {
             "UIColor": "Gold"
         },
-		"DynamicSlots": {
-            "ReservedSlots": 4,
-            "BackgroundColor": "GoldHalf",
-            "ShowIcon": false,
-            "NameText": "Ferro",
-            "BonusAText": "Dynamic Slot",
-            "BonusBText": " "
-        },
         "Linked": {
             "Links": [
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "Head"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "CenterTorso"
                 },
 				{
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "LeftTorso"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "RightTorso"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "LeftArm"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "RightArm"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "LeftLeg"
                 },
                 {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
+                    "ComponentDefId": "Linked_Duralast_Quicsell",
                     "Location": "RightLeg"
                 }
             ]
@@ -52,11 +44,11 @@
         "WorkOrderCosts": {
             "Install": {
                 "TechCost": "1.1 * [[Chassis.Tonnage]] / 20",
-                "CBillCost": "30 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
+                "CBillCost": "60 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]]"
             }
         },
         "Weights": {
-            "ArmorFactor": 0.85
+            "ArmorFactor": 1.2
         },
         "Category": [{
             "CategoryID": "Armor"
@@ -65,13 +57,21 @@
             "ArmorTPCost": 0.9,
             "ArmorCBCost": 0.95
         },
+        "Flags": {
+            "flags": [
+                "default",
+                "not_broken",
+                "no_salvage"
+            ]
+        },
         "BonusDescriptions": {
             "Bonuses": [
-                "ArmorFactor: -15%",
-				"ArmorProtection: -5%",
-                "Reserved: 12",
+                "TACImmune",
+                "DamageTaken: -5%",
+                "ArmorFactor: +20%",
+                "Reserved: 8",
                 "ArmorTPCost: -10%",
-                "ArmorCBCost: -15%"
+                "ArmorCBCost: -5%"
             ]
         },
         "InventorySorter": {
@@ -82,19 +82,19 @@
     "RelativeModifier": 0,
     "AbsoluteModifier": 0,
     "Description": {
-        "Cost": 170000,
+        "Cost": 300000,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
-        "Model": "Ferro",
-        "UIName": "Ferro QS",
-        "Id": "Gear_Ferro_Quicsell",
-        "Name": "Ferro QS",
-        "Details": "Try Quicsell's Ferro armor today! It's even lighter than that the ever popular Ferro-Fibrous armour and is only slightly bulkier. Reserves 12 slots.",
+        "Model": "Duralast",
+        "UIName": "Duralast QS",
+        "Id": "default_Duralast_Quicsell",
+        "Name": "Duralast QS",
+        "Details": "Need more protection for your mech, but can't afford those other armors? Buy Quicsell branded Duralast armor lining today. Cheap to buy, and fast to repair, our armor leaves you adequately protected. Reserves 8 slots.",
         "Icon": "shieldcomb"
     },
-    "BonusValueA": "-15% Armor Weight",
-    "BonusValueB": "-5% Armor",
+    "BonusValueA": "TAC Immune",
+    "BonusValueB": "5% Less Dmg Taken",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -105,6 +105,31 @@
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "HardenedCritImmune",
+                "Name": "ChargerSprint",
+                "Details": "MORE SPEED.",
+                "Icon": "uixSvgIcon_run_n_gun"
+            },
+            "statisticData": {
+                 "statName": "CACAPProtection",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        },
         {
             "durationData": {
                 "duration": -1,
@@ -139,7 +164,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "DamageReductionMultiplierAll",
                 "operation": "Float_Add",
-                "modValue": "0.05",
+                "modValue": "-0.05",
                 "modType": "System.Single"
             },
             "nature": "Buff"

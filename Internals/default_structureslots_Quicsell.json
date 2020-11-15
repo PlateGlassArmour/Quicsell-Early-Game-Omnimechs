@@ -1,5 +1,8 @@
 {
     "Custom": {
+        "Category": [{
+            "CategoryID": "Structure"
+        }],
         "Color": {
             "UIColor": "Orange"
         },
@@ -19,14 +22,13 @@
             "StructureTPCost": 0.65,
             "StructureCBCost": 0.5
         },
-        "Category": [{
-            "CategoryID": "Structure"
-        }],
         "Flags": {
             "flags": [
+                "default",
                 "ignore_damage",
                 "autorepair",
-                "not_broken"
+                "not_broken",
+                "no_salvage"
             ]
         },
         "BonusDescriptions": {
@@ -39,6 +41,9 @@
         },
         "InventorySorter": {
             "SortKey": "00010"
+        },
+		"Lootable": {
+            "ItemID": "Gear_structureslots_Quicsell"
         }
     },
     "StatName": null,
@@ -47,11 +52,11 @@
     "Description": {
         "Cost": 333000,
         "Rarity": 4,
-        "Purchasable": true,
+        "Purchasable": false,
         "Manufacturer": "Quicsell",
         "Model": "Standard",
         "UIName": "Structure QS",
-        "Id": "Gear_structureslots_Quicsell",
+        "Id": "default_structureslots_Quicsell",
         "Name": "Structure QS",
         "Details": "At Quicsell, we understand that the bottom line is more important than anything, so we've designed our mech's structure to be as cheap and easy to repair as possible. It's even lighter as a side benifit. Win, win!",
         "Icon": "Structure"

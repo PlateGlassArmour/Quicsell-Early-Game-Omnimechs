@@ -65,6 +65,13 @@
             "ArmorTPCost": 0.9,
             "ArmorCBCost": 0.95
         },
+        "Flags": {
+            "flags": [
+                "default",
+                "not_broken",
+                "no_salvage"
+            ]
+        },
         "BonusDescriptions": {
             "Bonuses": [
                 "ArmorFactor: -15%",
@@ -76,6 +83,9 @@
         },
         "InventorySorter": {
             "SortKey": "00009"
+        },
+		"Lootable": {
+            "ItemID": "Gear_Ferro_Quicsell"
         }
     },
     "StatName": null,
@@ -88,7 +98,7 @@
         "Manufacturer": "Quicsell",
         "Model": "Ferro",
         "UIName": "Ferro QS",
-        "Id": "Gear_Ferro_Quicsell",
+        "Id": "default_Ferro_Quicsell",
         "Name": "Ferro QS",
         "Details": "Try Quicsell's Ferro armor today! It's even lighter than that the ever popular Ferro-Fibrous armour and is only slightly bulkier. Reserves 12 slots.",
         "Icon": "shieldcomb"
