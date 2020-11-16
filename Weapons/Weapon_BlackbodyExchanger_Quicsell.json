@@ -98,9 +98,9 @@
       "Purchasable": true,
       "Manufacturer": "Quicsell",
       "Model": "Blackbody Exchanger",
-      "UIName": "Blackbody Exchanger",
+      "UIName": "Blackbody Exchanger QS",
       "Id": "Weapon_BlackbodyExchanger_Quicsell",
-      "Name": "Blackbody Exchanger",
+      "Name": "Blackbody Exchanger QS",
       "Details": "Why simply vent heat, when you can inflict it upon your enemies! If your mech is starting to glow, share the love with those close to you. <b><color=#099ff2>VOLATILE!</color></b>",
       "Icon": "uixSvgIcon_equipment_Heatsink"
     },

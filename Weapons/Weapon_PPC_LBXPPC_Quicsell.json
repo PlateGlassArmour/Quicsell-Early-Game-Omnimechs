@@ -75,10 +75,10 @@
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
-    "Model": "LBXPPC",
-    "UIName": "LBXPPC QS",
+    "Model": "LBX PPC",
+    "UIName": "LBX PPC QS",
     "Id": "Weapon_PPC_LBXPPC_Quicsell",
-    "Name": "LBXPPC",
+    "Name": "LBX PPC",
     "Details": "It's not a 'containment failure', it's a 'surprise feature'! Now you'll have a much easier time hitting moving targets with a ppc.",
     "Icon": "PPC"
   },
@@ -101,7 +101,7 @@
         "useActivationsOfTarget": true,
         "ticksOnEndOfRound": false,
         "ticksOnMovements": false,
-        "stackLimit": 1,
+        "stackLimit": -1,
         "clearedWhenAttacked": false
       },
       "targetingData": {

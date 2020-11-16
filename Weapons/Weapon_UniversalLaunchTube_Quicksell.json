@@ -63,7 +63,7 @@
     "Model": "Universal Launch Tube",
     "UIName": "ULT QS",
     "Id": "Weapon_UniversalLaunchTube_Quicsell",
-    "Name": "Universal Launch Tube",
+    "Name": "Universal Launch Tube QS",
     "Details": "Want missiles, but can't decide what to use? Try Quicsell's Universal Launch Tube today. We've got SRMs, we've got LRMs, we've got MRM and ATMs, and if you need streaks? Well we've got them too.",
     "Icon": "uixSvgIcon_weapon_Missile"
   },

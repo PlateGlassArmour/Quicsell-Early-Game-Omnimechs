@@ -62,9 +62,9 @@
     "Purchasable": true,
     "Manufacturer": "Quicsell",
     "Model": "Heavy Small Chem Laser",
-    "UIName": "Hv. Sm. Chem Laser",
+    "UIName": "Hv. Sm. Chem Laser QS",
     "Id": "Weapon_Laser_HeavySmallLaser_Chemical_Quicsell",
-    "Name": "Hv. Sm. Chem Laser",
+    "Name": "Hv. Sm. Chem Laser QS",
     "Details": "The output of a Heavy Small Laser for the same heat as a Small Laser. What's not to like? Buy Quicsell's chem laser ammo subscription service today to keep you supplied!  \n\n <b><color=#ffcc00>Uses Chem Small Ammo.</color></b>",
     "Icon": "ChemLaser"
   },

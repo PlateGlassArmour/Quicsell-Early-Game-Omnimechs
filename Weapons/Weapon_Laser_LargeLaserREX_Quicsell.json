@@ -89,9 +89,9 @@
     "Purchasable": true,
     "Manufacturer": "Quicsell",
     "Model": "Large REX Laser",
-    "UIName": "Large REX Laser",
+    "UIName": "Large REX Laser QS",
     "Id": "Weapon_Laser_LargeLaserREX_Quicsell",
-    "Name": "L REX Laser",
+    "Name": "Large REX Laser QS",
     "Details": "REX Lasers, king of the battlefield! Quicsell's revolutionary Re-engineered X-pulse lasers have all the benefits of both re-engineered lasers and the infamous X-pulse technology!",
     "Icon": "uixSvgIcon_weapon_Energy"
   },

@@ -108,7 +108,7 @@
     "ComponentTags": {
         "items": [
             "OmniRestriction.{location}",
-			"TurretRestriction.{location}",
+			      "TurretRestriction.{location}",
             "component_type_stock",
             "range_extreme",
             "HandHeld"

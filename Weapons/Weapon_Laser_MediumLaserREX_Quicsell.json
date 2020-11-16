@@ -89,9 +89,9 @@
     "Purchasable": true,
     "Manufacturer": "Quicsell",
     "Model": "Medium REX Laser",
-    "UIName": "Medium REX Laser",
+    "UIName": "Medium REX Laser QS",
     "Id": "Weapon_Laser_MediumLaserREX_Quicsell",
-    "Name": "M REX Laser",
+    "Name": "Medium REX Laser QS",
     "Details": "REX Lasers, king of the battlefield! Quicsell's revolutionary Re-engineered X-pulse lasers have all the benefits of both re-engineered lasers and the infamous X-pulse technology!",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
