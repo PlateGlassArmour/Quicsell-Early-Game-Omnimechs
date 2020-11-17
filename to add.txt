@@ -10,3 +10,30 @@ Shiny armor
 Caltrop launcher
 Arrow 3
 thermal mass bolt-on
+
+
+Tags list
+
+      "unit_release",
+      "unit_mech",
+      "unit_light",
+      "unit_lance_vanguard" - designed to attack and flank the enemys, the spearhead of a lance 
+      "unit_lance_assassin" - designed to bring killshots
+      "unit_lance_support" - designed to support the lance
+      "unit_lance_tank" - soak up the damage
+      "unit_role_meleeonly" - Unit to engage in melee only
+      "unit_role_sniper" - Unit will use long range weapons as much as possible
+      "unit_role_brawler" - Unit will engage in brawls
+      "unit_role_scout" - Unit will scout the map for enemy contacts, and will try to keep moving
+      "unit_role_flanker" - Unit will attempt to flank enemies, WARNING DEAD HBS CODE, this role doesn't do anything
+      "unit_melee" - Unit can engage in melee.
+      "unit_jumpOK" - Unit can use Jump Jets to move around the map
+      "unit_bracket_low", - low tier units like locusts and primitives mediums
+      "unit_bracket_med", - average units not the best of all classes but no pushovers either, basically vanilla meds and heavies
+      "unit_bracket_high", - the nasties that bring pain
+      "unit_generic",
+      "unit_littlefriend" - light and mediums that excell at scouting or disabling, to be escorts for legendary units
+      "unit_indirectFire" - units capable to fire indirect. Units with this tag should have a significant portion of their weaponry be indirect fire. For example, not a medium or heavy with an LRM5.
+      "unit_command" - Command style battlemechs
+      "unit_stealth" - Stealthed Unit only
+      "unit_predator" - units with advanced spotting abilities

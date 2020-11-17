@@ -9,7 +9,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "WpnRecoil: 6",
-        "JamChancePerShot: 20%",
+        "ExplodiumFlat: 20%",
         "DoubleAC"
       ]
     },
