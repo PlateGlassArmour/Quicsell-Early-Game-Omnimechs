@@ -1,0 +1,297 @@
+{
+  "Custom": {
+    "ArmActuatorSupport": {
+      "LeftLimit": "Lower",
+      "RightLimit": "Lower"
+    },
+    "AssemblyVariant": {
+      "PrefabID": "VL-QS",
+      "Exclude": false,
+      "Include": true
+    },
+    "ChassisDefaults": [
+        {
+            "CategoryID": "Structure", 
+            "DefID": "default_structureslots_Quicsell", 
+            "Location": "CenterTorso", 
+            "Type": "Upgrade"
+        }
+    ]
+}, 
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Special_Narrow_Low_Profile",
+      "SimGameUID": null, 
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1, 
+      "GUID": null, 
+      "DamageLevel": "Functional", 
+      "prefabName": "", 
+      "hasPrefabName": true
+  }, 
+  {
+      "MountedLocation": "CenterTorso", 
+      "ComponentDefID": "Gear_Gyro_Omnimech_Quicsell", 
+      "SimGameUID": null, 
+      "ComponentDefType": "Upgrade", 
+      "HardpointSlot": -1, 
+      "GUID": null, 
+      "DamageLevel": "Functional", 
+      "prefabName": "", 
+      "hasPrefabName": true
+  }
+  ],
+  "Description": {
+    "Cost": 715476,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "Quicsell",
+    "Model": "",
+    "UIName": "Vulcan",
+    "Id": "chassisdef_vulcan_VL-QS0",
+    "Name": "Vulcan",
+    "Details": "Quicsell's Medium \n\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>",
+    "Icon": "uixTxrIcon_vulcan"
+  },
+  "VariantName": "VL-QS0",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Medium ",
+  "YangsThoughts": "Yang's thoughts",
+  "MovementCapDefID": "movedef_mediummech",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_vulcan",
+  "PrefabIdentifier": "chrPrfMech_vulcanBase-001",
+  "PrefabBase": "vulcan",
+  "Tonnage": 40,
+  "InitialTonnage": 4,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4252000,
+  "Heatsinks": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 20,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 20,
+  "MeleeInstability": 10,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 20,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 15,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        },
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 12,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+        {
+            "Omni": true, 
+            "weaponMountID": "Energy"
+        }
+    ], 
+      "Tonnage": 0,
+      "InventorySlots": 6,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ]
+}
