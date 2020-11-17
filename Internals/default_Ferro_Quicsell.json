@@ -4,7 +4,7 @@
             "UIColor": "Gold"
         },
 		"DynamicSlots": {
-            "ReservedSlots": 4,
+            "ReservedSlots": 12,
             "BackgroundColor": "GoldHalf",
             "ShowIcon": false,
             "NameText": "Ferro",
@@ -12,40 +12,7 @@
             "BonusBText": " "
         },
         "Linked": {
-            "Links": [
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "Head"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "CenterTorso"
-                },
-				{
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "LeftTorso"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "RightTorso"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "LeftArm"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "RightArm"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "LeftLeg"
-                },
-                {
-                    "ComponentDefId": "Linked_Ferro_Quicsell",
-                    "Location": "RightLeg"
-                }
-            ]
+            "Links": []
         },
         "CriticalEffects": {
         },
