@@ -14,7 +14,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "PersistentECM",
-                "PersistentECMSelf: 1, 1"
+                "PersistentECMSelf: 2, 2"
             ]
         },
         "InventorySorter": {
