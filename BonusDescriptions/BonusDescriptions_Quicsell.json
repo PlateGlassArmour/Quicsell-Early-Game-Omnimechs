@@ -37,10 +37,22 @@
         "Full": "Double Autocannons always fire two shots and hit or miss with both"
       },
       {
-          "Bonus": "OmniECMAura",
-          "Short": "OmniECM",
-          "Long": "OmniECM",
-          "Full": "Persistent ECM Jams Everyone within {0} Meters by {1}."
+        "Bonus": "OmniECMAura",
+        "Short": "OmniECM",
+        "Long": "OmniECM",
+        "Full": "Persistent ECM Jams Everyone within {0} Meters by {1}."
+      },
+      {
+        "Bonus": "ThermalMass",
+        "Short": "Thermal Mass",
+        "Long": "Thermal Mass",
+        "Full": "Thermal Mass absorbs heat when you hit the redline, but it equalizes over the next three rounds."
+      },
+      {
+        "Bonus": "ThermalMassPenalty",
+        "Short": "{0} Thermal Mass Penalty",
+        "Long": "{0} Thermal Mass Penalty",
+        "Full": "You recieve a stacking {0} penalty to heatsinking while the thermal mass is equilizing."
       }
     ]
   }
