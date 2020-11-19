@@ -1,0 +1,534 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release", 
+            "unit_mech", 
+            "unit_light", 
+            "unit_lance_vanguard", 
+            "unit_role_scout", 
+            "unit_jumpOK", 
+            "unit_bracket_low", 
+            "unit_generic", 
+            "unit_littlefriend", 
+            "unit_predator", 
+            "unit_mechtool"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "ChassisID": "chassisdef_valkyrie_VLK-QS3", 
+    "Description": {
+        "Cost": 361088, 
+        "Rarity": 1, 
+        "Purchasable": true, 
+        "Manufacturer": null, 
+        "Model": null, 
+        "UIName": "Valkyrie VLK-QS3", 
+        "Id": "mechdef_valkyrie_VLK-QS3", 
+        "Name": "Valkyrie", 
+        "Details": "Quicsell's Light Laser Backstabber. The VLK-QS3 makes for an unparalleled scout. Using the very best scanning and vision boosting technology that Quicsell produces, and capable of moving around even rough terrain with startling speed, the VLK-QS3 is a must have for any lance.", 
+        "Icon": "valkyrie"
+    }, 
+    "simGameMechPartCost": 361088, 
+    "Version": 1, 
+    "RequiredToSpawnCompanyTags": {
+        "items": [], 
+        "tagSetSourceFile": ""
+    }, 
+    "prefabOverride": null, 
+    "HeraldryID": null, 
+    "MinAppearanceDate": null, 
+    "Locations": [
+        {
+            "DamageLevel": "Functional", 
+            "Location": "Head", 
+            "CurrentArmor": 45, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 16, 
+            "AssignedArmor": 45, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "CenterTorso", 
+            "CurrentArmor": 100, 
+            "CurrentRearArmor": 41, 
+            "CurrentInternalStructure": 50, 
+            "AssignedArmor": 100, 
+            "AssignedRearArmor": 41
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftTorso", 
+            "CurrentArmor": 70, 
+            "CurrentRearArmor": 35, 
+            "CurrentInternalStructure": 35, 
+            "AssignedArmor": 70, 
+            "AssignedRearArmor": 35
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightTorso", 
+            "CurrentArmor": 70, 
+            "CurrentRearArmor": 35, 
+            "CurrentInternalStructure": 35, 
+            "AssignedArmor": 70, 
+            "AssignedRearArmor": 35
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftArm", 
+            "CurrentArmor": 50, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 25, 
+            "AssignedArmor": 50, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightArm", 
+            "CurrentArmor": 50, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 25, 
+            "AssignedArmor": 50, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftLeg", 
+            "CurrentArmor": 70, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 35, 
+            "AssignedArmor": 70, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightLeg", 
+            "CurrentArmor": 70, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 35, 
+            "AssignedArmor": 70, 
+            "AssignedRearArmor": 0
+        }
+    ], 
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_lower", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_hand", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_lower", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_hand", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": "", 
+            "hasPrefabName": true
+        }, 
+        {
+            "MountedLocation": "RightLeg", 
+            "ComponentDefID": "Gear_Speedy_Leg_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftLeg", 
+            "ComponentDefID": "Gear_Speedy_Leg_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_kit_qsdhs_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Medium_half", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Medium_half", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_LifeSupport_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_FCS_Critical", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Sensors_Searchlight_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Viewmaster_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightLeg", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Weapon_Laser_HeavyMediumLaser_Chemical_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Weapon_Laser_HeavyMediumLaser_Chemical_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Weapon_Laser_HeavyMediumLaser_Chemical_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftLeg", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_ProbeKing_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Medium", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_Chem_Medium", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Gear_JumpJet_Lite_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "JumpJet", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Engine_Heatsinks_Removal_-3_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_OmniJammer_ECM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_ThermalMass_Large_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Hand_Weapon_GrenadeX1_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }
+    ]
+}
