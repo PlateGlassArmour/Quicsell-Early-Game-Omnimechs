@@ -10,8 +10,7 @@
             {
               "CategoryID": "w/s/h/HandHeld"
             },
-			{ "CategoryID": "w/a/o/artillery" },
-			{ "CategoryID": "CritsArtillery6" }
+			{ "CategoryID": "w/a/o/artillery" }
 		],
         "BonusDescriptions": {
             "Bonuses": [
@@ -98,7 +97,7 @@
     "BattleValue": 20,
     "InventorySize": 1,
     "Tonnage": 0,
-    "AllowedLocations": "All",
+    "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "CriticalComponent": false,
     "AlwaysIndirectVisuals": true,
