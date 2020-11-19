@@ -56,7 +56,7 @@ Mech variant names will be defined by their roll. (COM-QS1 will be the sniper, C
 ### Exsaustive mech list:  
 WSP-QS1 (laser sniper), WSP-QS2 (ballistic brawler), WSP-QS3 (missile backstabber), WSP-QS4 (PPC support)  
 COM-QS1 (PPC sniper), COM-QS2 (laser brawler), COM-QS3 (ballistic backstabber), COM-QS4 (missile support)  
-VLK-QS1 (missile sniper), VLK-QS2 (PPC brawler), VLK-QS3 (laser backstabber), COM-QS4 (ballistic support)  
+VLK-QS1 (missile sniper), VLK-QS2 (PPC brawler), VLK-QS3 (laser backstabber), VLK-QS4 (ballistic support)  
 PNT-QS1 (ballistic sniper), PNT-QS2 (missile brawler), PNT-QS3 (PPC backstabber), PNT-QS4 (laser support)  
 
 VL-QS1 (ballistic sniper), VL-QS2 (missile brawler), VL-QS3 (PPC backstabber), VL-QS4 (laser support)  

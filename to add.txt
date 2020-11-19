@@ -1,15 +1,13 @@
-add category for launch assist
 add "Quicsell" category to ArmorRepair tags
 modify case2 bonus description
 add sensor malus bonus description
-add ECCM category
-add LiteJJ category
+add LiteJJ category (maybe)
 super-duper-charger
 Rubberized coating
 Shiny armor
 Caltrop launcher
 Arrow 3
-thermal mass bolt-on
+Mine clearance legs
 
 
 Tags list

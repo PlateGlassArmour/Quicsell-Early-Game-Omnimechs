@@ -63,7 +63,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "lootable_engineslots_FuelCell_center", 
+            "ComponentDefID": "emod_engineslots_FuelCell", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 

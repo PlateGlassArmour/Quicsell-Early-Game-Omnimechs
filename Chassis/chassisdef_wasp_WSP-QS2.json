@@ -24,6 +24,10 @@
             }
         ]
     }, 
+    "CustomParts": {
+      "FiringArc": 150,
+      "CustomParts": []
+    },
     "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso", 

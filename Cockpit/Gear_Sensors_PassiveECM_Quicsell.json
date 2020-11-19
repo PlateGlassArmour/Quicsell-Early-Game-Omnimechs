@@ -14,7 +14,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "PersistentECM",
-                "PersistentECMSelf: 2, 2"
+                "PersistentECMSelf: 1, 2"
             ]
         },
         "InventorySorter": {
@@ -71,7 +71,7 @@
             "statisticData": {
                     "statName": "LV_ECM_SHIELD",
                 "operation": "Int_Add",
-                "modValue": "2",
+                "modValue": "1",
                 "modType": "System.Int32"
             }
         },
