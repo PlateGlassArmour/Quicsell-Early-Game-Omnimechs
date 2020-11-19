@@ -18,7 +18,7 @@
     "Description": {
         "Cost": 2516448, 
         "Rarity": 4, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "BattleMaster BLR-QS2", 

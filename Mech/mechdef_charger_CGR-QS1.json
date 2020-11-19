@@ -16,7 +16,7 @@
     "Description": {
         "Cost": 2457792, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Charger CGR-QS1", 

@@ -19,7 +19,7 @@
     "Description": {
         "Cost": 724800, 
         "Rarity": 2, 
-        "Purchasable": false, 
+        "Purchasable": true, 
         "Manufacturer": null, 
         "Model": null, 
         "UIName": "Vulcan VL-QS1", 
