@@ -14,7 +14,7 @@ Tags list
 
       "unit_release",
       "unit_mech",
-      "unit_light",
+      "unit_medium",
       "unit_lance_vanguard" - designed to attack and flank the enemys, the spearhead of a lance 
       "unit_lance_assassin" - designed to bring killshots
       "unit_lance_support" - designed to support the lance

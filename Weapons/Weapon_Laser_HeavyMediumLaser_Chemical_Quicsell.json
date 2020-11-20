@@ -66,7 +66,7 @@
     "UIName": "Hv. Med. Chem Laser QS",
     "Id": "Weapon_Laser_HeavyMediumLaser_Chemical_Quicsell",
     "Name": "Hv. Med. Chem Laser QS",
-    "Details": "The output of a Heavy Medium Laser for only 50% more heat than a Medium Laser. What's not to like? Buy Quicsell's chem laser ammo subscription service today to keep you supplied!  \n\n <b><color=#ffcc00>Uses Chem Medium Ammo.</color></b>",
+    "Details": "The output of a Heavy Medium Laser for only 50% more heat than a Medium Chem Laser. What's not to like? Buy Quicsell's chem laser ammo subscription service today to keep you supplied!  \n\n <b><color=#ffcc00>Uses Chem Medium Ammo.</color></b>",
     "Icon": "ChemLaser"
   },
   "BonusValueA": "",

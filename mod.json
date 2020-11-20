@@ -4,7 +4,8 @@
 	"Enabled": true,
 	"DependsOn": [
 		"CustomComponents",
-		"MechEngineer"
+		"MechEngineer",
+        "RogueTech Core"
 	],
 	"ConflictsWith": [
 		"RogueTech Enhanced",
@@ -70,10 +71,6 @@
 		{
 			"Type": "AbilityDef",
 			"Path": "Abilities"
-		},
-		{
-			"Type": "UpgradeDef",
-			"Path": "Widget"
 		},
 		{
 			"Type": "WeaponDef",

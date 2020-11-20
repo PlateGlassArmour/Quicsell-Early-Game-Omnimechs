@@ -4,7 +4,7 @@
             "UIColor": "Gold"
         },
 		"DynamicSlots": {
-            "ReservedSlots": 12,
+            "ReservedSlots": 8,
             "BackgroundColor": "GoldHalf",
             "ShowIcon": false,
             "NameText": "Duralast QS",
