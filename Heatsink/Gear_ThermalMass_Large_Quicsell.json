@@ -15,15 +15,15 @@
             "HandsUsed": false
         },
         "TSMInfo": {
-            "HandHeldFactor": 0.75
+            "HandHeldFactor": 0.4
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "Special: 25%",
+                "Special: 60%",
                 "ActivateHeatLevel: 40%",
-                "ActiveHeatPerTurn: -36",
+				"ActiveHeatPerTurn: -54",
 				"ThermalMass",
-				"ThermalMassPenalty: 10%",
+				"ThermalMassPenalty: 15%",
 				"CoolantCost: 4",
 				"CoolantCostMulti: 10%"
             ]
@@ -65,7 +65,7 @@
 				  "statisticData": {
 					"statName": "HeatSinkCapacity",
 					"operation": "Int_Add",
-					"modValue": "48",
+					"modValue": "72",
 					"modType": "System.Int32"
 				  },
 				  "nature": "Buff" 
@@ -91,7 +91,7 @@
 				  "statisticData": {
 					"statName": "HeatSinkCapacity",
 					"operation": "Int_Add",
-					"modValue": "-12",
+					"modValue": "-18",
 					"modType": "System.Int32"
 				  },
 				  "nature": "Buff" 
@@ -117,7 +117,7 @@
 				  "statisticData": {
 					"statName": "heatSinkMultiplier",
 					"operation": "Int_Add",
-					"modValue": "-0.1",
+					"modValue": "-0.15",
 					"modType": "System.Int32"
 				  },
 				  "nature": "Buff" 
@@ -127,19 +127,19 @@
     },
     "DissipationCapacity": 6,
     "Description": {
-        "Cost": 500000,
+        "Cost": 750000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
-        "Model": "Thermal Mass Medium",
-        "UIName": "Thermal Mass Medium",
-        "Id": "Gear_ThermalMass_Medium_Quicsell",
-        "Name": "Quicsell Medium Thermal Mass",
+        "Model": "Thermal Mass Large",
+        "UIName": "Thermal Mass Large",
+        "Id": "Gear_ThermalMass_Large_Quicsell",
+        "Name": "Quicsell Large Thermal Mass",
         "Details": "A great way to beat the heat! Quicsell brand bolt-on Thermal Mass improves the amount of heat your system can take before you hit the redline.",
         "Icon": "uixSvgIcon_equipment_HeatBank"
     },
-    "BonusValueA": "-36 Heat",
-    "BonusValueB": "+12 Heat/turn for 3 turns",
+    "BonusValueA": "-54 Heat",
+    "BonusValueB": "+18 Heat/turn for 3 turns",
     "ComponentType": "HeatSink",
     "ComponentSubType": "Heatsink",
     "PrefabIdentifier": "",
@@ -151,8 +151,7 @@
     "CriticalComponent": false,
     "ComponentTags": {
         "items": [
-            "component_type_variant",
-            "component_type_variant2"
+            "component_type_stock"
         ],
         "tagSetSourceFile": ""
     }
