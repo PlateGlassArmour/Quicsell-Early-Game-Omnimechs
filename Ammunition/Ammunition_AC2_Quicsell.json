@@ -16,7 +16,7 @@
    "ArmorDamageModifier": 1,
    "ISDamageModifier": 1,
    "CriticalDamageModifier": 1,
-   "DamagePerShot": -2.5,
+   "DamageMultiplier": 0.9,
    "DamageVariance": 10.0,
    "isStabilityVariation": true,
    "isDamageVariation": true

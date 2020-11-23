@@ -25,7 +25,7 @@
    "ColorSpeedChange": 5,
    "ColorChangeRule": "t0",
    "CriticalDamageModifier": 1,
-   "DamagePerShot": -0.5,
+   "DamageMultiplier": 0.9,
    "DamageVariance": 2.0,
    "isStabilityVariation": true,
    "isDamageVariation": true,
