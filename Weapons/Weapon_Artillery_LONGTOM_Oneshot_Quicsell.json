@@ -15,8 +15,8 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "IsArtillery",
-                "1shot",
                 "HandHeld: 6",
+                "1shot",
 				"NoAA",
 				"Indirect",
 				"SawedOffArtillery",
@@ -78,7 +78,7 @@
     "ImprovedBallistic": true,
     "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
     "Description": {
-        "Cost": 350000,
+        "Cost": 349999,
         "Rarity": 10,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

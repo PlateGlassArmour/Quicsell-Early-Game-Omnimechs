@@ -62,7 +62,7 @@
   "FireTerrainChance": 0.3,
   "WeaponEffectID": "WeaponEffect-Weapon_PPC",
   "Description": {
-    "Cost": 1000000,
+    "Cost": 999999,
     "Rarity": 4,
     "Purchasable": true,
     "Manufacturer": "Quicsell",

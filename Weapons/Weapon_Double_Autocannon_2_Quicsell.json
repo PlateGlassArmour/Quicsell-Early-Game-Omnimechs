@@ -50,7 +50,7 @@
   "FireTerrainChance": 0.02,
   "WeaponEffectID": "WeaponEffect-Weapon_AC2",
   "Description": {
-    "Cost": 210000,
+    "Cost": 209999,
     "Rarity": 7,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
@@ -58,7 +58,7 @@
     "UIName": "Double AC/2 QS",
     "Id": "Weapon_Double_Autocannon_2_Quicsell",
     "Name": "DAC/2 QS",
-    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and you're second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC2 Ammo.</color></b> ",
+    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and your second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC2 Ammo.</color></b> ",
     "Icon": "UltraAC"
   },
   "BonusValueA": "",
@@ -75,8 +75,8 @@
   "FireDelayMultiplier": 1,
   "CriticalComponent": false,
   "FlatJammingChance": 0.05,
-  "GunneryJammingMult": 0.01,
-  "GunneryJammingBase": 0,
+  "GunneryJammingMult": 0.005,
+  "GunneryJammingBase": 2,
   "DamageOnJamming": true,
   "HitGenerator": "Streak",
   "statusEffects": [],

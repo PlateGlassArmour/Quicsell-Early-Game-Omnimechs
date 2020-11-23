@@ -50,7 +50,7 @@
   "ImprovedBallistic": true,
   "WeaponEffectID": "WeaponEffect-Weapon_SRM6",
   "Description": {
-    "Cost": 100000,
+    "Cost": 99999,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Quicsell",

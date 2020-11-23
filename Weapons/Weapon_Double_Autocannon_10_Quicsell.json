@@ -51,15 +51,15 @@
   "FireTerrainChance": 0.05,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
   "Description": {
-    "Cost": 450000,
+    "Cost": 449999,
     "Rarity": 8,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
-    "Model": "Sniper Autocannon",
+    "Model": "Tactical Autocannon",
     "UIName": "Double AC/10 QS",
     "Id": "Weapon_Double_Autocannon_10_Quicsell",
     "Name": "DAC/10 QS",
-    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and you're second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC10 Ammo.</color></b> ",
+    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and your second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC10 Ammo.</color></b> ",
     "Icon": "UltraAC"
   },
   "BonusValueA": "",

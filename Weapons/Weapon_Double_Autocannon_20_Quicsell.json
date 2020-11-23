@@ -51,15 +51,15 @@
   "FireTerrainChance": 0.08,
   "WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
   "Description": {
-    "Cost": 525000,
+    "Cost": 524999,
     "Rarity": 8,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
-    "Model": "Sniper Autocannon",
+    "Model": "Shredder Autocannon",
     "UIName": "Double AC/20 QS",
     "Id": "Weapon_Double_Autocannon_20_Quicsell",
     "Name": "DAC/20 QS",
-    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and you're second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC20 Ammo.</color></b> ",
+    "Details": "Quicsell's Double Autocannons have all the power of a top of the line Ultra Autocannon for a fraction of the price, and your second shot is guaranteed to follow your first. \n\n<b><color=#ffcc00>Uses AC20 Ammo.</color></b> ",
     "Icon": "UltraAC"
   },
   "BonusValueA": "",

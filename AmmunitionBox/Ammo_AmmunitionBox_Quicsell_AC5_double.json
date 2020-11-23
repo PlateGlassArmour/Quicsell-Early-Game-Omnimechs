@@ -14,11 +14,10 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
+                "QuicsellAmmo",
                 "Doubled",
-				"AC5Ammo: 56",
-				"WeaponDamage: -4.5",
-				"VariableDmg: 18",
-                "AmmoCost: 113"
+				"AC5Ammo: 55",
+                "AmmoCost: 112.99"
             ]
           },
           "AmmoCost" : {
@@ -29,9 +28,9 @@
         }
     },
     "AmmoID": "Ammunition_AC5_Quicsell",
-    "Capacity": 56,
+    "Capacity": 55,
     "Description": {
-        "Cost": 56250,
+        "Cost": 55999,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

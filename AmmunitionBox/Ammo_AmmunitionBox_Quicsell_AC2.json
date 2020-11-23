@@ -14,10 +14,9 @@
         },
         "BonusDescriptions": {
             "Bonuses": [
-                "AC2Ammo: 38",
-				"WeaponDamage: -2.5",
-				"VariableDmg: 10",
-                "AmmoCost: 63"
+                "QuicsellAmmo",
+                "AC2Ammo: 34",
+                "AmmoCost: 62.99"
             ]
         },
         "AmmoCost" : {
@@ -28,9 +27,9 @@
         }
     },
     "AmmoID": "Ammunition_AC2",
-    "Capacity": 38,
+    "Capacity": 34,
     "Description": {
-        "Cost": 18750,
+        "Cost": 18999,
         "Rarity": 1,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

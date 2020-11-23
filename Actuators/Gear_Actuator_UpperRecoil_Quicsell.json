@@ -26,7 +26,7 @@
     "RelativeModifier": 0,
     "AbsoluteModifier": 0,
     "Description": {
-        "Cost": 100000,
+        "Cost": 99999,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

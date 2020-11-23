@@ -20,7 +20,7 @@
     "MinTonnage": 60,
     "MaxTonnage": 85,
     "Description": {
-        "Cost": 40000,
+        "Cost": 39999,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

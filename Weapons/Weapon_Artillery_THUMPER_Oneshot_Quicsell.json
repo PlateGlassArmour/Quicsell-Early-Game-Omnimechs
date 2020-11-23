@@ -15,8 +15,8 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "IsArtillery",
-                "1shot",
                 "HandHeld: 3",
+                "1shot",
                 "WpnCrits: x2",
 				"WpnAccuracy: -1",
 				"NoAA",
@@ -79,7 +79,7 @@
     "ImprovedBallistic": true,
     "WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
     "Description": {
-        "Cost": 250000,
+        "Cost": 249999,
         "Rarity": 0,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

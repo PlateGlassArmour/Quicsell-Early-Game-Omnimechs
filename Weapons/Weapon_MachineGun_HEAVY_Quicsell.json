@@ -33,7 +33,7 @@
     ],
     "AmmoCategory": "HMG",
     "StartingAmmoCapacity": 48,
-    "HeatGenerated": 18,
+    "HeatGenerated": 6,
     "Damage": 3,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -57,7 +57,7 @@
     "Instability": 0.3,
     "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
     "Description": {
-        "Cost": 12000,
+        "Cost": 11999,
         "Rarity": 4,
         "Purchasable": true,
         "Manufacturer": "Quicsell",

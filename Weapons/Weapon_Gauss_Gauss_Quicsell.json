@@ -13,6 +13,7 @@
     "BonusDescriptions": {
       "Bonuses": [
         "IsGauss",
+        "AmmoHungry: 2",
 		    "DmgFallOff: 36%",
         "DakkaBoom: 75"
       ]
@@ -54,7 +55,7 @@
   "Instability": 17.5,
   "WeaponEffectID": "WeaponEffect-Weapon_AC10",
   "Description": {
-    "Cost": 165000,
+    "Cost": 164999,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Quicsell",

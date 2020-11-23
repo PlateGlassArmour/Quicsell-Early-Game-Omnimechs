@@ -8,7 +8,8 @@
       ],
     "BonusDescriptions": {
       "Bonuses": [
-        "ChemicalLaser"
+        "ChemicalLaser",
+        "QuicsellChemical"
       ]
     },
     "InventorySorter": {
@@ -58,7 +59,7 @@
   "ShotsPerAmmo": 0.5,
   "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
   "Description": {
-    "Cost": 420000,
+    "Cost": 419999,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
@@ -66,7 +67,7 @@
     "UIName": "Hv. Lg. Chem Laser QS",
     "Id": "Weapon_Laser_HeavyLargeLaser_Chemical_Quicsell",
     "Name": "Hv. Lg. Chem Laser QS",
-    "Details": "The output of a Heavy Large Laser for only 50% more heat than a Large Chem Laser. What's not to like? Buy Quicsell's chem laser ammo subscription service today to keep you supplied!  \n\n <b><color=#ffcc00>Uses Chem Large Ammo.</color></b>",
+    "Details": "The output of a Heavy Large Laser with much less heat. What's not to like? Buy Quicsell's chem laser ammo subscription service today to keep you supplied!  \n\n <b><color=#ffcc00>Uses Chem Large Ammo.</color></b>",
     "Icon": "ChemLaser"
   },
   "BonusValueA": "",

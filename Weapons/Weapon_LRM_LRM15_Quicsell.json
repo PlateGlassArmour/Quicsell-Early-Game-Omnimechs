@@ -61,7 +61,7 @@
   "ProjectileSpeedMultiplier": 1.3,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM15",
   "Description": {
-    "Cost": 150000,
+    "Cost": 149999,
     "Rarity": 0,
     "Purchasable": true,
     "Manufacturer": "Quicsell",

@@ -9,8 +9,8 @@
       "Bonuses": [
         "XPulse",
         "DmgFallOff: 10%",
-        "ArmorDmgMod: +40%",
-        "StructureDmgMod: -20%",
+        "ArmorDmgMod: +45%",
+        "StructureDmgMod: -30%",
         "ReEngineeredLaser"
       ]
     },
@@ -60,8 +60,8 @@
   "ProjectilesPerShot": 1,
   "AttackRecoil": 1,
   "Instability": 5.8,
-  "ArmorDamageModifier": 1.4,
-  "ISDamageModifier": 0.8,
+  "ArmorDamageModifier": 1.45,
+  "ISDamageModifier": 0.7,
   "FireTerrainChance": 0.03,
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 0.12,
@@ -87,7 +87,7 @@
   "ColorSpeedChange": 1,
   "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Small",
   "Description": {
-    "Cost": 240000,
+    "Cost": 239999,
     "Rarity": 7,
     "Purchasable": true,
     "Manufacturer": "Quicsell",
@@ -98,7 +98,7 @@
     "Details": "REX Lasers, king of the battlefield! Quicsell's revolutionary Re-engineered X-pulse lasers have all the benefits of both re-engineered lasers and the infamous X-pulse technology!",
     "Icon": "uixSvgIcon_weapon_Energy"
   },
-  "BonusValueA": "+40% armor dmg",
+  "BonusValueA": "+45% armor dmg",
   "BonusValueB": "Pulse Accuracy",
   "ComponentType": "Weapon",
   "ComponentSubType": "Weapon",

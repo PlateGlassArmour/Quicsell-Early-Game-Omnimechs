@@ -91,7 +91,7 @@
     }
   },
   "Description": {
-    "Cost": 500000,
+    "Cost": 499999,
     "Rarity": 3,
     "Purchasable": false,
     "Manufacturer": "Quicsell",

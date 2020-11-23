@@ -23,7 +23,7 @@
                 "AreaOfEffectDmg: 35",
                 "MineClearanceBoom: 4",
                 "HandHeldAmmo: 6",
-				"AmmoCost: 400",
+				"AmmoCost: 399.99",
                 "NoAA"
             ]
         },
@@ -85,7 +85,7 @@
     "ClearMineFieldRadius": 0,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
     "Description": {
-        "Cost": 20000,
+        "Cost": 119999,
         "Rarity": 7,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
@@ -107,9 +107,9 @@
     "AllowedLocations": "CenterTorso",
     "DisallowedLocations": "All",
     "ImprovedBallistic": true,
-    "SpreadRange": 120,
+    "SpreadRange": 100,
     "ProjectileScale": {"x":10,"y":10,"z":10},
-    "ProjectileSpeedMultiplier": 0.5,
+    "ProjectileSpeedMultiplier": 0.75,
     "FireDelayMultiplier": 50,
     "MissileFiringIntervalMultiplier": 50,
     "CriticalComponent": false,

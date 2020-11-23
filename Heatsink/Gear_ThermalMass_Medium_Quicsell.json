@@ -125,9 +125,9 @@
 			]
 		}
     },
-    "DissipationCapacity": 6,
+    "DissipationCapacity": 0,
     "Description": {
-        "Cost": 500000,
+        "Cost": 499999,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "Quicsell",
