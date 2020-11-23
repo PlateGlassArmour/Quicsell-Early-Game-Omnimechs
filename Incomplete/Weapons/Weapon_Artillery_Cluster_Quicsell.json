@@ -91,7 +91,7 @@
   "ImprovedBallistic": true,
   "BallisticDamagePerPallet": true,
   "DamageNotDivided": true,
-  "SpreadRange": 120,
+  "SpreadRange": 100,
   "MaxMissRadius": 150,
   "AlwaysIndirectVisuals": true,
   "IndirectFireCapable": true,

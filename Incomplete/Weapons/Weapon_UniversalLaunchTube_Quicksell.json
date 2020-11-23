@@ -56,7 +56,7 @@
   "ImprovedBallistic": true,
   "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
   "Description": {
-    "Cost": 50000,
+    "Cost": 49999,
     "Rarity": 1,
     "Purchasable": true,
     "Manufacturer": "Quicsell",

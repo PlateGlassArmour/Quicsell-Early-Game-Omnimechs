@@ -1,0 +1,116 @@
+{
+    "Custom": {
+        "Category": [
+      {
+        "CategoryID": "HandHeldNoArmMelee"
+      },
+            {
+                "CategoryID": "Grenade"
+            },
+            {
+                "CategoryID": "w/s/h/HandHeld"
+            }
+        ],
+        "ComponentExplosion": {
+            "ExplosionDamagePerAmmo": 0,
+            "HeatDamagePerAmmo": 0,
+            "StabilityDamagePerAmmo": 0
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+                "NoAA"
+            ]
+        },
+		"AmmoCost" : {
+      "PerUnitCost" : 400
+    },
+        "InventorySorter": {
+            "SortKey": "04002"
+        },
+        "MechConfiguration": {},
+        "Flags": {
+            "flags": [
+                "not_broken",
+                "not_destroyed"
+            ]
+        },
+        "HandHeld": {
+            "Tonnage": 0,
+            "HandsUsed": false
+        }
+    },
+    "weaponCategoryID": "Special",
+    "Type": "Autocannon",
+    "WeaponSubType": "AC20",
+    "MinRange": 0,
+    "MaxRange": 2000,
+    "RangeSplit": [
+        2000,
+        2000,
+        2000
+    ],
+    "AmmoCategory": "MagPulse",
+    "StartingAmmoCapacity": 100,
+    "HeatGenerated": 0,
+    "Damage": 10,
+    "Instability": 10,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -10,
+    "CriticalChanceMultiplier": 0.1,
+    "APArmorShardsMod": 0,
+    "APMaxArmorThickness": 1,
+    "APCriticalChanceMultiplier": 0.1,
+    "AOECapable": true,
+    "AOEDamage": 10,
+    "AOEHeatDamage": 0,
+    "AOEInstability": 0,
+    "AOERange": 90,
+    "IndirectFireCapable": true,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "AlwaysIndirectVisuals": true,
+    "AMSImmune": true,
+    "ClearMineFieldRadius": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LRM5",
+    "Description": {
+        "Cost": 19999,
+        "Rarity": 7,
+        "Purchasable": true,
+        "Manufacturer": "testrun",
+        "Model": "MagPulse",
+        "UIName": "MagPulse",
+        "Id": "Hand_Weapon_MagPulse_test",
+        "Name": "MagPulse",
+        "Details": "flavor text",
+        "Icon": "grenade"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "AC20",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "CenterTorso",
+    "DisallowedLocations": "All",
+    "ImprovedBallistic": true,
+    "SpreadRange": 0,
+    "ProjectileScale": {"x":10,"y":10,"z":10},
+    "ProjectileSpeedMultiplier": 0.75,
+    "CriticalComponent": false,
+    "statusEffects": [],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -93,7 +93,7 @@
     ],
     "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
     "Description": {
-      "Cost": 30000,
+      "Cost": 29999,
       "Rarity": 3,
       "Purchasable": true,
       "Manufacturer": "Quicsell",
