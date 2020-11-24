@@ -4,7 +4,9 @@
       {
         "CategoryID": "w/a/a/uac"
       },
-	  {"CategoryID": "CritsAutoCannon2" }
+      {
+        "CategoryID": "CritsAutoCannon2"
+      }
     ],
     "BonusDescriptions": {
       "Bonuses": [
@@ -15,6 +17,11 @@
     },
     "InventorySorter": {
       "SortKey": "01107"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -75,7 +82,7 @@
   "ImprovedBallistic": true,
   "FireDelayMultiplier": 1,
   "CriticalComponent": false,
-  "FlatJammingChance": 0.20,
+  "FlatJammingChance": 0.2,
   "GunneryJammingMult": 0.01,
   "GunneryJammingBase": 0,
   "DamageOnJamming": true,

@@ -7,18 +7,23 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
-				"WpnCrits: +50%",
+        "WpnCrits: +50%",
         "WpnAccuracy: +1",
         "PipsIgnored: +1",
-				"LBXCluster: 6",
-				"AccuracyUnit: VTOL",
-				"AccuracyUnit2: +3",
+        "LBXCluster: 6",
+        "AccuracyUnit: VTOL",
+        "AccuracyUnit2: +3",
         "WpnRecoil: 4",
         "PPCDEBUFF: 1"
       ]
     },
     "InventorySorter": {
       "SortKey": "02251"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",
@@ -39,7 +44,7 @@
   "EvasiveDamageMultiplier": 0,
   "EvasivePipsIgnored": 1,
   "DamageVariance": 0,
-  "DistantVariance": 0.10,
+  "DistantVariance": 0.1,
   "DistantVarianceReversed": false,
   "isHeatVariation": true,
   "isStabilityVariation": true,
@@ -47,7 +52,7 @@
   "HeatDamage": 0,
   "AccuracyModifier": -1,
   "ChassisTagsAccuracyModifiers": {
-     "unit_vtol": -3
+    "unit_vtol": -3
   },
   "CriticalChanceMultiplier": 1.5,
   "APArmorShardsMod": 0.2,
@@ -64,7 +69,7 @@
   "BallisticDamagePerPallet": true,
   "HitGenerator": "Cluster",
   "DamageNotDivided": true,
-    "ProjectileScale": {
+  "ProjectileScale": {
     "x": 0.33,
     "y": 0.33,
     "z": 0.5

@@ -7,13 +7,18 @@
     ],
     "BonusDescriptions": {
       "Bonuses": [
+        "DamageBuildup: 10%",
         "PPCDEBUFF: 2",
-        "MinRangeDamage: 10",
         "WpnRecoil: 4"
       ]
     },
     "InventorySorter": {
       "SortKey": "02266"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

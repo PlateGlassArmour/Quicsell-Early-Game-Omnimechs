@@ -1,34 +1,10 @@
 {
     "Settings": [
       {
-        "Bonus": "IsULT",
-        "Short": "ULT",
-        "Long": "Universal Launch Tube",
-        "Full": "Universal Launch Tube: can launch SRM, Streak SRM, MRM, Heavy MRM, ATM, Improved ATM, LRM, and Streak LRM missiles"
-      },
-      {
         "Bonus": "CoolingSystemQSDHS",
         "Short": "QSDHS Kit",
         "Long": "QS DHS Kit",
         "Full": "Converts the 'Mech to use Quicsell Double Heat Sinks"
-      },
-      {
-        "Bonus": "ActiveMissileDamage",
-        "Short": "{0} Mis. Dmg",
-        "Long": "{0} Missile Damage",
-        "Full": "{0} increased missile damage when active"
-      },
-      {
-        "Bonus": "ActiveMissileHeat",
-        "Short": "{0} Mis. Heat",
-        "Long": "{0} Missile Heat",
-        "Full": "{0} missile heat generation when active"
-      },
-      {
-        "Bonus": "ActiveMissileMinRange",
-        "Short": "{0} Mis. MinRange",
-        "Long": "{0} Missile Min Range",
-        "Full": "{0} missile minimum range when active"
       },
       {
         "Bonus": "DoubleAC",
@@ -77,6 +53,36 @@
         "Short": "{} Ammo/shot",
         "Long": "{} Ammo per shot",
         "Full": "This weapon uses up {0} ammo for every shot."
+      },
+      {
+        "Bonus": "EngineHSRemove",
+        "Short": "{} Heat Sink",
+        "Long": "{} fewer Heat Sinks",
+        "Full": "{} fewer engine Heat Sinks."
+      },
+      {
+        "Bonus": "CASEIIQS",
+        "Short": "Contains Explosions",
+        "Long": "Contains Explosions",
+        "Full": "Quicsell CASE II reduces internal explosion damage to only 15 points. Can be destroyed."
+      },
+      {
+        "Bonus": "AdvancedSensorsPenalty",
+        "Short": "Reduces Sensors by {}",
+        "Long": "Reduces Sensors by {}",
+        "Full": "Penalty of {} to sensor detection: recieve less info about detected targets."
+      },
+      {
+        "Bonus": "IsMGQS",
+        "Short": "Quicsell MG",
+        "Long": "Quicsell MG",
+        "Full": "Quicsell Machineguns always fire 6 shots. They have high recoil and jam chance, but come with ammo."
+      },
+      {
+        "Bonus": "DamageBuildup",
+        "Short": "Damage Buildup",
+        "Long": "Damage Buildup",
+        "Full": "This weapon does only {} damage at point blank range, but full damage at it's maximum range"
       }
     ]
   }

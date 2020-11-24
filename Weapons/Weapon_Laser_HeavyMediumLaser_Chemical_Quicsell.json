@@ -4,8 +4,10 @@
       {
         "CategoryID": "w/e/l/chemical"
       },
-      {"CategoryID": "CritsLaser2" }
-      ],
+      {
+        "CategoryID": "CritsLaser2"
+      }
+    ],
     "BonusDescriptions": {
       "Bonuses": [
         "ChemicalLaser",
@@ -14,6 +16,11 @@
     },
     "InventorySorter": {
       "SortKey": "02724"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

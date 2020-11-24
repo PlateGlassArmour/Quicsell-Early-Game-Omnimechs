@@ -10,7 +10,7 @@
         "BonusDescriptions": {
             "Bonuses": [
                 "Whitespace",
-                "EngineHSAdd: -4",
+                "EngineHSRemove: -4",
 				"CoolantCost: 2",
 				"CoolantCostMulti: 3%"
             ]

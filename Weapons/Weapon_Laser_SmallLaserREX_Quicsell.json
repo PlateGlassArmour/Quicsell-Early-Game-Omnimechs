@@ -8,14 +8,20 @@
     "BonusDescriptions": {
       "Bonuses": [
         "XPulse",
+        "WpnRecoil: 2",
         "DmgFallOff: 10%",
+        "ReEngineeredLaser",
         "ArmorDmgMod: +45%",
-        "StructureDmgMod: -30%",
-        "ReEngineeredLaser"
+        "StructureDmgMod: -30%"
       ]
     },
     "InventorySorter": {
       "SortKey": "02310"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

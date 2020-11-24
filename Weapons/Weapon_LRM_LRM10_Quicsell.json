@@ -4,7 +4,9 @@
       {
         "CategoryID": "w/m/l/lrm"
       },
-	  {"CategoryID": "CritsCLANLRM2" }
+      {
+        "CategoryID": "CritsCLANLRM2"
+      }
     ],
     "InventorySorter": {
       "SortKey": "03012"
@@ -14,6 +16,11 @@
         "IsLRM",
         "Indirect",
         "AccuracyLoss: 3"
+      ]
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
       ]
     }
   },
@@ -45,7 +52,7 @@
   "IndirectFireCapable": true,
   "AlwaysIndirectVisuals": true,
   "MinMissRadius": 5,
-  "MaxMissRadius": 150,  
+  "MaxMissRadius": 150,
   "SpreadRange": 5,
   "RefireModifier": 0,
   "ShotsWhenFired": 10,

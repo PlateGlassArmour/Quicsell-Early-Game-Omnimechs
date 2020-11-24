@@ -11,7 +11,7 @@
     },
     "BonusDescriptions": {
       "Bonuses": [
-    		"Streak",
+        "Streak",
         "WeaponBoom: 40",
         "PipsIgnored: 1",
         "WpnAccuracy: +1",
@@ -20,6 +20,11 @@
     },
     "InventorySorter": {
       "SortKey": "02205"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Energy",

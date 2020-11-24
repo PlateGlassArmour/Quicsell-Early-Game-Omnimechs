@@ -14,12 +14,17 @@
       "Bonuses": [
         "IsGauss",
         "AmmoHungry: 2",
-		    "DmgFallOff: 36%",
+        "DmgFallOff: 36%",
         "DakkaBoom: 75"
       ]
     },
     "InventorySorter": {
       "SortKey": "01415"
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Ballistic",
@@ -43,7 +48,7 @@
   "HeatDamage": 0,
   "AccuracyModifier": 0,
   "CriticalChanceMultiplier": 1,
-  "APArmorShardsMod": 0.50,
+  "APArmorShardsMod": 0.5,
   "APMaxArmorThickness": 210,
   "APCriticalChanceMultiplier": 1.05,
   "AOECapable": false,
@@ -83,9 +88,7 @@
   "RangedDmgFalloffType": "Linear",
   "DamageFalloffStartDistance": 60,
   "DamageFalloffEndDistance": 900,
-  "statusEffects": [
-
-  ],
+  "statusEffects": [],
   "ComponentTags": {
     "items": [
       "OmniRestriction.{location}",

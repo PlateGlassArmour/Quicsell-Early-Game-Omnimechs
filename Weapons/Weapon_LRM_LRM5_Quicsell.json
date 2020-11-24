@@ -14,6 +14,11 @@
         "Indirect",
         "AccuracyLoss: 3"
       ]
+    },
+    "Flags": {
+      "flags": [
+        "not_broken"
+      ]
     }
   },
   "Category": "Missile",
