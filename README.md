@@ -1,10 +1,6 @@
 # Quicsell-Early-Game-Omnimechs
  
-Work in progress items and mechs for a (hopefully upcoming) RogueTech content pack
-
-Weapons and gear are all currently very rough ideas. Further ballancing still to be done.
-
-Current plans for mechs: one mech type for each chassis tonnage from 20 tons to 100 tons, with four variants each; a total of 68 mechs.
+Now included in RogueTech, whoo-hoo!
 
 ## Mechs:  
 ### Lights:   
@@ -27,10 +23,6 @@ Current plans for mechs: one mech type for each chassis tonnage from 20 tons to 
 85- Battlemaster-BLR  
 90- Highlander-HGN  
 95- Banshee-BNC  
-100- Mackie-MSK  
-
-Mech variety will primarily come from different combinations of primary rolls, primary armaments, and engine types.  
-Each mech type will have one variant of each roll, and one variant of each primary armament (see below for more details)
 
 ### Rolls are:  
 1- Sniper (low armour, long range, high damage)  
@@ -45,13 +37,6 @@ Mech variant names will be defined by their roll. (COM-QS1 will be the sniper, C
 3- PPC  
 5- Missile  
 
-### Engine Types:  
-1- XL!!  
-2- normal fusion  
-3- ICE XL  
-4- fuel cell  
-5- ICE  
-6- other  
 
 ### Exsaustive mech list:  
 WSP-QS1 (laser sniper), WSP-QS2 (ballistic brawler), WSP-QS3 (missile backstabber), WSP-QS4 (PPC support)  
@@ -73,5 +58,3 @@ CGR-QS1 (PPC sniper), CGR-QS2 (laser brawler), CGR-QS3 (ballistic backstabber), 
 BLR-QS1 (missile sniper), BLR-QS2 (PPC brawler), BLR-QS3 (laser backstabber), BLR-QS4 (ballistic support)  
 HGN-QS1 (ballistic sniper), HGN-QS2 (missile brawler), HGN-QS3 (PPC backstabber), HGN-QS4 (laser support)  
 BNC-QS1 (laser sniper), BNC-QS2 (ballistic brawler), BNC-QS3 (missile backstabber), BNC-QS4 (PPC support)   
-
-MSK-QS1 (undecided special), MSK-QS2 (undecided special), MSK-QS3 (undecided special), MSK-QS4 (undecided special)
