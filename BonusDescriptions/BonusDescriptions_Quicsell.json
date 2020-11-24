@@ -44,21 +44,21 @@
       },
       {
         "Bonus": "ExtraCrits",
-        "Short": "{} ExtraCrits",
-        "Long": "{} ExtraCrits",
-        "Full": "Enemies will crit {} more often."
+        "Short": "{0} ExtraCrits",
+        "Long": "{0} ExtraCrits",
+        "Full": "Enemies will crit {0} more often."
       },
       {
         "Bonus": "AmmoHungry",
-        "Short": "{} Ammo/shot",
-        "Long": "{} Ammo per shot",
+        "Short": "{0} Ammo/shot",
+        "Long": "{0} Ammo per shot",
         "Full": "This weapon uses up {0} ammo for every shot."
       },
       {
         "Bonus": "EngineHSRemove",
-        "Short": "{} Heat Sink",
-        "Long": "{} fewer Heat Sinks",
-        "Full": "{} fewer engine Heat Sinks."
+        "Short": "{0} Heat Sink",
+        "Long": "{0} fewer Heat Sinks",
+        "Full": "{0} fewer engine Heat Sinks."
       },
       {
         "Bonus": "CASEIIQS",
@@ -68,9 +68,9 @@
       },
       {
         "Bonus": "AdvancedSensorsPenalty",
-        "Short": "Reduces Sensors by {}",
-        "Long": "Reduces Sensors by {}",
-        "Full": "Penalty of {} to sensor detection: recieve less info about detected targets."
+        "Short": "Reduces Sensors by {0}",
+        "Long": "Reduces Sensors by {0}",
+        "Full": "Penalty of {0} to sensor detection: recieve less info about detected targets."
       },
       {
         "Bonus": "IsMGQS",
@@ -82,7 +82,7 @@
         "Bonus": "DamageBuildup",
         "Short": "Damage Buildup",
         "Long": "Damage Buildup",
-        "Full": "This weapon does only {} damage at point blank range, but full damage at it's maximum range"
+        "Full": "This weapon does only {0} damage at point blank range, but full damage at it's maximum range"
       }
     ]
   }

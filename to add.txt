@@ -1,6 +1,4 @@
 add "Quicsell" category to ArmorRepair tags
-modify case2 bonus description
-add sensor malus bonus description
 add LiteJJ category (maybe)
 super-duper-charger
 Rubberized coating
