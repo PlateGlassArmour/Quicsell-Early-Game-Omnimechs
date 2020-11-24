@@ -10,53 +10,21 @@
             "unit_bracket_low", 
             "unit_generic", 
             "unit_mechtool",
-            "steiner",
-            "marik",
-            "kurita",
-            "davion",
-            "liao",
+            "locals",
             "magistracyofcanopus",
             "marian",
             "taurianconcordat",
-            "rasalhague",
             "outworld",
-            "ives",
-            "elysia",
             "oberon",
             "valkyrate",
+            "tortuga",
             "circinus",
             "illyrian",
             "lothian",
+            "elysia",
             "hanse",
-            "castile",
-            "tortuga",
-            "auriganpirates",
             "aurigandirectorate",
-            "auriganrestoration",
-            "locals",
-            "auriganmercenaries",
-            "FlakJackals",
-            "LocalsBrockwayRefugees",
-            "MasonsMarauders",
-            "SteelBeast",
-            "KellHounds",
-            "RazorbackMercs",
-            "HostileMercenaries",
-            "EmeraldDawn",
-            "SianTriumphant",
-            "RedHareRegiment",
-            "EdCorbu",
-            "DuchyOfAndurien",
-            "BlackCalderaDefense",
-            "HouseNakano",
-            "BlackCalderaDefense_Hidden",
-            "SecuritySolutionsInc",
-            "PaladinProtectionLLC",
-            "HouseKhulan",
-            "BlackWidowCompany",
-            "BaumannGroup",
-            "BountyHunterAssociates",
-            "Solaris7"
+            "auriganrestoration"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -70,7 +38,7 @@
         "UIName": "Commando COM-QS2", 
         "Id": "mechdef_commando_COM-QS2", 
         "Name": "Commando", 
-        "Details": "Quicsell's Light Laser Brawler. The COM-QS2 is a tough nut to crack, and has a big stick to swing, too! Get up close and personal with the REX Medium lasers, or smash your enemies with the complementary 2T mace.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+        "Details": "Quicsell's Light Laser Brawler. The COM-QS2 is a tough nut to crack, and has a big stick to swing, too! Get up close and personal with the REX Medium lasers, or smash your enemies with the complementary 6 ton mace.", 
         "Icon": "uixTxrIcon_commando"
     }, 
     "simGameMechPartCost": 316288, 
@@ -86,10 +54,10 @@
         {
             "DamageLevel": "Functional", 
             "Location": "Head", 
-            "CurrentArmor": 45, 
+            "CurrentArmor": 36, 
             "CurrentRearArmor": 0, 
             "CurrentInternalStructure": 16, 
-            "AssignedArmor": 45, 
+            "AssignedArmor": 36, 
             "AssignedRearArmor": 0
         }, 
         {
@@ -165,8 +133,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -176,8 +144,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -187,8 +155,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -198,8 +166,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -209,8 +177,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -220,8 +188,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -231,8 +199,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -242,8 +210,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -253,8 +221,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -264,8 +232,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -275,8 +243,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -286,8 +254,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "CenterTorso", 
@@ -477,51 +445,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightLeg", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftLeg", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "RightArm", 
             "ComponentDefID": "Gear_HarJel_Quicsell", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
@@ -543,77 +467,11 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "LeftTorso", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "LeftArm", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_Engine_Heatsinks_Removal_-3_Quicsell", 
-            "SimGameUID": "", 
-            "ComponentDefType": "HeatSink", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
             "MountedLocation": "RightTorso", 
             "ComponentDefID": "Weapon_Laser_MediumLaserREX_Quicsell", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Special_Mace_2tons", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Weapon_LRM_FLARELAUNCHER5", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
@@ -631,10 +489,98 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "RightTorso", 
-            "ComponentDefID": "Gear_HarJel_Quicsell", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "default_Duralast_Quicsell", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_structureslots_TSM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Linked_TSM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Linked_TSM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftLeg", 
+            "ComponentDefID": "Linked_TSM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightLeg", 
+            "ComponentDefID": "Linked_TSM_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Special_Mace_6tons", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_ThermalMass_Small_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Engine_Heatsinks_Removal_-1_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

@@ -7,16 +7,16 @@
         }, 
         "ChassisDefaults": [
             {
-                "CategoryID": "Armor", 
                 "DefID": "default_Ferro_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Armor", 
+                "Location": "CenterTorso"
             }, 
             {
-                "CategoryID": "Structure", 
                 "DefID": "default_structureslots_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Structure", 
+                "Location": "CenterTorso"
             }
         ], 
         "DropCostFactor": {
@@ -193,20 +193,20 @@
             "Location": "CenterTorso", 
             "Hardpoints": [
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
                 }
             ], 
             "Tonnage": 0, 
@@ -228,8 +228,8 @@
             "Location": "RightArm", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 

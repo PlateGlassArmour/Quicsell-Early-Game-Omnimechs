@@ -22,7 +22,7 @@
         "UIName": "Wasp WSP-QS0",
         "Id": "mechdef_wasp_WSP-QS0",
         "Name": "Wasp WSP-QS0",
-        "Details": "Quicsell Wasp prototype. \n\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>",
+        "Details": "Quicsell Wasp prototype.",
         "Icon": "wasp"
       },
   "simGameMechPartCost": 57885,

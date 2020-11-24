@@ -1,26 +1,22 @@
 {
     "Custom": {
-        "ArmActuatorSupport": {
-            "RightLimit": "Lower", 
-            "LeftLimit": "Hand"
-        }, 
         "AssemblyVariant": {
-            "PrefabID": "WSP-QS", 
             "Exclude": false, 
-            "Include": true
+            "Include": true, 
+            "PrefabID": "WSP-QS"
         }, 
         "ChassisDefaults": [
             {
-                "CategoryID": "Armor", 
                 "DefID": "default_Ferro_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Armor", 
+                "Location": "CenterTorso"
             }, 
             {
+                "DefID": "default_structureslots_bulky_endosteel_Quicsell", 
+                "Type": "Upgrade", 
                 "CategoryID": "Structure", 
-                "DefID": "default_structureslots_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Location": "CenterTorso"
             }
         ]
     }, 
@@ -53,7 +49,7 @@
         },
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_Engine_195", 
+            "ComponentDefID": "Gear_Engine_180", 
             "SimGameUID": null, 
             "ComponentDefType": "HeatSink", 
             "HardpointSlot": -1, 
@@ -97,7 +93,7 @@
         }
     ], 
     "Description": {
-        "Cost": 1791360, 
+        "Cost": 1357440, 
         "Rarity": 3, 
         "Purchasable": true, 
         "Manufacturer": "Quicsell", 
@@ -105,7 +101,7 @@
         "UIName": "Wasp", 
         "Id": "chassisdef_wasp_WSP-QS3", 
         "Name": "Wasp", 
-        "Details": "Quicsell's Light Missile Backstabber, the WSP-QS3 is guaranteed to be the fastest Wasp you've ever seen! Put missiles exactly where the enemy doesn't want them and run circles around heavier mechs.\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+        "Details": "Quicsell's Light Missile Backstabber, the WSP-QS3 is guaranteed to be the fastest Wasp you've ever seen! Put missiles exactly where the enemy doesn't want them and run circles around heavier mechs.", 
         "Icon": "wasp"
     }, 
     "VariantName": "WSP-QS3", 
@@ -116,7 +112,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light Missile Backstabber", 
-    "YangsThoughts": "Look boss, I'm not sure what corners they cut to get this thing to go that fast, but they've got to be big ones. I'd reccomend only putting experienced pilots in this one, since it's blindingly fast but rather unsteady thanks to those damned leg replacements. Oh, and remember that it's got relatively light weapons thanks to so much weight being dedicated to that fusion core.\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+    "YangsThoughts": "Look boss, I'm not sure what corners they cut to get this thing to go that fast, but they've got to be big ones. I'd reccomend only putting experienced pilots in this one, since it's blindingly fast but rather unsteady thanks to those damned leg replacements. Oh, and remember that it's got relatively light weapons thanks to so much weight being dedicated to that fusion core.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_wasp", 
@@ -159,7 +155,7 @@
     "Locations": [
         {
             "Location": "Head", 
-            "Hardpoints": [],
+            "Hardpoints": [], 
             "Tonnage": 0, 
             "InventorySlots": 6, 
             "MaxArmor": 45, 
@@ -170,8 +166,8 @@
             "Location": "LeftArm", 
             "Hardpoints": [
                 {
-                    "Omni": true, 
-                    "weaponMountID": "Energy"
+                    "WeaponMount": "Ballistic", 
+                    "Omni": true
                 }
             ], 
             "Tonnage": 0, 
@@ -184,12 +180,12 @@
             "Location": "LeftTorso", 
             "Hardpoints": [
                 {
-                    "Omni": true, 
-                    "weaponMountID": "Energy"
+                    "WeaponMount": "Ballistic", 
+                    "Omni": true
                 }, 
                 {
-                    "Omni": true, 
-                    "weaponMountID": "Energy"
+                    "WeaponMount": "Ballistic", 
+                    "Omni": true
                 }
             ], 
             "Tonnage": 0, 

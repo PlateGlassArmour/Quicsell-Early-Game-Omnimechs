@@ -10,53 +10,21 @@
             "unit_bracket_low", 
             "unit_generic", 
             "unit_mechtool",
-            "steiner",
-            "marik",
-            "kurita",
-            "davion",
-            "liao",
+            "locals",
             "magistracyofcanopus",
             "marian",
             "taurianconcordat",
-            "rasalhague",
             "outworld",
-            "ives",
-            "elysia",
             "oberon",
             "valkyrate",
+            "tortuga",
             "circinus",
             "illyrian",
             "lothian",
+            "elysia",
             "hanse",
-            "castile",
-            "tortuga",
-            "auriganpirates",
             "aurigandirectorate",
-            "auriganrestoration",
-            "locals",
-            "auriganmercenaries",
-            "FlakJackals",
-            "LocalsBrockwayRefugees",
-            "MasonsMarauders",
-            "SteelBeast",
-            "KellHounds",
-            "RazorbackMercs",
-            "HostileMercenaries",
-            "EmeraldDawn",
-            "SianTriumphant",
-            "RedHareRegiment",
-            "EdCorbu",
-            "DuchyOfAndurien",
-            "BlackCalderaDefense",
-            "HouseNakano",
-            "BlackCalderaDefense_Hidden",
-            "SecuritySolutionsInc",
-            "PaladinProtectionLLC",
-            "HouseKhulan",
-            "BlackWidowCompany",
-            "BaumannGroup",
-            "BountyHunterAssociates",
-            "Solaris7"
+            "auriganrestoration"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -70,7 +38,7 @@
         "UIName": "Wasp WSP-QS2", 
         "Id": "mechdef_wasp_WSP-QS2", 
         "Name": "Wasp", 
-        "Details": "Quicsell's Light Ballistic Brawler. Toughest 20 ton mech around. What it lacks in firepower, it makes up for in staying power, with more armor than many medium mechs more than double the weight. Armed with a rotary ultra-light rifle, two Quicsell machineguns, and a one ton mech grenade.\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+        "Details": "Quicsell's Light Ballistic Brawler. Toughest 20 ton mech around. What it lacks in firepower, it makes up for in staying power, with more armor than many medium mechs more than double the weight. Armed with a rotary ultra-light rifle, two Quicsell machineguns, and a one ton mech grenade.", 
         "Icon": "wasp"
     }, 
     "simGameMechPartCost": 271488, 
@@ -165,8 +133,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "CenterTorso", 
@@ -176,8 +144,19 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_Actuator_CompactActuatorX3_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -187,8 +166,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -198,8 +177,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -209,8 +188,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -220,41 +199,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_shoulder", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": 0, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_upper", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": 0, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
-        }, 
-        {
-            "MountedLocation": "RightArm", 
-            "ComponentDefID": "emod_arm_part_lower", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": 0, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -264,8 +210,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -275,8 +221,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -286,8 +232,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftLeg", 
@@ -297,8 +243,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -308,8 +254,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -319,8 +265,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -330,8 +276,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 
@@ -341,8 +287,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftTorso", 
@@ -352,8 +298,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftTorso", 
@@ -363,8 +309,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftTorso", 
@@ -374,8 +320,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightTorso", 
@@ -385,8 +331,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightTorso", 
@@ -396,8 +342,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightTorso", 
@@ -407,8 +353,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "CenterTorso", 
@@ -418,8 +364,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "Head", 
@@ -515,6 +461,17 @@
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Ammo_AmmunitionBox_Rifle_Potatoe", 
+            "SimGameUID": "", 
+            "ComponentDefType": "AmmunitionBox", 
+            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 

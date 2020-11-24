@@ -7,14 +7,8 @@
         }, 
         "ChassisDefaults": [
             {
-                "CategoryID": "Armor", 
-                "DefID": "default_Ferro_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
-            }, 
-            {
                 "CategoryID": "Structure", 
-                "DefID": "emod_structureslots_endosteel", 
+                "DefID": "default_structureslots_bulky_endosteel_Quicsell", 
                 "Location": "CenterTorso", 
                 "Type": "Upgrade"
             }

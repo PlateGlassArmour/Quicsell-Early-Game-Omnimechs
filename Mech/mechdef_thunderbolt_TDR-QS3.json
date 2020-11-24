@@ -1,0 +1,382 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release", 
+            "unit_mech", 
+            "unit_medium", 
+            "unit_lance_vanguard", 
+            "unit_role_brawler", 
+            "unit_melee", 
+            "unit_bracket_mid", 
+            "unit_generic", 
+            "unit_mechtool",
+            "locals",
+            "magistracyofcanopus",
+            "marian",
+            "taurianconcordat",
+            "outworld",
+            "oberon",
+            "valkyrate",
+            "tortuga",
+            "circinus",
+            "illyrian",
+            "lothian",
+            "elysia",
+            "hanse",
+            "aurigandirectorate",
+            "auriganrestoration"
+        ], 
+        "tagSetSourceFile": ""
+    }, 
+    "ChassisID": "chassisdef_thunderbolt_TDR-QS3", 
+    "Description": {
+        "Cost": 1543168, 
+        "Rarity": 3, 
+        "Purchasable": true, 
+        "Manufacturer": null, 
+        "Model": null, 
+        "UIName": "Thunderbolt TDR-QS3", 
+        "Id": "mechdef_thunderbolt_TDR-QS3", 
+        "Name": "Thunderbolt", 
+        "Details": "Quicsell's Heavy PPC Backstabber. The QKD-QS3 comes equped with a specially licenced XXL engine, to fit the largest possible engine into a 65 ton mech. But don't think we've cut corners with weapons, since this mech is packing two LBX PPCs that can fire while you're pounding your enemies to dust!", 
+        "Icon": "uixTxrIcon_thunderbolt"
+    }, 
+    "simGameMechPartCost": 1543168, 
+    "Version": 1, 
+    "RequiredToSpawnCompanyTags": {
+        "items": [], 
+        "tagSetSourceFile": ""
+    }, 
+    "prefabOverride": null, 
+    "HeraldryID": null, 
+    "MinAppearanceDate": null, 
+    "Locations": [
+        {
+            "DamageLevel": "Functional", 
+            "Location": "Head", 
+            "CurrentArmor": 45, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 16, 
+            "AssignedArmor": 45, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "CenterTorso", 
+            "CurrentArmor": 145, 
+            "CurrentRearArmor": 78, 
+            "CurrentInternalStructure": 105, 
+            "AssignedArmor": 145, 
+            "AssignedRearArmor": 78
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftTorso", 
+            "CurrentArmor": 130, 
+            "CurrentRearArmor": 70, 
+            "CurrentInternalStructure": 75, 
+            "AssignedArmor": 130, 
+            "AssignedRearArmor": 70
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightTorso", 
+            "CurrentArmor": 130, 
+            "CurrentRearArmor": 70, 
+            "CurrentInternalStructure": 75, 
+            "AssignedArmor": 130, 
+            "AssignedRearArmor": 70
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftArm", 
+            "CurrentArmor": 80, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 50, 
+            "AssignedArmor": 80, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightArm", 
+            "CurrentArmor": 80, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 50, 
+            "AssignedArmor": 80, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "LeftLeg", 
+            "CurrentArmor": 120, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 75, 
+            "AssignedArmor": 120, 
+            "AssignedRearArmor": 0
+        }, 
+        {
+            "DamageLevel": "Functional", 
+            "Location": "RightLeg", 
+            "CurrentArmor": 120, 
+            "CurrentRearArmor": 0, 
+            "CurrentInternalStructure": 75, 
+            "AssignedArmor": 120, 
+            "AssignedRearArmor": 0
+        }
+    ], 
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_shoulder", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "emod_arm_part_upper", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_LifeSupportA_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_LifeSupportB_Standard", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightTorso", 
+            "ComponentDefID": "Weapon_PPC_LBXPPC_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftTorso", 
+            "ComponentDefID": "Weapon_PPC_LBXPPC_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "emod_kit_qsdhs_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Engine_Heatsinks_6", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightLeg", 
+            "ComponentDefID": "Gear_Speedy_Leg_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftLeg", 
+            "ComponentDefID": "Gear_Speedy_Leg_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Sensors_Searchlight_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_FCS_Critical", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_60KL", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_ThermalMass_Large_Quicsell", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_Actuator_Coventry_B20-Extended", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Gear_Actuator_Coventry_B20-Extended", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "RightArm", 
+            "ComponentDefID": "Gear_Actuator_Friedhof_Perseus", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "LeftArm", 
+            "ComponentDefID": "Gear_Actuator_Friedhof_Perseus", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I", 
+            "SimGameUID": "", 
+            "ComponentDefType": "HeatSink", 
+            "HardpointSlot": -1, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }
+    ]
+}

@@ -19,10 +19,6 @@
                 "Type": "Upgrade"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Hand", 
-            "LeftLimit": "Hand"
-        }, 
         "DropCostFactor": {
             "DropModifier": 1.12
         }
@@ -104,7 +100,7 @@
         "UIName": "Charger", 
         "Id": "chassisdef_charger_CGR-QS2", 
         "Name": "Charger", 
-        "Details": "Quicsell's Assault Laser Brawler. The CGR-QS2 has a wide variety of short to medium range lasers perfectly suited to cutting enemies into little pieces. Charge your enemies with full assurance that you will be more dangerous than them at close range.\n<b><color=#e62e00>Drop Cost Multiplier: 1.12.</color></b>", 
+        "Details": "Quicsell's Assault Laser Brawler. The CGR-QS2 has a wide variety of short to medium range lasers perfectly suited to cutting enemies into little pieces. Charge your enemies with full assurance that you will be more dangerous than them at close range.", 
         "Icon": "uixTxrIcon_charger"
     }, 
     "VariantName": "CGR-QS2", 
@@ -114,7 +110,7 @@
         ], 
         "tagSetSourceFile": ""
     }, 
-    "StockRole": "Assault ", 
+    "StockRole": "Assault Laser Brawler", 
     "YangsThoughts": "For a mech that's primary armament consists of chem-lasers, and that runs off an internal combustion engine, this mech is surprisingly dangerous once it closes to close range. Which will take a while, seeing as they downgraded the already downsized engine the Charger is famous for, and then swapped it out for an ICE.", 
     "MovementCapDefID": "movedef_assaultmech", 
     "PathingCapDefID": "pathingdef_assault", 

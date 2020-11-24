@@ -22,7 +22,7 @@
     "UIName": "Vulcan VL-QS0",
     "Id": "mechdef_vulcan_VL-QS0",
     "Name": "Vulcan VL-QS0",
-    "Details": "Quicsell's Medium \n\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>",
+    "Details": "Quicsell's Medium",
     "Icon": "uixTxrIcon_vulcan"
   },
   "simGameMechPartCost": 143095,

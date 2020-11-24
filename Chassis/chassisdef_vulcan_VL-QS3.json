@@ -18,11 +18,7 @@
                 "Location": "CenterTorso", 
                 "Type": "Upgrade"
             }
-        ], 
-        "ArmActuatorSupport": {
-            "LeftLimit": "Lower", 
-            "RightLimit": "Lower"
-        }
+        ]
     }, 
     "FixedEquipment": [
         {
@@ -101,7 +97,7 @@
         "UIName": "Vulcan", 
         "Id": "chassisdef_vulcan_VL-QS3", 
         "Name": "Vulcan", 
-        "Details": "Quicsell's Medium PPC Backstabber. The VL-QS3 has twin Streak PPCs to ensure that you're never wasting heat blasting away at the air and dirt. Feel free to hold down the trigger as you run circles around enemy mechs, confident in your ability to hit your target.\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>", 
+        "Details": "Quicsell's Medium PPC Backstabber. The VL-QS3 has twin Streak PPCs to ensure that you're never wasting heat blasting away at the air and dirt. Feel free to hold down the trigger as you run circles around enemy mechs, confident in your ability to hit your target.", 
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "VariantName": "VL-QS3", 

@@ -9,53 +9,21 @@
             "unit_bracket_medium", 
             "unit_generic", 
             "unit_mechtool",
-            "steiner",
-            "marik",
-            "kurita",
-            "davion",
-            "liao",
+            "locals",
             "magistracyofcanopus",
             "marian",
             "taurianconcordat",
-            "rasalhague",
             "outworld",
-            "ives",
-            "elysia",
             "oberon",
             "valkyrate",
+            "tortuga",
             "circinus",
             "illyrian",
             "lothian",
+            "elysia",
             "hanse",
-            "castile",
-            "tortuga",
-            "auriganpirates",
             "aurigandirectorate",
-            "auriganrestoration",
-            "locals",
-            "auriganmercenaries",
-            "FlakJackals",
-            "LocalsBrockwayRefugees",
-            "MasonsMarauders",
-            "SteelBeast",
-            "KellHounds",
-            "RazorbackMercs",
-            "HostileMercenaries",
-            "EmeraldDawn",
-            "SianTriumphant",
-            "RedHareRegiment",
-            "EdCorbu",
-            "DuchyOfAndurien",
-            "BlackCalderaDefense",
-            "HouseNakano",
-            "BlackCalderaDefense_Hidden",
-            "SecuritySolutionsInc",
-            "PaladinProtectionLLC",
-            "HouseKhulan",
-            "BlackWidowCompany",
-            "BaumannGroup",
-            "BountyHunterAssociates",
-            "Solaris7"
+            "auriganrestoration"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -69,7 +37,7 @@
         "UIName": "Charger CGR-QS3", 
         "Id": "mechdef_charger_CGR-QS3", 
         "Name": "Charger", 
-        "Details": "Quicsell's Assault Ballistic Backstabber. The CGR-QS3 is the fastest Assault mech you're ever likely to see. Even faster than the original Charger, which was revolutionary for it's time. Even then, Quicsell delivers, with a Double AC20 for pinpoint devastation on the backs of your enemies.\n<b><color=#e62e00>Drop Cost Multiplier: 1.12.</color></b>", 
+        "Details": "Quicsell's Assault Ballistic Backstabber. The CGR-QS3 is the fastest Assault mech you're ever likely to see. Even faster than the original Charger, which was revolutionary for it's time. Even then, Quicsell delivers, with a Double AC20 for pinpoint devastation on the backs of your enemies.", 
         "Icon": "uixTxrIcon_charger"
     }, 
     "simGameMechPartCost": 2457792, 
@@ -164,8 +132,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -175,8 +143,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -186,8 +154,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -197,8 +165,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -208,8 +176,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "Head", 
@@ -219,8 +187,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "Head", 
@@ -230,8 +198,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 

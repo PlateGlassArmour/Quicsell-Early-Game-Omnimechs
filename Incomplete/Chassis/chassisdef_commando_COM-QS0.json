@@ -1,9 +1,5 @@
 {
     "Custom": {
-      "ArmActuatorSupport": {
-          "RightLimit": "Hand",
-          "LeftLimit": "Hand"
-      },
     "DropCostFactor": {
       "DropModifier": 0.96
         },
@@ -54,7 +50,7 @@
         "UIName": "Commando",
         "Id": "chassisdef_commando_COM-QS0",
         "Name": "Commando",
-        "Details": "Chassis Description \n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>",
+        "Details": "Chassis Description",
         "Icon": "uixTxrIcon_commando"
     },
       "VariantName": "COM-QS0",
@@ -63,7 +59,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Light ",
-    "YangsThoughts": "Yang's thoughts \n\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>",
+    "YangsThoughts": "Yang's thoughts",
     "MovementCapDefID": "movedef_lightmech",
     "PathingCapDefID": "pathingdef_light",
     "HardpointDataDefID": "hardpointdatadef_commando",
@@ -168,6 +164,22 @@
         {
             "Omni": true, 
             "weaponMountID": "Energy"
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
       ],
       "Tonnage": 0,

@@ -7,22 +7,18 @@
         }, 
         "ChassisDefaults": [
             {
-                "CategoryID": "Armor", 
                 "DefID": "default_Ferro_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Armor", 
+                "Location": "CenterTorso"
             }, 
             {
-                "CategoryID": "Structure", 
                 "DefID": "default_structureslots_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Structure", 
+                "Location": "CenterTorso"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Hand", 
-            "LeftLimit": "Hand"
-        }, 
         "DropCostFactor": {
             "DropModifier": 0.96
         }
@@ -49,7 +45,7 @@
             "DamageLevel": "Functional", 
             "prefabName": "", 
             "hasPrefabName": true
-        },
+        }, 
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "Gear_Engine_190", 
@@ -104,7 +100,7 @@
         "UIName": "Commando", 
         "Id": "chassisdef_commando_COM-QS3", 
         "Name": "Commando", 
-        "Details": "Quicsell's Light Ballistic Backstabber. The COM-QS3 is blazingly fast, and has enough firepower to really hurt! It's got a Double AC5 for opening up the rear armor, and a Heavy Machinegun to spray the insides. Even comes equiped with CASE II technology so an AC5 ammo explosion won't ruin your day.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+        "Details": "Quicsell's Light Ballistic Backstabber. The COM-QS3 is blazingly fast, and has enough firepower to really hurt! It's got a Double AC5 for opening up the rear armor, and handheld combat shotgun to destroy the insides. Even comes equiped with CASE II technology so an AC5 ammo explosion won't ruin your day.", 
         "Icon": "uixTxrIcon_commando"
     }, 
     "VariantName": "COM-QS3", 
@@ -115,7 +111,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light Ballistic Backstabber", 
-    "YangsThoughts": "This commando is surprisingly hardy for how fast it is. You're going to want to do something about that Heavy Machinegun they stuck in the crotch though. It's got an integrated ammo box; one good hit and you can kiss your mech goodby. Oh, and be careful at full speed, this thing is rather unsteady.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+    "YangsThoughts": "This commando is surprisingly hardy for how fast it is. The shotgun is a nice touch, but be careful about trying to overuse that TSM, since it's got 'Quicsell Quality' stamped all over it. Oh, and be careful at full speed, this thing is rather unsteady.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_commando", 
@@ -160,8 +156,8 @@
             "Location": "Head", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
@@ -192,24 +188,24 @@
             "Location": "CenterTorso", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
-                },
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
+                }, 
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
                 }
             ], 
             "Tonnage": 0, 
@@ -222,8 +218,8 @@
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 

@@ -1,9 +1,5 @@
 {
     "Custom": {
-        "ArmActuatorSupport": {
-            "RightLimit": "Lower", 
-            "LeftLimit": "Hand"
-        }, 
         "AssemblyVariant": {
             "PrefabID": "WSP-QS", 
             "Exclude": false, 
@@ -105,7 +101,7 @@
         "UIName": "Wasp", 
         "Id": "chassisdef_wasp_WSP-QS4", 
         "Name": "Wasp", 
-        "Details": "Quicsell's Light PPC Support. The WSP-QS4 has excellent detection and EWS capabilities for such a light mech, and with the Light Streak PPC, you'll never have issues with accidentally shooting your allies in the back by accident!\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+        "Details": "Quicsell's Light PPC Support. The WSP-QS4 has excellent detection and EWS capabilities for such a light mech, and with the Light Streak PPC, you'll never have issues with shooting your allies in the back by accident!", 
         "Icon": "wasp"
     }, 
     "VariantName": "WSP-QS4", 
@@ -116,7 +112,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light PPC Support", 
-    "YangsThoughts": "For a knockoff attempt at a Raven, this mech actually has decent E-war capabilities. The scanning is very powerful, albeit not very detailed, and the EWS shielding is surprisingly good, albeit very range limited. Neat PPC though.\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+    "YangsThoughts": "For a knockoff attempt at a Raven, this mech actually has decent E-war capabilities. The scanning is very powerful, albeit not very detailed, and the EWS shielding is surprisingly good, albeit very range limited. Neat PPC though.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_wasp", 

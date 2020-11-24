@@ -12,53 +12,21 @@
             "unit_littlefriend", 
             "unit_predator", 
             "unit_mechtool",
-            "steiner",
-            "marik",
-            "kurita",
-            "davion",
-            "liao",
+            "locals",
             "magistracyofcanopus",
             "marian",
             "taurianconcordat",
-            "rasalhague",
             "outworld",
-            "ives",
-            "elysia",
             "oberon",
             "valkyrate",
+            "tortuga",
             "circinus",
             "illyrian",
             "lothian",
+            "elysia",
             "hanse",
-            "castile",
-            "tortuga",
-            "auriganpirates",
             "aurigandirectorate",
-            "auriganrestoration",
-            "locals",
-            "auriganmercenaries",
-            "FlakJackals",
-            "LocalsBrockwayRefugees",
-            "MasonsMarauders",
-            "SteelBeast",
-            "KellHounds",
-            "RazorbackMercs",
-            "HostileMercenaries",
-            "EmeraldDawn",
-            "SianTriumphant",
-            "RedHareRegiment",
-            "EdCorbu",
-            "DuchyOfAndurien",
-            "BlackCalderaDefense",
-            "HouseNakano",
-            "BlackCalderaDefense_Hidden",
-            "SecuritySolutionsInc",
-            "PaladinProtectionLLC",
-            "HouseKhulan",
-            "BlackWidowCompany",
-            "BaumannGroup",
-            "BountyHunterAssociates",
-            "Solaris7"
+            "auriganrestoration"
         ], 
         "tagSetSourceFile": ""
     }, 
@@ -72,7 +40,7 @@
         "UIName": "Vulcan VL-QS3", 
         "Id": "mechdef_vulcan_VL-QS3", 
         "Name": "Vulcan", 
-        "Details": "Quicsell's Medium PPC Backstabber. The VL-QS3 has twin Streak PPCs to ensure that you're never wasting heat blasting away at the air and dirt. Feel free to hold down the trigger as you run circles around enemy mechs, confident in your ability to hit your target.\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>", 
+        "Details": "Quicsell's Medium PPC Backstabber. The VL-QS3 has twin Streak PPCs to ensure that you're never wasting heat blasting away at the air and dirt. Feel free to hold down the trigger as you run circles around enemy mechs, confident in your ability to hit your target.", 
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "simGameMechPartCost": 724800, 
@@ -167,8 +135,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -178,8 +146,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "LeftArm", 
@@ -189,8 +157,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightArm", 
@@ -200,8 +168,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightArm", 
@@ -211,8 +179,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightArm", 
@@ -222,8 +190,8 @@
             "HardpointSlot": 0, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "Head", 
@@ -233,8 +201,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "Head", 
@@ -244,8 +212,8 @@
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
-            "prefabName": "", 
-            "hasPrefabName": true
+            "prefabName": null, 
+            "hasPrefabName": false
         }, 
         {
             "MountedLocation": "RightLeg", 

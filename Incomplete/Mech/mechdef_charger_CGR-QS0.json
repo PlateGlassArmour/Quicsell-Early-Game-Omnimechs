@@ -17,7 +17,7 @@
     "UIName": "Charger CGR-QS0",
     "Id": "mechdef_charger_CGR-QS0",
     "Name": "Charger CGR-QS0",
-    "Details": "Quicsell's Assault \n\n<b><color=#e62e00>Drop Cost Multiplier: 1.12.</color></b>",
+    "Details": "Quicsell's Assault",
     "Icon": "uixTxrIcon_charger"
   },
   "simGameMechPartCost": 432885,

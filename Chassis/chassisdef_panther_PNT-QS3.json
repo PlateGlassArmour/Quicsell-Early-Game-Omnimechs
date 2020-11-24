@@ -14,7 +14,7 @@
             }, 
             {
                 "CategoryID": "Structure", 
-                "DefID": "default_structureslots_Quicsell", 
+                "DefID": "default_structureslots_endosteel_Quicsell", 
                 "Location": "CenterTorso", 
                 "Type": "Upgrade"
             }

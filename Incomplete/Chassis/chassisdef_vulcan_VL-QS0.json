@@ -1,9 +1,5 @@
 {
   "Custom": {
-    "ArmActuatorSupport": {
-      "LeftLimit": "Lower",
-      "RightLimit": "Lower"
-    },
     "AssemblyVariant": {
       "PrefabID": "VL-QS",
       "Exclude": false,
@@ -51,7 +47,7 @@
     "UIName": "Vulcan",
     "Id": "chassisdef_vulcan_VL-QS0",
     "Name": "Vulcan",
-    "Details": "Quicsell's Medium \n\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>",
+    "Details": "Quicsell's Medium",
     "Icon": "uixTxrIcon_vulcan"
   },
   "VariantName": "VL-QS0",
@@ -169,6 +165,22 @@
         {
             "Omni": true, 
             "weaponMountID": "Energy"
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
     ], 
       "Tonnage": 0,

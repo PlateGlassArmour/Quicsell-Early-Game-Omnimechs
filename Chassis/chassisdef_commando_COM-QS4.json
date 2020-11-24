@@ -19,10 +19,6 @@
                 "Type": "Upgrade"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Hand", 
-            "LeftLimit": "Hand"
-        }, 
         "DropCostFactor": {
             "DropModifier": 0.96
         }
@@ -104,7 +100,7 @@
         "UIName": "Commando", 
         "Id": "chassisdef_commando_COM-QS4", 
         "Name": "Commando", 
-        "Details": "Quicsell's Light Missile Support. The COM-QS4 had a half a dozen ways to blast, confuse, debuff, and otherwise harrass your enemies. Included is the top of the line Quicsell EWS package, and a survivable Light engine.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+        "Details": "Quicsell's Light Missile Support. The COM-QS4 had a half a dozen ways to blast, confuse, debuff, and otherwise harrass your enemies. Included is the top of the line Quicsell EWS package, and a survivable Light engine.", 
         "Icon": "uixTxrIcon_commando"
     }, 
     "VariantName": "COM-QS4", 
@@ -115,7 +111,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light Missile Support", 
-    "YangsThoughts": "This is a loot pinata, boss. Most of the gear is crap, but Quicsell had to import the light engine and the specialist missile ammunition so if nothing else, make sure to grab those. Other than that, it's a decent all-around 25 ton mech, but nothing special.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+    "YangsThoughts": "This is a loot pinata, boss. Most of the gear is crap, but Quicsell had to import the light engine and the specialist missile ammunition so if nothing else, make sure to grab those. Other than that, it's a decent all-around 25 ton mech, but nothing special.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_commando", 

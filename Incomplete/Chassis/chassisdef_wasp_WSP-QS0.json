@@ -13,10 +13,6 @@
                 "Type": "Upgrade"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Lower", 
-            "CustomDescription": "Omni Mech"
-        }, 
         "DropCostFactor": {
             "DropModifier": 0.95
         }
@@ -54,7 +50,7 @@
         "UIName": "Wasp", 
         "Id": "chassisdef_wasp_WSP-QS0", 
         "Name": "Wasp", 
-        "Details": "Quicsell's Light Laser Sniper. The WSP-QS0 only has one weapon, but it uses it to great effect. A Heavy Large Chem Laser for pinpoint damage to rip apart enemy mechs from stealth.\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+        "Details": "Quicsell's Light Laser Sniper. The WSP-QS0 only has one weapon, but it uses it to great effect. A Heavy Large Chem Laser for pinpoint damage to rip apart enemy mechs from stealth.", 
         "Icon": "wasp"
     }, 
     "VariantName": "WSP-QS0", 
@@ -65,7 +61,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light Laser Sniper", 
-    "YangsThoughts": "Despite the thin armor and lack of weapon variety, this one is nasty. That Heavy Large Chem Laser can rip through other lights like a hot knife through butter. If you see one in the field, make sure you prioritize it with a shot or two in order to set of it's ammo.\n\n<b><color=#e62e00>Drop Cost Multiplier: 0.95.</color></b>", 
+    "YangsThoughts": "Despite the thin armor and lack of weapon variety, this one is nasty. That Heavy Large Chem Laser can rip through other lights like a hot knife through butter. If you see one in the field, make sure you prioritize it with a shot or two in order to set of it's ammo.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_wasp", 
@@ -164,6 +160,22 @@
                 {
                     "Omni": true, 
                     "weaponMountID": "Energy"
+                },
+                {
+                  "WeaponMountID": "Special",
+                  "Omni": false
+                },
+                {
+                  "WeaponMountID": "Special",
+                  "Omni": false
+                },
+                {
+                  "WeaponMountID": "SpecialMelee",
+                  "Omni": false
+                },
+                {
+                  "WeaponMountID": "SpecialMelee",
+                  "Omni": false
                 }
             ], 
             "Tonnage": 0, 

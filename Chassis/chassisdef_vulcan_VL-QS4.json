@@ -18,11 +18,7 @@
                 "Location": "CenterTorso", 
                 "Type": "Upgrade"
             }
-        ], 
-        "ArmActuatorSupport": {
-            "LeftLimit": "Lower", 
-            "RightLimit": "Lower"
-        }
+        ]
     }, 
     "FixedEquipment": [
         {
@@ -101,7 +97,7 @@
         "UIName": "Vulcan", 
         "Id": "chassisdef_vulcan_VL-QS4", 
         "Name": "Vulcan", 
-        "Details": "Quicsell's Medium Laser Support. The VL-QS4 packs a potent array of E-war equipment, as well as two of Quicsell's patented Large REX Lasers for stripping off the armor of any mech that gets too close.\n<b><color=#e62e00>Drop Cost Multiplier: 1.</color></b>", 
+        "Details": "Quicsell's Medium Laser Support. The VL-QS4 packs a potent array of E-war equipment, as well as two of Quicsell's patented Large REX Lasers for stripping off the armor of any mech that gets too close.", 
         "Icon": "uixTxrIcon_vulcan"
     }, 
     "VariantName": "VL-QS4", 

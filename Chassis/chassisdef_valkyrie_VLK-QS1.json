@@ -19,10 +19,6 @@
                 "Type": "Upgrade"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Hand", 
-            "LeftLimit": "Hand"
-        }, 
         "DropCostFactor": {
             "DropModifier": 0.97
         }

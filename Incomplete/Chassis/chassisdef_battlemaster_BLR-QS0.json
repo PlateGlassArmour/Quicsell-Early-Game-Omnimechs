@@ -49,7 +49,7 @@
     "UIName": "BattleMaster",
     "Id": "chassisdef_battlemaster_BLR-QS0",
     "Name": "BattleMaster",
-    "Details": "Quicsell's Assault \n\n<b><color=#e62e00>Drop Cost Multiplier: 1.13.</color></b>",
+    "Details": "Quicsell's Assault",
     "Icon": "uixTxrIcon_battlemaster"
   },
   "VariantName": "BLR-QS0",
@@ -167,6 +167,22 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": true
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Special",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "SpecialMelee",
+          "Omni": false
         }
       ],
       "Tonnage": 0,

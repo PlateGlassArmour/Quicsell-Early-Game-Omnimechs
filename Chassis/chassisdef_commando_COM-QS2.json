@@ -7,10 +7,10 @@
         }, 
         "ChassisDefaults": [
             {
-                "CategoryID": "Armor", 
                 "DefID": "default_Duralast_Quicsell", 
-                "Location": "CenterTorso", 
-                "Type": "Upgrade"
+                "Type": "Upgrade", 
+                "CategoryID": "Armor", 
+                "Location": "CenterTorso"
             }, 
             {
                 "DefID": "default_structureslots_Quicsell", 
@@ -19,10 +19,6 @@
                 "Location": "CenterTorso"
             }
         ], 
-        "ArmActuatorSupport": {
-            "RightLimit": "Hand", 
-            "LeftLimit": "Hand"
-        }, 
         "DropCostFactor": {
             "DropModifier": 0.96
         }
@@ -49,7 +45,7 @@
             "DamageLevel": "Functional", 
             "prefabName": "", 
             "hasPrefabName": true
-        },
+        }, 
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "Gear_Engine_115", 
@@ -104,7 +100,7 @@
         "UIName": "Commando", 
         "Id": "chassisdef_commando_COM-QS2", 
         "Name": "Commando", 
-        "Details": "Quicsell's Light Laser Brawler. The COM-QS2 is a tough nut to crack, and has a big stick to swing, too! Get up close and personal with the REX Medium lasers, or smash your enemies with the complementary 2T mace.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+        "Details": "Quicsell's Light Laser Brawler. The COM-QS2 is a tough nut to crack, and has a big stick to swing, too! Get up close and personal with the REX Medium lasers, or smash your enemies with the complementary 6 ton mace.", 
         "Icon": "uixTxrIcon_commando"
     }, 
     "VariantName": "COM-QS2", 
@@ -115,7 +111,7 @@
         "tagSetSourceFile": ""
     }, 
     "StockRole": "Light Laser Brawler", 
-    "YangsThoughts": "This Commando is built like a cockroach. While it doesn't have much in the way of advanced tech, it's got as much armor as Quicsell could conceivably shove on there, and then some more litterally glued on top of that. Oh, and get this: to keep those lasers cool without cooking the pilot, the extra-large internal combustion engine is hardwired into the frame. I guess you could turn it into a decent energy boat, but don't expect it to ever move all that fast.\n<b><color=#e62e00>Drop Cost Multiplier: 0.96.</color></b>", 
+    "YangsThoughts": "This Commando is built like a cockroach. While it doesn't have much in the way of advanced tech, it's got as much armor as Quicsell could conceivably shove on there, and then some more litterally glued on top of that. Oh, and get this: to keep those lasers cool without cooking the pilot, the extra-large internal combustion engine is hardwired into the frame. I guess you could turn it into a decent energy boat, but don't expect it to ever move all that fast.", 
     "MovementCapDefID": "movedef_lightmech", 
     "PathingCapDefID": "pathingdef_light", 
     "HardpointDataDefID": "hardpointdatadef_commando", 
@@ -160,8 +156,8 @@
             "Location": "Head", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
@@ -192,24 +188,24 @@
             "Location": "CenterTorso", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
-                },
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
+                }, 
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "Special",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "Special"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
-                },
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
+                }, 
                 {
-                  "WeaponMountID": "SpecialMelee",
-                  "Omni": false
+                    "Omni": false, 
+                    "weaponMountID": "SpecialMelee"
                 }
             ], 
             "Tonnage": 0, 
@@ -222,8 +218,8 @@
             "Location": "RightTorso", 
             "Hardpoints": [
                 {
-                    "WeaponMount": "Ballistic", 
-                    "Omni": true
+                    "Omni": true, 
+                    "weaponMountID": "Ballistic"
                 }
             ], 
             "Tonnage": 0, 
