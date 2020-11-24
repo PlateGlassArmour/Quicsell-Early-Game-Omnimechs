@@ -51,14 +51,8 @@
 			"Path": "Jumpjets"
 		},
 		{
-            "Type": "CCTagRestrictions",
-            "Path": "TagRestrictions",
-            "ShouldMergeJSON": false
-        },
-		{
 			"Type": "MEBonusDescriptions",
-			"Path": "BonusDescriptions",
-			"ShouldMergeJSON": false
+			"Path": "BonusDescriptions"
 		},
 		{
 			"Type": "UpgradeDef",
