@@ -14,7 +14,8 @@
         "AccuracyUnit: VTOL",
         "AccuracyUnit2: +3",
         "WpnRecoil: 4",
-        "PPCDEBUFF: 1"
+        "PPCDEBUFF: 1",
+        "DoesCluster"
       ]
     },
     "InventorySorter": {
@@ -98,6 +99,7 @@
   "AllowedLocations": "All",
   "DisallowedLocations": "All",
   "CriticalComponent": false,
+  "ClearMineFieldRadius": 5,
   "statusEffects": [
     {
       "durationData": {
